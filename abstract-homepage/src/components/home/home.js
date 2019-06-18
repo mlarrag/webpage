@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MainMenu from '../mainmenu/mainmenu';
-
+import Footer from '../footer/footer';
 
 
 class Home extends Component {
@@ -10,6 +10,7 @@ class Home extends Component {
         return (
             <div>
                 <MainMenu/>
+                <Footer/>
             </div>
         )
     }

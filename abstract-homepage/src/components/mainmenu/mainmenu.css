@@ -1,24 +1,18 @@
 .ui.menu.menuu {
-  height: 87px;
+  height: 95px;
   background-color: #000000;
   display: flex;
-  flex-flow: row wrap;
 }
 
 .logo {
-  padding-left: 20px;
-  width: 201px;
-  height: 50px;
+
   object-fit: contain;
 }
 
 .spanish {
 
   color: #00abe7;
-  display: flex;
-  flex-flow: row wrap;
-  /* This aligns items to the end line on main-axis */
-  justify-content: flex-end;
+
   
 }
 

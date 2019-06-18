@@ -1,0 +1,37 @@
+.ui.menu.menuuu {
+    height: 73px;
+    background-color: #000000;
+    
+
+  }
+  
+ .button.ui.button.buttonn {
+    color: #5c5c5c;
+    font-family: Avenir;
+    justify-content: right;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    background-color: #000000;
+
+  }
+
+  .iconn {
+    color: #00abe7;
+    vertical-align: middle;
+  }
+  .copyy{
+    color: white;
+    
+  }
+  
+  .textt{
+    color: white;
+    padding-left: 30px;
+    
+  }
+  
+  

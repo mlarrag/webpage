@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import MenuImage from '../assets/images/menu.png'
 import PropTypes from 'prop-types';
-import "./mainmenu.css";
+import "./footer.css";
 
 
 
 
-class Mainmenu extends Component {
+
+class Footer extends Component {
     state = { activeItem: 'home' }
 
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
@@ -20,13 +21,21 @@ class Mainmenu extends Component {
       return (
         <div>
             
-                <Menu className="menuu">
-                  
-                    <Menu.Item>
-                        <img src={Logo} className="logo" />
+                <Menu  fixed='bottom' className='menuuu'>
+                    <Menu.Item  className="copyy">
+                        <text className="textt"> <Icon className ="iconn" name='small copyright outline' />Abstract Software 2019. Todos los derechos reservados. </text>
                     </Menu.Item>
-                    <Menu.Item position='right'>
-                    <Menu.Item position='right' className="spanish">
+
+
+                    <Menu.Item position ='right' className="derecha">
+                    
+                         <Button className="buttonn"><Icon className = "iconn" name="mini circle" />Servicios</Button>
+                         <Button className="buttonn"><Icon className = "iconn" name="mini circle" />Blog</Button>
+                         <Button className="buttonn"><Icon className = "iconn" name='mini circle' />Empleos</Button>
+                         <Button className="buttonn"><Icon className = "iconn" name='mini circle' />Cotiza en Línea</Button>
+        
+                    
+                    <Menu.Item position='right' className="idiomaa">
                     <Dropdown item text='Español'>
                         <Dropdown.Menu>
                         <Dropdown.Item>English</Dropdown.Item>
@@ -34,17 +43,6 @@ class Mainmenu extends Component {
                     </Dropdown>
                     
                     
-                    </Menu.Item>
-
-                <Menu.Item position='right' padding='10px'>
-                <Button className="mibutton">Solicitar Prueba Gratuita <Icon fitted name='arrow right' /></Button>
-                </Menu.Item>
-
-                    
-                    
-
-                    <Menu.Item position='right'>
-                    <img src={MenuImage}/>
                     </Menu.Item>
                     </Menu.Item>
                 </Menu>
@@ -63,4 +61,4 @@ class Mainmenu extends Component {
     }
   }
 
-export default Mainmenu;    
+export default Footer;    
