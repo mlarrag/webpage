@@ -29,10 +29,10 @@ class Footer extends Component {
 
                     <Menu.Item position ='right' className="derecha">
                     
-                         <Button className="buttonn"><Icon className = "iconn" name="mini circle" />Servicios</Button>
-                         <Button className="buttonn"><Icon className = "iconn" name="mini circle" />Blog</Button>
-                         <Button className="buttonn"><Icon className = "iconn" name='mini circle' />Empleos</Button>
-                         <Button className="buttonn"><Icon className = "iconn" name='mini circle' />Cotiza en Línea</Button>
+                         <Link to="/services"><Button className="buttonn"><Icon className = "iconn" name="mini circle" />Servicios</Button></Link>
+                         <Link to="/blog"><Button className="buttonn"><Icon className = "iconn" name="mini circle" />Blog</Button></Link>
+                         <Link to="/jobs"><Button className="buttonn"><Icon className = "iconn" name='mini circle' />Empleos</Button></Link>
+                         <Button className="buttonn" ><Icon className = "iconn" name='mini circle' />Cotiza en Línea</Button>
         
                     
                     <Menu.Item position='right' className="idiomaa">

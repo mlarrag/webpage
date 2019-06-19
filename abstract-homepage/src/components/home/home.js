@@ -7,9 +7,12 @@ class Home extends Component {
 
 
     render() {
+
+    
         return (
             <div>
                 <MainMenu/>
+                
                 <Footer/>
             </div>
         )

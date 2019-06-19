@@ -1,0 +1,30 @@
+.ui.header {
+flex:1;
+justify-content: center;
+align-items: center;
+align-content: center;
+  width: 610px;
+  height: 112px;
+  font-family: Avenir;
+  font-size: 100px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  text-align: center;
+  align-items: center;
+  color: #fbfbfb;
+
+
+}
+
+.ui.segment.landing{
+    align-items: center;
+    height: 331px;
+    align-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
