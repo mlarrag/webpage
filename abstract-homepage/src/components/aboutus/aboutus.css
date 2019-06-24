@@ -19,13 +19,3 @@ align-content: center;
 
 }
 
-.ui.segment.landing{
-    align-items: center;
-    height: 331px;
-    align-content: center;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    
-   
-}
