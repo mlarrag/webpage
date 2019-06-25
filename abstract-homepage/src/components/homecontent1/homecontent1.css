@@ -1,6 +1,35 @@
 .container{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
 
-    width: 80%;
-    height: 200px;
-    background-color: red;
+}
+
+
+.ui.segment.contentA{
+
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+    height: 750px;
+    width: 100%;
+
+}
+
+.ui.header.header3{
+    padding-top: 60px;
+
+    
+}
+
+.ui.header.header4{
+    padding-top: 30px;
+    margin:0;
+    font-family: 'Avenir-Roman';
+
+    
 }

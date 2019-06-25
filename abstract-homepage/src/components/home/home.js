@@ -28,7 +28,9 @@ class Home extends Component {
             <Header as='h2' className="header2">Creando soluciones innovadoras</Header>
                 </div>
           </Segment>
+         
           <HomeContent1/>
+          
                 <Footer/>
             </div>
         )
