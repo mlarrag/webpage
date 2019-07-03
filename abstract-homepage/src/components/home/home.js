@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import MainMenu from '../mainmenu/mainmenu';
 import Footer from '../footer/footer';
-import { Menu, Dropdown, Segment, Header, Image, Icon, Responsive, Sidebar, Container, Button, DropdownMenu, DropdownItem, GridColumn } from 'semantic-ui-react';
+import { Segment, Header } from 'semantic-ui-react';
 import HomeImage from '../assets/images/home.png';
-import HomeContent1 from '../homecontent1/homecontent1';
+import HomeContent1 from '../homeContent1/homecontent1';
+import HomeContent2 from '../homeContent2/homeContent2';
 import './home.css';
 
 
@@ -30,6 +31,7 @@ class Home extends Component {
           </Segment>
          
           <HomeContent1/>
+          <HomeContent2/>
           
                 <Footer/>
             </div>

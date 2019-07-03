@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import Content1 from '../assets/images/Content1/content1.png';
-import { Menu, Dropdown, Grid, Segment, Header, Image, Icon, Responsive, Sidebar, Container, Button, DropdownMenu, DropdownItem, GridColumn } from 'semantic-ui-react';
+import {Segment, Header } from 'semantic-ui-react';
 
-import './homecontent1.css'
+import './homecontent1.css';
 import HomeCard from '../homeCard/homecard';
 
 
 class HomeContent1 extends Component {
   
     render() {
-
+        
   
       return (
         
@@ -17,6 +17,7 @@ class HomeContent1 extends Component {
             <Segment style={{
                     backgroundImage: `url(${Content1})`,
                     backgroundPosition: 'center',
+                    
 
                 }} 
                 className="contentA"
