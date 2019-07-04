@@ -1,4 +1,4 @@
-.ui.segment.grid2{
+.grid2{
 
     display: flex;
     flex-flow: column wrap;
@@ -7,47 +7,122 @@
     margin:0;
     padding: 0;
     border: 0;
+    
 
 }
 
-.ui.segment.grid2 > * {
+.grid2 > * {
 
     flex: 1 100%;
     
 }
 
-.ui.segment.column1{
+.column1{
 
-    width: 35%;
+    display: flex;
+    flex-direction: column;
+
+    width: 25%;
     
     }
 
-.ui.segment.column2{
+.column2{
 
-    
-    width: 65%;
+    display: flex;    
+    width: 75%;
     margin: 0;
     background-color: #00adea;
     color:white;
-    font-size: 300%;
+   
         
         }
- .ui.segment.column2 >*{
+.column2 > * {
+
+            flex: 1 100%;
+            
+        }   
+
+.roww{
+
+    display: flex;
+    flex-direction: row;
+}        
+
+.columntitle{
+
+    font-size: 320%;
+    margin: 40px;
+}        
+
+
+.ui.tiny.icon{
+
+    
+    margin: 5px;
+    margin-left: 30px;
+    
+
+}
+
+.itemrowtitle{
 
     background-color: #00adea;
- }       
- 
-.ui.segment.itemrow{
+    font: bold;
+    vertical-align: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 250%;
+    padding-top: 15px;
+    margin: 15px;
+   
+
+   
+}
+
+.itemrow{
     background-color: #00adea;
     color: white;
+    font-size: 125%;
+    margin: 40px;
+    margin-top: 20px;
   
 }
-.ui.segment.itemrowtitle{
+.arrow{
 
-    background-color: #00adea;
-    color: white;
-  font-size: 200%;
+text-align: right;
+margin:10px; 
+margin-bottom: 30px;
 }
+
+
+
+.number{
+
+margin: 40px;
+font:bolder;
+    color:#00adea;
+    font-size: 400%;
+}
+
+.title1{
+
+    margin:40px;
+    
+    font-size: 150%;
+    font: bolder;
+    
+}
+
+.text1{
+
+    font-size: 150%;
+    padding-right: 40%;
+    margin:10px;
+    margin-left: 40px;
+    font:bolder;
+}
+
 .textblack{
     color: black;
     font-family: Avenir;

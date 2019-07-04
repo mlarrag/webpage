@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Segment, Icon, Image} from 'semantic-ui-react';
+import {Segment, Icon, Image, Button} from 'semantic-ui-react';
 import Icono1 from '../assets/images/Content2/icono1.png';
 import Icono2 from '../assets/images/Content2/icono2.png';
 import Icono3 from '../assets/images/Content2/icono3.png';
@@ -18,34 +18,36 @@ class HomeContent2 extends Component {
         
             
 
-            <Segment className="grid2">
+            <div className="grid2">
 
             
-             <Segment className="column1">
-                   <p className="textblack"> Dentro de nuestra filosofía de trabajo estamos siempre comprometidos a entregar:</p>
+             <div className="column1">
+                  
+            <div className="title1">Dentro de nuestra filosofía de trabajo estamos siempre comprometidos a entregar:</div> 
             
-            <Segment>
-            <Segment> 1 </Segment>
-            <Segment> Innovación y tecnología. </Segment>
-            <Segment> 2 </Segment>
-            <Segment> Estándares de calidad. </Segment>
-            <Segment> 3 </Segment>
-            <Segment> Aseguramiento del Retorno de Inversión. </Segment>
-            </Segment>
-             </Segment >
-             <Segment className="column2">
+            <div>
+            <div className="number"> 1 </div>
+            <div className="text1"> Innovación y tecnología. </div>
+            <div className="number"> 2 </div>
+            <div className="text1"> Estándares de calidad. </div>
+            <div className="number"> 3 </div>
+            <div className="text1"> Aseguramiento del Retorno de Inversión. </div>
+            </div>
+             </div >
+             <div className="column2">
 
-            <Segment >  
-            <Segment className="itemrowtitle"> Nuestros Servicios </Segment>  
-            <Segment className="itemrowtitle"> <Image size='tiny' src={Icono1}/>Asesoría TI </Segment>
-            <Segment className="itemrow">Nuestros ingenieros expertos en tecnología se empapan de tu negocio para ayudarte a generar oportunidades y modernizar tu empresa. </Segment>
-            <Segment className="itemrowtitle"> <Image size='tiny' src={Icono2}/> Experiencia de Usuario UX </Segment>
-            <Segment className="itemrow"> Con nuestro excepcional equipo UX/UI, tenemos un proceso claro y efectivo que involucra al cliente en todo momento, asegura un producto tal como lo esperas y una entrega a tiempo. </Segment>
-            <Segment className="itemrowtitle"> <Image size='tiny' src={Icono3}/>Desarrollo web y móvil</Segment>
-            <Segment className="itemrow"> Estamos al día con las últimas tecnologías para entregarte aplicaciones web diseñadas para crecer. Nuestro equipo crea las mejores herramientas para trabajar desde cualquier lugar. </Segment>
-            </Segment>
-             </Segment >
-            </Segment>
+            <div >  
+            <div className="columntitle"> Nuestros Servicios </div>  
+            <div className="roww"><div><Image className="icon" size='tiny' src={Icono1}/></div><div className="itemrowtitle"> Asesoría TI</div></div>
+            <div className="itemrow">Nuestros ingenieros expertos en tecnología se empapan de tu negocio para ayudarte a generar oportunidades y modernizar tu empresa. </div>
+            <div className="roww"><div><Image className="icon" size='tiny' src={Icono2}/></div><div className="itemrowtitle">  Experiencia de Usuario UX </div></div>
+            <div className="itemrow"> Con nuestro excepcional equipo UX/UI, tenemos un proceso claro y efectivo que involucra al cliente en todo momento, asegura un producto tal como lo esperas y una entrega a tiempo. </div>
+            <div className="roww"><div><Image className="icon" size='tiny' src={Icono3}/></div><div className="itemrowtitle"> Desarrollo web y móvil</div></div>
+            <div className="itemrow"> Estamos al día con las últimas tecnologías para entregarte aplicaciones web diseñadas para crecer. Nuestro equipo crea las mejores herramientas para trabajar desde cualquier lugar. </div>
+            <div className="arrow"><Button/></div>
+            </div>
+             </div >
+            </div>
                     
            
                           
