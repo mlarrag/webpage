@@ -14,7 +14,7 @@ class HomeContent1 extends Component {
       return (
         
             
-            <Segment style={{backgroundImage: `url(${Content1})`}} 
+            <div style={{backgroundImage: `url(${Content1})`}} 
                 className="contentA"
                 >
             
@@ -28,7 +28,7 @@ class HomeContent1 extends Component {
                 </div>
 
                     
-            </Segment>
+            </div>
                           
             
       )
