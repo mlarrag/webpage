@@ -14,7 +14,7 @@ class HomeContent1 extends Component {
       return (
         
             
-            <div style={{backgroundImage: `url(${Content1})`}} 
+            <div style={{background: `url(${Content1})`}} 
                 className="contentA"
                 >
             
