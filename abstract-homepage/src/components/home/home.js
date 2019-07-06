@@ -6,7 +6,9 @@ import HomeImage from '../assets/images/home.png';
 import HomeContent1 from '../homeContent1/homecontent1';
 import HomeContent2 from '../homeContent2/homeContent2';
 import HomeContent3 from '../homeContent3/homeContent3';
+import HomeContent5 from '../homeContent5/homeContent5';
 import './home.css';
+
 
 
 class Home extends Component {
@@ -34,6 +36,7 @@ class Home extends Component {
           <HomeContent1/>
           <HomeContent2/>
           <HomeContent3/>
+          <HomeContent5/>
                 <Footer/>
             </div>
         )

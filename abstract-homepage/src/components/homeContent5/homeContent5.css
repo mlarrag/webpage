@@ -1,0 +1,55 @@
+.grid5{
+
+    display: flex;
+    flex-flow: column wrap;
+    height: 850px;
+    padding:10px;
+    margin:0;
+    padding: 0;
+    border: 0;
+    
+
+}
+
+.grid5 > * {
+
+    flex: 1 100%;
+    
+}
+
+.columnC{
+
+    width: 20%;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+
+}
+
+.columnL{
+    
+    
+    width: 80%;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columnL > *{
+    flex: 1 100%;
+}
+
+.clientColumn{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 8%;
+
+
+}
+
+.clientLogo{
+    align-self: auto;
+    margin: 20%;
+
+}
