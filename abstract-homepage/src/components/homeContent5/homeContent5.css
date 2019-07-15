@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border-bottom-width: 10px;
 }
 
 .columnL > *{
@@ -43,7 +44,8 @@
 .clientColumn{
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 8%;
+  
+    justify-content: center;
 
 
 }
@@ -51,5 +53,37 @@
 .clientLogo{
     align-self: auto;
     margin: 20%;
+    justify-content: center;
+
+}
+
+.ui.image.logoIm{
+
+    justify-content: center;
+    align-self: auto;
+    margin:10%;
+}
+
+.title5 {
+
+    align-self: auto;
+    margin: 20%;
+    margin-top: 40%;
+    margin-bottom: 5%;
+    font-size: 350%;
+    font-family: Avenir;
+    font-weight: 900;
+    line-height: 0.6;
+
+}
+
+.subtitle5{
+    align-self: auto;
+    margin: 5%;
+    margin-left: 20%;
+    font-size: 150%;
+    font-family: Avenir;
+    font-weight: 500;
+    line-height: 0.6;
 
 }

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import {Image} from 'semantic-ui-react';
 import Back3 from '../assets/images/Content3/fondo3.png';
-import Icono1 from '../assets/images/Content2/icono1.png';
-import Icono2 from '../assets/images/Content2/icono2.png';
-import Icono3 from '../assets/images/Content2/icono3.png';
-import Arrow from '../assets/images/Content2/arrow.png';
+import Icono1 from '../assets/images/Content3/iconoval1.png';
+import Icono2 from '../assets/images/Content3/iconoval2.png';
+import Icono3 from '../assets/images/Content3/iconoval3.png';
+
 
 
 
@@ -33,10 +33,10 @@ class HomeContent3 extends Component {
              <div className="column4">
 
              
-            <div className="title4"> <p>Nuestros Valores</p> </div>  
-            <div className="title4"> <p>Compromiso</p> </div>  
-            <div className="title4"> <p>Transparencia</p> </div>  
-            <div className="title4"> <p>Empatía</p> </div>  
+            <div className="title41"> <p>Nuestros <br/>Valores</p> </div>  
+            <div className="title4"> <Image src={Icono1} /> <p>Compromiso</p> </div>  
+            <div className="title4"> <Image src={Icono2} /> <p>Transparencia</p> </div>  
+            <div className="title4"> <Image src={Icono3} /> <p>Empatía</p> </div>  
             
             
             </div>

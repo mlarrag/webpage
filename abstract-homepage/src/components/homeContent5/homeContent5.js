@@ -29,30 +29,30 @@ class HomeContent5 extends Component {
             
              
              <div className="columnC">
-                <div ><p>Clientes</p></div> 
-                <div > <p>conoce algunos quienes han confiado en nosotros. </p></div>
+                <div className="title5"><p>Clientes</p></div> 
+                <div className="subtitle5"> <p>conoce algunos quienes han confiado en nosotros. </p></div>
             </div>     
              
             <div className="columnL">
 
                 <div className = "clientColumn">
-                    <div className = "clientLogo"><Image src={VolvoLogo}/></div>
-                    <div className = "clientLogo"><Image src={XtremeLogo}/></div>
-                    <div className = "clientLogo"><Image src={ClimoLogo}/></div>
+                    <div className = "clientLogo"><Image className = "logoIm" src={VolvoLogo}/></div>
+                    <div className = "clientLogo"><Image className = "logoIm" src={XtremeLogo}/></div>
+                    <div className = "clientLogo"><Image className = "logoIm" src={ClimoLogo}/></div>
 
                 </div>
 
 
                 <div className = "clientColumn">
-                    <div className = "clientLogo"><Image src={AgroboltLogo}/></div>
-                    <div className = "clientLogo"><Image src={TricaoLogo}/></div>
-                    <div className = "clientLogo"><Image src={StreetripLogo}/></div>
+                    <div className = "clientLogo"><Image className = "logoIm" src={AgroboltLogo}/></div>
+                    <div className = "clientLogo"><Image className = "logoIm" src={TricaoLogo}/></div>
+                    <div className = "clientLogo"><Image className = "logoIm" src={StreetripLogo}/></div>
                 </div>
                 
                 <div className = "clientColumn">
-                    <div className = "clientLogo"><Image src={VendomaticaLogo}/></div>
-                    <div className = "clientLogo"><Image src={ClaLogo}/></div>
-                    <div className = "clientLogo"><Image src={DitecLogo}/></div>
+                    <div className = "clientLogo"><Image className = "logoIm" src={VendomaticaLogo}/></div>
+                    <div className = "clientLogo"><Image className = "logoIm" src={ClaLogo}/></div>
+                    <div className = "clientLogo"><Image className = "logoIm" src={DitecLogo}/></div>
                 </div>
                 
                 
