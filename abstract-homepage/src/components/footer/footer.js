@@ -21,7 +21,7 @@ class Footer extends Component {
       return (
         <div>
             
-                <Menu  fixed='bottom' className='menuuu'>
+                <Menu  className='menuuu'>
                     <Menu.Item  className="copyy">
                         <text className="textt"> <Icon className ="iconn" name='small copyright outline' />Abstract Software 2019. Todos los derechos reservados. </text>
                     </Menu.Item>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Image1 from '../assets/images/Content6/img1.png';
 
 import './homeContent7.css';
 
