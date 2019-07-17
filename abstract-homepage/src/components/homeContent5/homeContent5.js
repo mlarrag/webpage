@@ -25,36 +25,33 @@ class HomeContent5 extends Component {
             
 
             <div className="grid5">
-
-            
              
-             <div className="columnC">
+             <div className="column51">
                 <div className="title5"><p>Clientes</p></div> 
                 <div className="subtitle5"> <p>conoce algunos quienes han confiado en nosotros. </p></div>
             </div>     
              
-            <div className="columnL">
+            <div className="column52">
 
-                <div className = "clientColumn">
-                    <div className = "clientLogo"><Image className = "logoIm" src={VolvoLogo}/></div>
-                    <div className = "clientLogo"><Image className = "logoIm" src={XtremeLogo}/></div>
-                    <div className = "clientLogo"><Image className = "logoIm" src={ClimoLogo}/></div>
-
-                </div>
-
-
-                <div className = "clientColumn">
-                    <div className = "clientLogo"><Image className = "logoIm" src={AgroboltLogo}/></div>
-                    <div className = "clientLogo"><Image className = "logoIm" src={TricaoLogo}/></div>
-                    <div className = "clientLogo"><Image className = "logoIm" src={StreetripLogo}/></div>
-                </div>
                 
-                <div className = "clientColumn">
-                    <div className = "clientLogo"><Image className = "logoIm" src={VendomaticaLogo}/></div>
-                    <div className = "clientLogo"><Image className = "logoIm" src={ClaLogo}/></div>
-                    <div className = "clientLogo"><Image className = "logoIm" src={DitecLogo}/></div>
-                </div>
+                    <div className="row521">
+                    <div className = "clientLogo"><img className = "logoIm" src={VolvoLogo}/></div>
+                    <div className = "clientLogo"><img className = "logoIm" src={AgroboltLogo}/></div>
+                    <div className = "clientLogo"><img className = "logoIm" src={VendomaticaLogo}/></div>
+                    </div>
+                    
+                    <div className="row522">
+                    <div className = "clientLogo"><img className = "logoIm" src={XtremeLogo}/></div>
+                    <div className = "clientLogo"><img className = "logoIm" src={TricaoLogo}/></div>
+                    <div className = "clientLogo"><img className = "logoIm" src={ClaLogo}/></div>
+                    </div>
+                    
+                    <div className="row523">
+                    <div className = "clientLogo"><img className = "logoIm" src={ClimoLogo}/></div>
+                    <div className = "clientLogo"><img className = "logoIm" src={StreetripLogo}/></div>
+                    <div className = "clientLogo"><img className = "logoIm" src={DitecLogo}/></div>
                 
+                    </div>
                 
                 
             

@@ -16,7 +16,7 @@ class HomeContent4 extends Component {
       return (
         
             
-            <div style={{background: `url(${Back4})`}} className="column51">
+            <div style={{background: `url(${Back4})`}} className="column41">
               
             <div className="title411"><p>Metodología</p></div> 
             <div className="subtitle411"><p>Complementamos nuestras metodologías con los avances tecnológicos. Haz click en los puntos y descubre nuestro ciclo de trabajo. </p></div> 

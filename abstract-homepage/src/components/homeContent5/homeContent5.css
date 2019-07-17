@@ -1,24 +1,20 @@
 .grid5{
 
     display: flex;
-    flex-flow: column wrap;
-    height: 850px;
-    padding:10px;
-    margin:0;
-    padding: 0;
-    border: 0;
+    flex-direction: row;
+    height: 500px;
+    margin:20px;
+
     
 
 }
 
-.grid5 > * {
 
-    flex: 1 100%;
-    
-}
+.column51{
 
-.columnC{
-
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
     width: 20%;
     justify-content: center;
     align-content: center;
@@ -26,51 +22,76 @@
 
 }
 
-.columnL{
+.column52{
     
     
     width: 80%;
     margin: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-bottom-width: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    
+
 }
 
-.columnL > *{
-    flex: 1 100%;
-}
 
-.clientColumn{
-    flex-direction: row;
+.row521{
+    display:flex;
+    height: 33%;
+    border: 1px solid red;
     justify-content: space-between;
-  
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.row522{
+    display:flex;
+    height: 33%;
+    border: 1px solid red;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 
 
 }
 
-.clientLogo{
-    align-self: auto;
-    margin: 20%;
-    justify-content: center;
+.row523{
+    display:flex;
+    height: 33%;
+    border: 1px solid red;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
 
 }
 
-.ui.image.logoIm{
+.clientLogo {
 
+    width: 33%;
     justify-content: center;
-    align-self: auto;
-    margin:10%;
+    align-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid gray;
+
 }
+
+img.logoImg{
+    align-self: center;
+}
+
 
 .title5 {
 
-    align-self: auto;
-    margin: 20%;
+    margin: 40px;
     margin-top: 40%;
     margin-bottom: 5%;
-    font-size: 350%;
+    font-size: 300%;
     font-family: Avenir;
     font-weight: 900;
     line-height: 0.6;

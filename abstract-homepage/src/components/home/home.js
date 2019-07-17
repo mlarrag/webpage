@@ -9,7 +9,9 @@ import HomeContent3 from '../homeContent3/homeContent3';
 import HomeContent4 from '../homeContent4/homeContent4';
 import HomeContent5 from '../homeContent5/homeContent5';
 import HomeContent6 from '../homeContent6/homeContent6';
+import HomeContent7 from '../homeContent7/homeContent7';
 import './home.css';
+
 
 
 
@@ -41,6 +43,7 @@ class Home extends Component {
           <HomeContent4/>
           <HomeContent5/>
           <HomeContent6/>
+          <HomeContent7/>
                 <Footer/>
             </div>
         )
