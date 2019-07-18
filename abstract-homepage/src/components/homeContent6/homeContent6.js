@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Button, Icon} from 'semantic-ui-react';
 import Image1 from '../assets/images/Content6/img1.png';
 import Image2 from '../assets/images/Content6/img2.png';
 import Image3 from '../assets/images/Content6/img3.png';
@@ -28,10 +29,11 @@ class HomeContent6 extends Component {
                 <div>
                     <div className="blacktitle">Nuestra Cultura</div> 
                     <div className="bluetitle"><span className="firstblack">#</span>FunFactstract</div>
+                    <Button basic className="button6">Conoce al equipo <Icon name="arrow right" className="arrow6"/></Button>
                 
                 </div>
                 
-                <button className="button6">Conoce al equipo</button>
+                
             
             </div> 
 

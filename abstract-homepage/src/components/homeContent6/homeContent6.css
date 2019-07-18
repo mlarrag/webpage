@@ -1,7 +1,7 @@
 .grid6 {
   
     display: flex;
-    border: 1px solid red;
+    
     height: 600px;
 
 }
@@ -14,7 +14,7 @@
     align-items: center;
     margin-top: 0;
     width: 30%;
-    border: 1px solid red;
+    
 
 }
 
@@ -24,14 +24,14 @@
     flex-direction: column;
     justify-content: center;
     width: 70%;
-    border: 1px solid red;
+    
 }
 
 .row621{
     padding: 20px;
     margin:30px;
     display: flex;
-    border: 1px solid red;
+   
     justify-content: space-evenly;
     
 }
@@ -40,17 +40,16 @@
 .row622{
     margin:30px;
     display: flex;
-    border: 1px solid red;
     justify-content: space-evenly;
     
 }
 
-.button6{
+.ui.basic.button.button6{
     border-style: dashed;
     margin: 20px;
+    margin-left: 60px;
     border: 1px solid #00adea;
   font-family: Avenir;
-
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
@@ -62,7 +61,8 @@
 .blacktitle{
 
     font-family: Avenir;
-    margin: 30px;
+    margin: 20px;
+    margin-left: 35px;
     font-size: 350%;
     font-weight: 900;
     font-style: normal;
@@ -73,7 +73,8 @@
 }
 
 .bluetitle{
-margin: 30px;
+margin: 15px;
+margin-left: 35px;
 font-size: 250%;
 font-weight: 900;
 font-style: normal;
@@ -84,4 +85,23 @@ color: #00adea;
 }
 .firstblack {
 color: #000000;
+}
+
+
+.ui.ui.basic.button.button{
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-content: center;
+align-items: center;
+font-weight: 900;
+}
+.arrow.right.icon.arrow6{
+    
+    
+    color: #2fa6f3;
+    
+    padding-left: 25px;
+    padding-right: 10px;
+
 }
