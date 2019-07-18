@@ -1,0 +1,48 @@
+.grid9 {
+  
+    display: flex;
+    background-image: url('../assets/images/Content9/fondo9.png');
+    border: 1px solid red;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title9{
+    font-family: Avenir;
+    font-size: 300%;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: 30px;
+
+}
+
+.subtitle9{
+    font-family: Avenir;
+    font-size: 130%;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00adea;
+    margin: 20px;
+}
+
+i.linkedin.icon{
+    color: #00adea;
+}
+
+
+i.f.facebook.icon{
+    color: #00adea;
+}
+
+
+i.instagram.icon{
+    color: #00adea;
+}
