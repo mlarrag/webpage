@@ -24,20 +24,39 @@ class HomeContent3 extends Component {
             <div className="grid3">
 
             
-             <div style={{background: `url(${Back3})`}} className="column3">
-                  
-            <div className="title3"><p>Desarrollamos Software de excelencia. Ayudamos a su negocio a transformarse, creando productos altamente escalables.</p></div> 
+            <div style={{background: `url(${Back3})`}} className="column31">
+            <div className="quote3">""</div>      
+            <div className="title31">Desarrollamos Software de excelencia. Ayudamos a su negocio a transformarse, creando productos altamente escalables.</div> 
             
 
              </div >
-             <div className="column4">
+             <div className="column32">
 
              
-            <div className="title41"> <p>Nuestros <br/>Valores</p> </div>  
-            <div className="title4"> <Image src={Icono1} /> <p>Compromiso</p> </div>  
-            <div className="title4"> <Image src={Icono2} /> <p>Transparencia</p> </div>  
-            <div className="title4"> <Image src={Icono3} /> <p>Empatía</p> </div>  
-            
+            <div className="column321">
+            <div className="title321"> Nuestros</div>
+            <div className="title321"> valores </div>
+            </div>
+
+            <div className="column322">
+              <div className="column3221">
+                  <div className="image3221"><Image src={Icono1} /></div>
+                  <div className="title322">  Compromiso</div>
+              </div>
+
+              <div className="column3221">
+                  <div className="image3221"><Image src={Icono2} /></div>
+                  <div className="title322"> Transparencia</div>
+              </div>
+
+
+              <div className="column3221">
+                  <div className="image3221"><Image src={Icono3} /></div>
+                  <div className="title322"> Empatía</div>
+              </div>
+              
+     
+            </div>
             
             </div>
             </div >
