@@ -29,7 +29,7 @@ class HomeContent6 extends Component {
                 <div>
                     <div className="blacktitle">Nuestra Cultura</div> 
                     <div className="bluetitle"><span className="firstblack">#</span>FunFactstract</div>
-                    <Button basic className="button6">Conoce al equipo <Icon name="arrow right" className="arrow6"/></Button>
+                    <Button basic className="button6">Conoce el equipo <Icon name="arrow right" className="arrow6"/></Button>
                 
                 </div>
                 
@@ -40,8 +40,8 @@ class HomeContent6 extends Component {
                 
             <div className="column62">
                 <div className="row621">
-                    <img src={Image1}/> <img src={Image2}/> <img src={Image3}/></div>
-                <div className="row622"><img src={Image4}/> <img src={Image5}/> <img src={Image6}/></div>  
+                    <img src={Image1} alt="fun"/> <img src={Image2} alt="fun"/> <img src={Image3} alt="fun"/></div>
+                <div className="row622"><img src={Image4} alt="fun"/> <img src={Image5} alt="fun"/> <img src={Image6} alt="fun"/></div>  
             </div>
             
 

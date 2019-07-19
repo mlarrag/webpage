@@ -1,7 +1,7 @@
 .grid7 {
   
     display: flex;
-    border: 1px solid red;
+    
     height: 500px;
 
 }
@@ -14,7 +14,7 @@
     align-items: center;
     margin-top: 0;
     width: 30%;
-    border: 1px solid red;
+    
 
 }
 
@@ -26,7 +26,7 @@
     align-items: center;
     width: 70%;
 
-    border: 1px solid red;
+    
 }
 
 .title7{

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Menu, Dropdown, Segment, Image, Icon, Responsive, Sidebar, Container, Button, DropdownMenu, DropdownItem, GridColumn } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import { Menu, Dropdown, Icon, Button } from 'semantic-ui-react';
 import Logo from '../assets/images/logo.png';
 import MenuImage from '../assets/images/menu.png'
-import PropTypes from 'prop-types';
 import "./mainmenu.css";
 
 
@@ -15,7 +13,7 @@ class Mainmenu extends Component {
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
   
     render() {
-      const { activeItem } = this.state
+      
   
       return (
         <div>
@@ -23,7 +21,7 @@ class Mainmenu extends Component {
                 <Menu className="menuu">
                   
                     <Menu.Item>
-                        <img src={Logo} className="logo" />
+                        <img src={Logo} alt="Abtract Logo" className="logo" />
                     </Menu.Item>
                     <Menu.Item position='right'>
                     <Menu.Item position='right' className="spanish">
@@ -44,7 +42,7 @@ class Mainmenu extends Component {
                     
 
                     <Menu.Item position='right'>
-                    <img src={MenuImage}/>
+                    <img src={MenuImage} alt="menu"/>
                     </Menu.Item>
                     </Menu.Item>
                 </Menu>

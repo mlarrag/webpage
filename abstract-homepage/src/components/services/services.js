@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MainMenu from '../mainmenu/mainmenu';
 import Footer from '../footer/footer';
-import { Menu, Dropdown, Segment, Header, Image, Icon, Responsive, Sidebar, Container, Button, DropdownMenu, DropdownItem, GridColumn } from 'semantic-ui-react';
+import {Segment, Header} from 'semantic-ui-react';
 
 import HeaderImage from '../assets/images/Conocenos/header/bitmap.png';
 

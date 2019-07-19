@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import VolvoCard from '../assets/images/Volvo/card.png';
 import VolvoCardLogo from '../assets/images/Volvo/cardlogo.png';
-import { Menu, Dropdown, Grid, Segment, Header, Image, Icon, Responsive, Sidebar, Container, Button, DropdownMenu, DropdownItem, GridColumn, Card } from 'semantic-ui-react';
+import { Image, Card } from 'semantic-ui-react';
 
 
 
 class HomeCard extends Component {
 
 
-    constructor(props) {
-        super(props)    
+    // constructor(props) {
+    //     super(props)    
     
-                    }
+    //                 }
 
 //     getActivity(activity, i) {
 //       return (
@@ -23,7 +23,7 @@ class HomeCard extends Component {
   
     render() {
 
-        const {id, logo, description, image, type} = this.props;  
+        //const {id, logo, description, image, type} = this.props;  
       return (
         
         <Card>

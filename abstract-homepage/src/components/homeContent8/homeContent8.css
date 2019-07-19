@@ -1,7 +1,7 @@
 .grid8 {
   
     display: flex;
-    border: 1px solid red;
+    
     height: 500px;
 
 }
@@ -14,7 +14,7 @@
 
     margin-top: 0;
     width: 30%;
-    border: 1px solid red;
+    
 
 }
 
@@ -64,7 +64,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 70%;
-    border: 1px solid red;
+    
 }
 
 .title82{
@@ -101,3 +101,53 @@
 }
 
 
+.form6{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 140px;
+    align-items: flex-start;
+
+}
+
+.form6row{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: left;
+
+}
+
+.form6column{
+    display: flex;
+    width: 50%;
+    
+    margin-right: 10px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+
+}
+
+.form6row2{
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.form6button{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    
+}
+
+.ui.active.button{
+    border-radius: 7px;
+    background-color: #f8f8f8;
+}

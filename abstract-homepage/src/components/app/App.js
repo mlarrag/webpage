@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import { Menu, Dropdown, Segment, Image, Icon, Responsive, Sidebar, Container, Button } from 'semantic-ui-react'
 import Home from '../home/home';
 import AboutUs from '../aboutus/aboutus';
 import Services from '../services/services';

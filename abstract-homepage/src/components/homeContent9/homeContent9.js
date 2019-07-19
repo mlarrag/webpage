@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Icon} from 'semantic-ui-react';
+import {Button} from 'semantic-ui-react';
 
 
 import './homeContent9.css';
@@ -20,9 +20,9 @@ class HomeContent9 extends Component {
             Siguenos en:    
             
             </div> 
-            <div className="subtitle9"> <Button circular color='white' href="https://www.instagram.com/abstractsolutionscl/" icon='instagram' /> Instagram</div>
-            <div className="subtitle9"> <Button circular color='white' href="https://www.facebook.com/abstractsolutionscl/" icon='facebook f'/>Facebook</div>
-            <div className="subtitle9"> <Button circular color='white' href="https://www.linkedin.com/company/abstract-software-chile/about/" icon='linkedin'/>LinkedIn</div>
+            <div className="subtitle9"> <Button circular  href="https://www.instagram.com/abstractsolutionscl/" icon='instagram' /> Instagram</div>
+            <div className="subtitle9"> <Button circular  href="https://www.facebook.com/abstractsolutionscl/" icon='facebook f'/>Facebook</div>
+            <div className="subtitle9"> <Button circular  href="https://www.linkedin.com/company/abstract-software-chile/about/" icon='linkedin'/>LinkedIn</div>
 
 
             

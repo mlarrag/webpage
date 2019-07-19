@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Menu, Dropdown, Segment, Image, Icon, Responsive, Sidebar, Container, Button, DropdownMenu, DropdownItem, GridColumn } from 'semantic-ui-react';
+import { Menu, Dropdown, Icon, Button } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/images/logo.png';
-import MenuImage from '../assets/images/menu.png'
-import PropTypes from 'prop-types';
+
 import "./footer.css";
 
 
@@ -16,23 +14,23 @@ class Footer extends Component {
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
   
     render() {
-      const { activeItem } = this.state
+      
   
       return (
         <div>
             
                 <Menu  className='menuuu'>
                     <Menu.Item  className="copyy">
-                        <text className="textt"> <Icon className ="iconn" name='small copyright outline' />Abstract Software 2019. Todos los derechos reservados. </text>
+                        <div className="textt"> <Icon className ="iconn" name='copyright outline' />Abstract Software 2019. Todos los derechos reservados. </div>
                     </Menu.Item>
 
 
                     <Menu.Item position ='right' className="derecha">
                     
-                         <Link to="/services"><Button className="buttonn"><Icon className = "iconn" name="mini circle" />Servicios</Button></Link>
-                         <Link to="/blog"><Button className="buttonn"><Icon className = "iconn" name="mini circle" />Blog</Button></Link>
-                         <Link to="/jobs"><Button className="buttonn"><Icon className = "iconn" name='mini circle' />Empleos</Button></Link>
-                         <Button className="buttonn" ><Icon className = "iconn" name='mini circle' />Cotiza en Línea</Button>
+                         <Link to="/services"><Button className="buttonn"><span className="firstblue" >•</span>Servicios</Button></Link>
+                         <Link to="/blog"><Button className="buttonn"><span className="firstblue" >•</span>Blog</Button></Link>
+                         <Link to="/jobs"><Button className="buttonn"><span className="firstblue" >•</span>Empleos</Button></Link>
+                         <Button className="buttonn" ><span className="firstblue" >•</span>Cotiza en Línea</Button>
         
                     
                     <Menu.Item position='right' className="idiomaa">

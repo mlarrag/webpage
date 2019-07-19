@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Content1 from '../assets/images/Content1/content1.png';
-import {Segment, Header } from 'semantic-ui-react';
+import {Header } from 'semantic-ui-react';
 
 import './homecontent1.css';
 import HomeCard from '../homeCard/homecard';
