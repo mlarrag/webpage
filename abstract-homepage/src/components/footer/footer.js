@@ -9,9 +9,7 @@ import "./footer.css";
 
 
 class Footer extends Component {
-    state = { activeItem: 'home' }
-
-    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+ 
   
     render() {
       

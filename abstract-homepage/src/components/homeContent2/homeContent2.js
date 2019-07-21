@@ -22,7 +22,7 @@ class HomeContent2 extends Component {
             <div className="grid2">
 
             
-             <div className="column11">
+             <div className="column21">
                   
             <div className="title1">Dentro de nuestra filosofía de trabajo estamos siempre comprometidos a entregar:</div> 
             
@@ -35,7 +35,7 @@ class HomeContent2 extends Component {
             <div className="text1"> Aseguramiento del Retorno de Inversión. </div>
             </div>
              </div >
-             <div className="column12">
+             <div className="column22">
 
             <div >  
             <div className="columntitle"> Nuestros Servicios </div>  

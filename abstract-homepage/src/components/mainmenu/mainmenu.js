@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Menu, Dropdown, Icon, Button } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import MenuImage from '../assets/images/menu.png'
 import "./mainmenu.css";
@@ -8,9 +9,9 @@ import "./mainmenu.css";
 
 
 class Mainmenu extends Component {
-    state = { activeItem: 'home' }
+    
 
-    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+    
   
     render() {
       
@@ -21,7 +22,7 @@ class Mainmenu extends Component {
                 <Menu className="menuu">
                   
                     <Menu.Item>
-                        <img src={Logo} alt="Abtract Logo" className="logo" />
+                        <Link to="/" ><img src={Logo} alt="Abtract Logo" className="logo" /></Link>
                     </Menu.Item>
                     <Menu.Item position='right'>
                     <Menu.Item position='right' className="spanish">

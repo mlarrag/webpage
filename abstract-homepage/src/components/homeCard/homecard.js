@@ -1,42 +1,79 @@
 import React, { Component } from 'react';
 import VolvoCard from '../assets/images/Volvo/card.png';
 import VolvoCardLogo from '../assets/images/Volvo/cardlogo.png';
-import { Image, Card } from 'semantic-ui-react';
+import TricaoCard from '../assets/images/Tricao/tricaoCard.png';
+import TricaoCardLogo from '../assets/images/Tricao/tricaoCardLogo.png';
+import VendoWalletCard from '../assets/images/VendoWallet/vendoWalletCard.png';
+import VendoWalletCardLogo from '../assets/images/VendoWallet/vendoWalletCardLogo.png';
+
+
+import './homeCard.css';
 
 
 
 class HomeCard extends Component {
 
 
-    // constructor(props) {
-    //     super(props)    
-    
-    //                 }
 
-//     getActivity(activity, i) {
-//       return (
-//           <Grid.Column key={i} className='activity-column'>
-//           <Activity  id={activity.id} title={activity.title} description={activity.description} image={activity.image} type={activity.type} destination={activity.destination} />
-//           </Grid.Column>
-//            )
-// }                
-  
-    render() {
-
-        //const {id, logo, description, image, type} = this.props;  
-      return (
+  constructor(props) {
+    super(props);
+    this.state = {
         
-        <Card>
-         <Image src={VolvoCard} circular size="medium" bordered centered/>
-         
-         <Image src={VolvoCardLogo} avatar centered/>
-             <Card.Content>
-        <Card.Description>
-        "Abstract nos brinda un desarrollo oportuno y completo, abarcando  
-        </Card.Description>
-        </Card.Content>
+        id:1,
+        imageClient: VolvoCard,
+        imageLogo: VolvoCardLogo,
+        description: ' "Abstract nos brinda un desarrollo oportuno y completo, abarcando '
+    }
 
-        </Card>
+    
+}
+
+
+
+    render() {
+      const CLIENTS = {
+        name: "my-map",
+        areas: [
+          { id : 1 , name: "Volvo", imageClient: VolvoCard, imageLogo: VolvoCardLogo, description:' "Abstract nos brinda un desarrollo oportuno y completo, abarcando '},
+          { id : 2 , name: "Tricao", imageClient: TricaoCard, imageLogo: TricaoCardLogo, description:' "Abstract nos brinda un desarrollo oportuno y completo, abarcando '},
+          { id : 3 , name: "VendoWallet", imageClient: VendoWalletCard, imageLogo: VendoWalletCardLogo, description:' "Abstract nos brinda un desarrollo oportuno y completo, abarcando '},
+         
+
+          
+        ]
+
+      }
+  
+
+      return (
+        <div className="cardTotal">
+
+          <div className="buttonpre"> <button/></div>
+          <div className="cardBack0">
+            <div className="cardImage"><img className="clientImage" src={CLIENTS.areas[1].imageClient} alt={this.state.id}></img></div>
+            <div className="cardLogo"><img  className="clientLogo" src={CLIENTS.areas[1].imageLogo} alt={this.state.id}/></div>
+            <div className="cardDesc">{this.state.description}</div>
+          </div>
+
+          <div className="cardBack1">
+            <div className="cardImage"><img className="clientImage" src= {CLIENTS.areas[0].imageClient} alt={this.state.name}></img></div>
+            <div className="cardLogo"><img className="clientLogo" src={CLIENTS.areas[0].imageLogo} alt={this.state.name}/></div>
+            <div className="cardDesc">{this.state.description}</div>
+          </div>
+         
+          <div className="cardBack2">
+            <div className="cardImage"><img className="clientImage" src={CLIENTS.areas[2].imageClient} alt={this.state.name}></img></div>
+            <div className="cardLogo"><img  className="clientLogo" src={CLIENTS.areas[2].imageLogo} alt={this.state.name}/></div>
+            <div className="cardDesc">{this.state.description}</div>
+          </div>
+          <div className="buttonnext"> <button/></div>
+            
+
+        </div>
+
+        
+        
+ 
                 
       )
     }
