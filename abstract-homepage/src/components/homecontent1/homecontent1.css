@@ -6,7 +6,7 @@
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    height: 820px;
+    height: 850px;
     width: 100%;
     
 }
@@ -15,26 +15,26 @@
     color: #ffffff;
     font-family: Avenir;
     margin-top: 100px;
-    margin-right: 180px;
-    margin-left: 290px;
-    font-size: 200%;
+    margin-right: 200px;
+    margin-left: 300px;
+    font-size: 300%;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    border: 1px solid red;
+   ;
 
 }
 
 .subtitle1{
-    border: 1px solid red;
+    
     margin-top: 20px;
-    margin-right: 180px;
-    margin-left: 290px;
+    margin-right: 200px;
+    margin-left: 300px;
     font-family: Avenir-Roman;
-    font-size: 130%;
+    font-size: 170%;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -46,14 +46,15 @@
 
 .cards{
 
-    border: 1px solid red;
-
-   
-    margin-top:50px;
+    
     display: flex;
     justify-content: center;
+   
+    margin-top:120px;
+
+
     height: 350px;
     width: 700px;
-    margin-left: 300px;
+    margin-left: 420px;
     margin-right: 300px;
 }
