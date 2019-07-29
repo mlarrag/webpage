@@ -1,0 +1,56 @@
+.grid0{
+
+
+
+    align-items: center;
+    height: 750px;
+    background-image: url('../assets/images/home.png');
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    vertical-align: center;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.header01 {
+
+    display: flex;
+   
+    width: 100%;
+    padding-left: 400px;
+    padding-right: 300px;
+    align-self: center;
+    text-align: center;
+    
+
+    font-family: Avenir;
+    font-size:370%;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f1f1f1;
+
+}
+
+.header02 {
+
+    
+    display: flex;
+    justify-content: center;
+    font-family: Avenir;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 220%;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+
+}

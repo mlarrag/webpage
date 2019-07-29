@@ -59,7 +59,7 @@ handleOnNext(e){
       return (
         <div className="cardTotal">
 
-          <div className="buttonpre"><Button className="buttonCard" inverted onClick={this.handleOnPre}><img className="buttonBack" src={LeftArrow} alt="flecha" /></Button></div>
+          <div className="buttonpre"><Button inverted onClick={this.handleOnPre}><img className="buttonBack" src={LeftArrow} alt="flecha" /></Button></div>
           <div className="cardBack0">
             <div className="cardImage"><img className="clientImage" src={this.state.imageClient[0]} alt={this.state.id}></img></div>
             <div className="cardLogo"><img  className="clientLogo" src={this.state.imageLogo[0]} alt={this.state.id}/></div>

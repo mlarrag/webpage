@@ -2,13 +2,14 @@
   
     display: flex;
     
-    height: 500px;
+    height: 600px;
 
 }
 
 .column71{
     display: flex;
     background-image: url('../assets/images/Content7/fondo7.png');
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;

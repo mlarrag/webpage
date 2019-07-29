@@ -2,7 +2,7 @@
   
     display: flex;
     
-    height: 500px;
+    height: 600px;
 
 }
 
@@ -57,6 +57,7 @@
 .column82{
 
     display: flex;
+    border: 1px solid red;
     flex-direction: column;
     padding: 30px;
     padding-top: 40px;
@@ -68,9 +69,10 @@
 }
 
 .title82{
-
+    display: flex;
     font-family: Avenir;
     font-size: 310%;
+    margin-bottom: 20px;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -80,9 +82,11 @@
 }
 
 .subtitle82{
-
+    
+    display: flex;
     font-family: Avenir;
     margin: 20px;
+    margin-bottom: 30px;
     padding-left: 80px;
     padding-right: 90px;
     font-size: 150%;
@@ -102,12 +106,13 @@
 
 
 .form6{
+   
     display: flex;
     width: 70%;
-    height: 70%;
+    height: 80%;
     justify-content: space-between;
     flex-direction: column;
-    margin-bottom: 140px;
+    margin-bottom: 50px;
     align-items: flex-start;
 
 }
@@ -141,7 +146,7 @@
 .form6button{
     display: flex;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
     justify-content: flex-end;
     
