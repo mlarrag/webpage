@@ -57,7 +57,7 @@
 .column82{
 
     display: flex;
-    border: 1px solid red;
+    
     flex-direction: column;
     padding: 30px;
     padding-top: 40px;
