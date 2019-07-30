@@ -18,16 +18,14 @@
 .header01 {
 
     display: flex;
-   
     width: 100%;
-    padding-left: 400px;
-    padding-right: 300px;
+    justify-content: center;
     align-self: center;
     text-align: center;
     
 
     font-family: Avenir;
-    font-size:370%;
+    font-size:50px;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;

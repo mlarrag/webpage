@@ -6,6 +6,8 @@
     justify-content: flex-start;
     align-items: center;
     align-content: center;
+    background-image: url('../assets/images/Content1/content1.png');
+    background-size: cover;
     height: 850px;
     width: 100%;
     

@@ -1,11 +1,13 @@
 
-
 .grid4{
 
 height: 700px;
 display:flex;
 flex-direction: row;
+background-image: url('../assets/images/Content4/fondo4.png');
 background-size: cover;
+
+background-repeat: no-repeat;
 
     
     

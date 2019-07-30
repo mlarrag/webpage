@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Back4 from '../assets/images/Content4/fondo4.png';
 import Image4 from '../assets/images/Content4/image4.png';
 import ImageMapper from 'react-image-mapper';
 
@@ -60,7 +59,7 @@ class HomeContent4 extends Component {
       return (
         
             
-            <div style={{background: `url(${Back4})`}} className="grid4">
+            <div className="grid4">
 
             <div className="column41">
               <div className="title411">Metodología</div> 

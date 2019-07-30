@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Image} from 'semantic-ui-react';
-import Back3 from '../assets/images/Content3/fondo3.png';
+
 import Icono1 from '../assets/images/Content3/iconoval1.png';
 import Icono2 from '../assets/images/Content3/iconoval2.png';
 import Icono3 from '../assets/images/Content3/iconoval3.png';
@@ -24,7 +24,7 @@ class HomeContent3 extends Component {
             <div className="grid3">
 
             
-            <div style={{background: `url(${Back3})`}} className="column31">
+            <div className="column31">
             <div className="quote3">""</div>      
             <div className="title31">Desarrollamos Software de excelencia. Ayudamos a su negocio a transformarse, creando productos altamente escalables.</div> 
             

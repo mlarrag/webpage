@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Responsive, Segment } from 'semantic-ui-react';
+import { Responsive, Header } from 'semantic-ui-react';
 
 import './homeContent0.css';
 
@@ -17,7 +17,7 @@ class HomeContent0 extends Component {
  
                    
             
-            <Responsive  className="header01">Desarrollamos software <br/> a la medida de tu Empresa</Responsive>
+            <div className="header01">Desarrollamos software <br/> a la medida de tu Empresa</div>
            
             
             <div className="header02">Creando soluciones innovadoras</div>

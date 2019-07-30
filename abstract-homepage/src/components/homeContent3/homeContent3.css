@@ -13,7 +13,9 @@
 .column31{
     
     display: flex;
+    background-image: url('../assets/images/Content3/fondo3.png');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 50%;
     flex-direction: column;
     justify-content: center;
