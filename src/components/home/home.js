@@ -3,7 +3,7 @@ import MainMenu from '../mainmenu/mainmenu';
 import Footer from '../footer/footer';
 
 import HomeContent0 from '../homeContent0/homeContent0';
-import HomeContent1 from '../homeContent1/homecontent1';
+import HomeContent1 from '../homecontent1/homecontent1';
 import HomeContent2 from '../homeContent2/homeContent2';
 import HomeContent3 from '../homeContent3/homeContent3';
 import HomeContent4 from '../homeContent4/homeContent4';
