@@ -28,8 +28,8 @@ class Mainmenu extends Component {
                     <div className="buttonsMenu">
                     <div className="buttonLang">                   
                   
-                       <Dropdown item text='Español'>
-                        <Dropdown.Menu>
+                       <Dropdown icon='angle down' text='Español'>
+                        <Dropdown.Menu >
                         <Dropdown.Item>English</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Dropdown, Icon, Button } from 'semantic-ui-react';
+import {Dropdown, Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
 import "./footer.css";
@@ -17,31 +17,30 @@ class Footer extends Component {
       return (
         <div>
             
-                <Menu  className='menuuu'>
-                    <Menu.Item  className="copyy">
+                <div  className='menuuu'>
+                    <div  className="copyy">
                         <div className="textt"> <Icon className ="iconn" name='copyright outline' />Abstract Software 2019. Todos los derechos reservados. </div>
-                    </Menu.Item>
+                    </div>
 
 
-                    <Menu.Item position ='right' className="derecha">
+                    <div className="footerMenu">
                     
-                         <Link to="/services"><Button className="buttonn"><span className="firstblue" >•</span>Servicios</Button></Link>
-                         <Link to="/blog"><Button className="buttonn"><span className="firstblue" >•</span>Blog</Button></Link>
-                         <Link to="/jobs"><Button className="buttonn"><span className="firstblue" >•</span>Empleos</Button></Link>
-                         <Button className="buttonn" ><span className="firstblue" >•</span>Cotiza en Línea</Button>
-        
+                         <Link to="/services"><div className="footerButton"><span className="footerBlue" >•</span>Servicios</div></Link>
+                         <Link to="/blog"><div className="footerButton"><span className="footerBlue" >•</span>Blog</div></Link>
+                         <Link to="/jobs"><div className="footerButton"><span className="footerBlue" >•</span>Empleos</div></Link>
+                         <Link to="/jobs"><div className="footerButton" ><span className="footerBlue" >•</span>Cotiza en Línea</div></Link>
+
+                    </div>
+                    <div className="footerLang">
+                    <Dropdown className="footerDrop" icon ='angle up' text='Español'>
+                            <Dropdown.Menu>
+                            <Dropdown.Item>English</Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown>
+                    </div>
+
                     
-                    <Menu.Item position='right' className="idiomaa">
-                    <Dropdown item text='Español'>
-                        <Dropdown.Menu>
-                        <Dropdown.Item>English</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown>
-                    
-                    
-                    </Menu.Item>
-                    </Menu.Item>
-                </Menu>
+                </div>
 
 
             

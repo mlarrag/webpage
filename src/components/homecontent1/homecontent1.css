@@ -3,40 +3,41 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+   
     align-items: center;
     align-content: center;
     background-image: url('../assets/images/Content1/content1.png');
-    background-size: cover;
-    height: 850px;
-    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 933px;
+    border: 1px solid red;
     
 }
 
 .title11{
+    display:flex;
     color: #ffffff;
     font-family: Avenir;
-    margin-top: 100px;
-    margin-right: 200px;
-    margin-left: 300px;
-    font-size: 300%;
+    width: 60%;
+    font-size: 200%;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
+    margin-top: 2em;
+    border: 1px solid red;
    ;
 
 }
 
 .subtitle1{
-    
-    margin-top: 20px;
-    margin-right: 200px;
-    margin-left: 300px;
+    display: flex;
+    width: 60%;
+    margin-top: 0.5em;
     font-family: Avenir-Roman;
-    font-size: 170%;
+    font-size: 130%;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -44,6 +45,8 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    justify-content: center;
+    border: 1px solid red;
 }
 
 .cards{
@@ -52,11 +55,9 @@
     display: flex;
     justify-content: center;
     
-    margin-top:120px;
-
-padding-left: 250px;
-padding-right: 250px;
-    height: 350px;
-    width: 100%;
+    margin-top: 4em;
+    margin-right: 10em;
+    margin-left: 10em;
+    border: 1px solid red;
 
 }

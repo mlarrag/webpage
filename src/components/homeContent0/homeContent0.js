@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Responsive, Header } from 'semantic-ui-react';
 
 import './homeContent0.css';
 

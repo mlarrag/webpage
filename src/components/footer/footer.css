@@ -1,37 +1,92 @@
-.ui.menu.menuuu {
+.menuuu {
     height: 73px;
     background-color: #000000;
+    display: flex;
+    align-items: center;
+    
     
 
   }
+
+  .footerMenu{
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+
+  .footerLang{
+    display: flex;
+    
+    width: 10%;
+
+
+  }
   
- .button.ui.button.buttonn {
+.footerButton {
     color: #5c5c5c;
     font-family: Avenir;
     justify-content: right;
-    font-size: 14px;
+    font-size: 80%;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
     background-color: #000000;
+    
 
   }
 
-  .iconn {
-    color: #00abe7;
-    vertical-align: middle;
-  }
+
   .copyy{
-    color: white;
+    width: 55%;
+    margin-left: 2em;
+    
+    
     
   }
   
   .textt{
-    color: white;
-    padding-left: 30px;
+    font-family: Avenir;
+    font-size: 80%;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    color: #eaeaea;
+    margin-left: 3em;
+    
     
   }
+
+  .angle.up.icon{
+    color: white;
+    margin-bottom: 0.2em;
+
+  }
+
+  .ui.upward.dropdown{
+    display: flex;
+    align-items: baseline;
+    font-size: 80%;
+   
+  }
+  .ui.dropdown.footerDrop{
+    display: flex;
+    align-items: baseline;
+    font-size: 80%;
+   
+  }
   
+  .iconn {
+    color: #00abe7;
   
+  }
+
+  .footerBlue{
+    margin-right: 0.5em;
+    color: #00adea;
+  }

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-
-
 import './homecontent1.css';
 import HomeCard from '../homeCard/homecard';
 
