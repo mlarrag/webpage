@@ -40,8 +40,9 @@ class HomeContent6 extends Component {
                 
             <div className="column62">
                 <div className="row621">
-                    <img src={Image1} alt="fun"/> <img src={Image2} alt="fun"/> <img src={Image3} alt="fun"/></div>
-                <div className="row622"><img src={Image4} alt="fun"/> <img src={Image5} alt="fun"/> <img src={Image6} alt="fun"/></div>  
+                    <img className="imgContent6" src={Image1} alt="fun"/> <img className="imgContent6" src={Image2} alt="fun"/> <img className="imgContent6" src={Image3} alt="fun"/></div>
+                <div className="row622">
+                    <img className="imgContent6" src={Image4} alt="fun"/> <img className="imgContent6" src={Image5} alt="fun"/> <img className="imgContent6" src={Image6} alt="fun"/></div>  
             </div>
             
 

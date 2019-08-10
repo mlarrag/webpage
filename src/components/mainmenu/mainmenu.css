@@ -21,6 +21,8 @@
 
 }
 
+
+
 .buttonsMenu{
 
   display: flex;
@@ -47,11 +49,10 @@
 
 
 
-.ui.button.mibutton {
+.mibutton {
 
   color:white;
-
-  height: 50%;
+  padding:0.5em;
   font-family: Avenir;
   justify-content: right;
   font-size: 100%;
@@ -92,3 +93,39 @@ align-items: center;
   
 }
 
+@media (min-width: 1300px){
+  .logoMenu{
+  
+    width: 65%;
+
+  
+  }
+  
+  .buttonsMenu{
+  
+    
+    width: 35%;
+    
+
+  }
+   
+  }
+
+  @media (min-width: 1800px){
+    .logoMenu{
+    
+      width: 75%;
+  
+    
+    }
+    
+    .buttonsMenu{
+    
+      
+      width: 25%;
+      
+  
+    }
+     
+    }
+  

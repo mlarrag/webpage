@@ -2,7 +2,7 @@
   
     display: flex;
     
-    height: 700px;
+    height: 650px;
 
 }
 
@@ -28,34 +28,36 @@
 }
 
 .row621{
-    padding: 20px;
+    
     margin:30px;
     display: flex;
    
-    justify-content: space-evenly;
+    justify-content: center;
     
 }
 
 
 .row622{
     margin:30px;
+  
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     
 }
 
 .ui.basic.button.button6{
+    display: flex;
     border-style: dashed;
     margin: 20px;
     margin-left: 60px;
     border: 1px solid #00adea;
-  font-family: Avenir;
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000000;
+    font-family: Avenir;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
 }
 
 .blacktitle{
@@ -63,7 +65,7 @@
     font-family: Avenir;
     margin: 20px;
     margin-left: 35px;
-    font-size: 350%;
+    font-size: 300%;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -75,7 +77,7 @@
 .bluetitle{
 margin: 15px;
 margin-left: 35px;
-font-size: 250%;
+font-size: 200%;
 font-weight: 900;
 font-style: normal;
 font-stretch: normal;
@@ -100,8 +102,15 @@ font-weight: 900;
     
     
     color: #2fa6f3;
-    
+    align-self: center;
     padding-left: 25px;
     padding-right: 10px;
 
+}
+
+.imgContent6{
+    
+    padding:1.5em;
+    width: 35%;
+    height: auto;
 }

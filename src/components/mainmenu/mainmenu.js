@@ -35,7 +35,7 @@ class Mainmenu extends Component {
                     </Dropdown>
                     </div>
 
-                    <Button className="mibutton">Solicitar Prueba Gratuita <Icon fitted name='arrow right' /></Button>
+                    <Link><div className="mibutton">Solicitar Consulta Gratuita <Icon fitted name='arrow right' /></div></Link>
 
                     <img src={MenuImage} alt="menu"/>
 

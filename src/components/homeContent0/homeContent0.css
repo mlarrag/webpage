@@ -6,6 +6,7 @@
     height: 750px;
     background-image: url('../assets/images/home.png');
     background-size: cover;
+    background-position:left center; 
     align-content: center;
     justify-content: center;
     vertical-align: center;
@@ -43,8 +44,8 @@
     display: flex;
     justify-content: center;
     font-family: Avenir;
-    margin-left: 6em;
-    margin-top: 50px;
+    margin-left: 7em;
+    margin-top: 1.2em;
     font-size: 220%;
     font-weight: 500;
     font-style: normal;
@@ -55,3 +56,33 @@
    
 
 }
+
+@media (min-width: 1300px){
+    .header01 {
+
+        font-size: 400%;
+    
+    }
+    
+    .header02 {
+    
+        font-size: 230%;
+        
+    
+    }
+     
+    }
+  
+    @media (min-width: 1800px){
+        .header01 {
+            margin-left: 4em;
+            font-size: 550%;
+        
+        }
+        
+        .header02 {
+            font-size: 300%;
+            
+                    }
+       
+      }

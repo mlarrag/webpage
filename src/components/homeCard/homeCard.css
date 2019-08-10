@@ -3,6 +3,8 @@
     flex-direction: row;
     height: 100%;
     width: 100%;
+   
+
 
 }
 
@@ -16,8 +18,9 @@
     border: 0.5px solid gray;
    
     margin-top: 20px;
-    width: 27%;
+    width: 24%;
     height: 100%;
+   
 }
 
 .cardBack1{
@@ -30,9 +33,9 @@
     margin-left: -15px;
     z-index: 10;
     border: 0.5px solid gray;
-    
-    width: 31%;
+    width: 26%;
     height: 100%;
+    
 }
 
 .cardBack2{
@@ -45,29 +48,30 @@
     margin-top: 20px;
     margin-left: -15px;
     border: 0.5px solid gray;
-    width: 27%;
+    width: 24%;
     height: 100%;
+    
 }
 
 
 .cardImage{
     width: 100%;
     height: 50%;
-   
     
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    padding-top: 30px;
     
     
 
 }
 
 .cardLogo{
-    width: 100%;
-    height: 25%;
+   
     
+    height: 25%;
     
     display: flex;
     justify-content: center;
@@ -79,13 +83,13 @@
     width: 100%;
     height: 25%;
     
-    
     display: flex;
     justify-content: center;
-    padding:12px;
+    padding:1em;
+    padding-bottom: 2em;
     
     font-family: Avenir;
-    font-size: 90%;
+    font-size: 80%;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -96,17 +100,23 @@
 
 .buttonpre{
     display: flex;
-    width: 12.5%;
+    width: 13%;
     margin-bottom: 70px;
     align-self: flex-end;
+
+    
     
 }
 
 .buttonnext{
     display: flex;
-    width: 12.5%;
+    width: 13%;
     align-self: flex-end;
     margin-bottom: 70px;
+    border-radius: 100px;
+    margin-left: 1em;
+    padding-left: 1em;
+    
     
 
 }
@@ -114,27 +124,26 @@
 button{
     display: flex;
     align-self: flex-end;
+    
 }
 
 img.clientImage{
    
     border-radius: 75%;
     background-color: rgba(145, 144, 144, 0.24);
-    height: 90px;
-    width: 120px;
+    height: 60%;
+    width: 60%;
+    
 }
 
-img.clientLogo{
-    border:0px;
-    height: 30px;
-    width: 90px;
+img.clientLogoo{
+display: flex;
+padding:1.5em;
+padding-right: 4em;
+padding-left: 4em;
+
+    
 }
 
-.ui.inverted.button.buttonCard{
 
-    border-radius: 75%;
-    height: 40px;
-    width: 40px;
-    padding-left: -45px;
-}
 

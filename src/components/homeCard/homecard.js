@@ -62,19 +62,19 @@ handleOnNext(e){
           <div className="buttonpre"><Button inverted onClick={this.handleOnPre}><img className="buttonBack" src={LeftArrow} alt="flecha" /></Button></div>
           <div className="cardBack0">
             <div className="cardImage"><img className="clientImage" src={this.state.imageClient[0]} alt={this.state.id}></img></div>
-            <div className="cardLogo"><img  className="clientLogo" src={this.state.imageLogo[0]} alt={this.state.id}/></div>
+            <div className="cardLogo"><img  className="clientLogoo" src={this.state.imageLogo[0]} alt={this.state.id}/></div>
             <div className="cardDesc">{this.state.description}</div>
           </div>
 
           <div className="cardBack1">
             <div className="cardImage"><img className="clientImage" src= {this.state.imageClient[1]} alt={this.state.name}></img></div>
-            <div className="cardLogo"><img className="clientLogo" src={this.state.imageLogo[1]} alt={this.state.name}/></div>
+            <div className="cardLogo"><img className="clientLogoo" src={this.state.imageLogo[1]} alt={this.state.name}/></div>
             <div className="cardDesc">{this.state.description}</div>
           </div>
          
           <div className="cardBack2">
             <div className="cardImage"><img className="clientImage" src={this.state.imageClient[2]} alt={this.state.name}></img></div>
-            <div className="cardLogo"><img  className="clientLogo" src={this.state.imageLogo[2]} alt={this.state.name}/></div>
+            <div className="cardLogo"><img  className="clientLogoo" src={this.state.imageLogo[2]} alt={this.state.name}/></div>
             <div className="cardDesc">{this.state.description}</div>
           </div>
           <div className="buttonnext"> <Button inverted onClick={this.handleOnNext}><img className="buttonBack" src={RightArrow} alt="flecha" /></Button></div>

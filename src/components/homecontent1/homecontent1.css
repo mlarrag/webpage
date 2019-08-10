@@ -7,10 +7,11 @@
     align-items: center;
     align-content: center;
     background-image: url('../assets/images/Content1/content1.png');
-    background-size: contain;
+    background-size: cover;
+    background-position: left center; 
     background-repeat: no-repeat;
-    height: 933px;
-    border: 1px solid red;
+    height: 650px;
+    
     
 }
 
@@ -27,7 +28,7 @@
     letter-spacing: normal;
     text-align: center;
     margin-top: 2em;
-    border: 1px solid red;
+  
    ;
 
 }
@@ -46,7 +47,7 @@
     text-align: center;
     color: #ffffff;
     justify-content: center;
-    border: 1px solid red;
+    
 }
 
 .cards{
@@ -54,10 +55,20 @@
     
     display: flex;
     justify-content: center;
-    
+    height: 50%;
     margin-top: 4em;
     margin-right: 10em;
     margin-left: 10em;
-    border: 1px solid red;
+    
 
 }
+
+@media (min-width: 1300px){
+
+     
+    }
+  
+    @media (min-width: 1800px){
+
+       
+      }
