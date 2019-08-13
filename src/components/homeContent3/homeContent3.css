@@ -111,3 +111,21 @@
     size: 80%;
     margin: 30px;
 }
+
+@media (min-width: 1300px){
+
+
+.title31{
+    font-size: 330%;
+}
+
+.title321{
+    font-size: 350%;
+}
+
+.title322{
+    font-size: 170%;
+
+}
+
+}

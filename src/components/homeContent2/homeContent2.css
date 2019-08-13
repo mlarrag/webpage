@@ -29,7 +29,7 @@
         }
 
 .bigrow{
-    border-bottom: 0.05px whitesmoke solid;
+    border-bottom: 0.02px whitesmoke solid;
 
 }
 .roww{
@@ -172,6 +172,34 @@ color: #7dcfec;
     color:white;
     font-family: Avenir;
     padding: 0;
+
+}
+
+@media (min-width: 1300px){
+.arrow{
+
+    text-align: right;
+    margin-right: 70px;
+    margin-top: 30px;
+    padding: 5px;
+    
+    
+    
+    }
+
+.columntitle{
+    font-size: 350%;
+}
+
+.itemrowtitle{
+    font-size: 220%;
+    
+}
+.itemrow{
+
+    font-size: 130%;
+    padding-right: 16em;
+}
 
 }
 
