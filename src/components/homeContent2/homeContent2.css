@@ -2,7 +2,7 @@
 
     display: flex;
     flex-flow: column wrap;
-    height: 750px;
+    height: 850px;
 
 
 }
@@ -90,6 +90,7 @@
     font-size: 100%;
     margin: 40px;
     margin-top: 5px;
+    margin-bottom: 50px;
     font-weight: 500;
     padding-right: 120px;
     width: 85%;
@@ -136,7 +137,7 @@ color: #7dcfec;
     margin:40px;
     margin-top: 70px;
     margin-left: 60px;
-    font-size: 130%;
+    font-size: 190%;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -149,8 +150,8 @@ color: #7dcfec;
 
 .text1{
 
-    font-size: 130%;
-    padding-right: 25%;
+    font-size: 160%;
+    padding-right: 35%;
     margin:10px;
     margin-left: 60px;
     font-weight: 900;

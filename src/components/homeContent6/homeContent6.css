@@ -29,19 +29,25 @@
 
 .row621{
     
-    margin:30px;
+    padding:25px;
     display: flex;
-   
-    justify-content: center;
+    
+    height: 37%;
+    justify-content: space-evenly;
     
 }
 
 
 .row622{
-    margin:30px;
-  
+    padding:25px;
+    height: 37%;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
+    
+}
+.imgx3{
+    display: flex;
+    justify-content: space-evenly;
     
 }
 
@@ -110,7 +116,8 @@ font-weight: 900;
 
 .imgContent6{
     
-    padding:1.5em;
-    width: 35%;
+    
+    width: 22%;
+    margin: 10px;
     height: auto;
 }

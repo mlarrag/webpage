@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Dropdown, Icon, Button } from 'semantic-ui-react';
+import { Dropdown, Icon} from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import MenuImage from '../assets/images/menu.png'
@@ -35,7 +35,7 @@ class Mainmenu extends Component {
                     </Dropdown>
                     </div>
 
-                    <Link><div className="mibutton">Solicitar Consulta Gratuita <Icon fitted name='arrow right' /></div></Link>
+                    <Link to="/"><div className="mibutton">Solicitar Consulta Gratuita <Icon fitted name='arrow right' /></div></Link>
 
                     <img src={MenuImage} alt="menu"/>
 

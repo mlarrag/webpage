@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import RightArrow from '../assets/images/Content1/rightArrow.png'
 
 import './homeContent7.css';
 
@@ -28,7 +29,7 @@ class HomeContent7 extends Component {
                 </div>
 
                 <div className="subtitle7"> <span className="firstblue" >•</span>    Aurelio González 3779 - Vitacura.</div>
-                
+                <img className="button7" src={RightArrow} alt="flecha" />
             </div>
             
 
