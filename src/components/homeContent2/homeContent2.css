@@ -2,7 +2,7 @@
 
     display: flex;
     flex-flow: column wrap;
-    height: 850px;
+    height: 1000px;
 
 
 }
@@ -53,6 +53,7 @@
     letter-spacing: normal;
     color: #ffffff;
     margin: 40px;
+    margin-top: 60px;
     margin-bottom: 20px;
     
 }        
@@ -89,7 +90,7 @@
     color: white;
     font-size: 100%;
     margin: 40px;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 50px;
     font-weight: 500;
     padding-right: 120px;
@@ -135,7 +136,7 @@ color: #7dcfec;
 .title1{
 
     margin:40px;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-left: 60px;
     font-size: 190%;
     font-weight: 500;
@@ -190,6 +191,7 @@ color: #7dcfec;
 
 .columntitle{
     font-size: 350%;
+
 }
 
 .itemrowtitle{
