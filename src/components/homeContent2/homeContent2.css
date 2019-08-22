@@ -2,7 +2,7 @@
 
     display: flex;
     flex-flow: column wrap;
-    height: 1000px;
+    height: 900px;
 
 
 }
@@ -53,7 +53,7 @@
     letter-spacing: normal;
     color: #ffffff;
     margin: 40px;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 20px;
     
 }        
@@ -136,7 +136,7 @@ color: #7dcfec;
 .title1{
 
     margin:40px;
-    margin-top: 100px;
+    margin-top: 130px;
     margin-left: 60px;
     font-size: 190%;
     font-weight: 500;

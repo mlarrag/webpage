@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import {Button, Icon} from 'semantic-ui-react';
-import Image1 from '../assets/images/Content6/img1.png';
-import Image2 from '../assets/images/Content6/img2.png';
-import Image3 from '../assets/images/Content6/img3.png';
-import Image4 from '../assets/images/Content6/img4.png';
-import Image5 from '../assets/images/Content6/img5.png';
-import Image6 from '../assets/images/Content6/img6.png';
+
+import RightArrow from '../assets/images/Content1/rightArrow.png'
+
+import Gift6 from '../assets/images/Content6/landing_equipo.gif'
 
 
 
@@ -27,9 +24,9 @@ class HomeContent6 extends Component {
             <div className="grid6">  
             <div className="column61">
                 <div>
-                    <div className="blacktitle">Nuestra Cultura</div> 
+                    <div className="blacktitle">Nuestra <br/> Cultura</div> 
                     <div className="bluetitle"><span className="firstblack">#</span>FunFactstract</div>
-                    <Button basic className="button6">Conoce el equipo <Icon name="arrow right" className="arrow6"/></Button>
+                    <div className="button6">Conoce el equipo <img className= "arrow6" src={RightArrow} alt="fun"/></div>
                 
                 </div>
                 
@@ -39,11 +36,9 @@ class HomeContent6 extends Component {
 
                 
             <div className="column62">
-                <div className="row621">
-                    <div className="imgx3"><img className="imgContent6" src={Image1} alt="fun"/> <img className="imgContent6" src={Image2} alt="fun"/> <img className="imgContent6" src={Image3} alt="fun"/></div></div>
-                <div className="row622">
-                    <div className="imgx3"><img className="imgContent6" src={Image4} alt="fun"/> <img className="imgContent6" src={Image5} alt="fun"/> <img className="imgContent6" src={Image6} alt="fun"/></div>
-                    </div>  
+            <img className="imgContent6" src={Gift6} alt="fun"/>
+                
+
             </div>
             
 

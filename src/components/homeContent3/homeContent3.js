@@ -25,7 +25,7 @@ class HomeContent3 extends Component {
 
             
             <div className="column31">
-            <div className="quote3">""</div>      
+            <div className="quote3">“”</div>      
             <div className="title31">Desarrollamos Software de excelencia. Ayudamos a su negocio a transformarse, creando productos altamente escalables.</div> 
             
 

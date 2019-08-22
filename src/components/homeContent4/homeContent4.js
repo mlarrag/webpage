@@ -63,7 +63,7 @@ class HomeContent4 extends Component {
 
             <div className="column41">
               <div className="title411">Metodología</div> 
-               <div className="subtitle411">Complementamos nuestras metodologías con los avances tecnológicos. Haz click en los puntos y descubre nuestro ciclo de trabajo. </div> 
+               <div className="subtitle411">Complementamos nuestras <br/> metodologías con <br/> los avances tecnológicos. Haz <br/> click en los puntos y descubre<br/>  nuestro ciclo de trabajo. </div> 
 
             </div>
             <div className="column42">
