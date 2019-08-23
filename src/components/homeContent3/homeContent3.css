@@ -35,8 +35,7 @@
 .title31{
     display: flex;
     
-    padding-right: 200px;
-    padding-left: 200px;
+
     font-family: Avenir;
     font-size: 200%;
     font-weight: 900;
@@ -62,12 +61,17 @@
     display: flex;
     
     justify-content: flex-start;
-    padding: 5px;
-    padding-left: 40px;
-    margin-top: 6%;
+    padding-left: 1.5em;
     font-size: 280%;
     font-family: Avenir;
+    font-size: 48px;
     font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+   
+    
 
 }
 
@@ -109,7 +113,8 @@
 }
 
 .image3221{
-    size: 80%;
+    width: 37%;
+    height: auto;
     margin: 30px;
 }
 
@@ -130,3 +135,29 @@
 }
 
 }
+
+@media (min-width: 2000px){
+
+
+.grid3{
+    height: 1440px ;
+}
+.title321{
+
+    font-size: 600%;
+}
+    
+.title322{
+    font-size: 300%;
+}
+.image3221{
+    width: 25%;
+}
+
+.title31{
+    font-size: 600%;
+}
+.quote3{
+    font-size: 600%;
+}
+    }

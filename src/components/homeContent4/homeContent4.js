@@ -67,14 +67,14 @@ class HomeContent4 extends Component {
 
             </div>
             <div className="column42">
-               <div className="imagerow">
-                 <ImageMapper src={Image4} map={MAP} 
+               
+                 <ImageMapper  src={Image4} map={MAP} 
                 
                  onClick={map => this.handleOnClick(map)}
                  onMouseEnter={map=>this.handleOnClick(map)}
   />
                  
-              </div> 
+              
 
             </div>
             <div className="column43">

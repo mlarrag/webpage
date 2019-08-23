@@ -126,3 +126,29 @@ img.logoImg{
     margin: 5px;
 
 }
+.logoIm:hover{
+    background-color: red;
+}
+
+@media (min-width: 2000px){
+
+
+    .grid5{
+        height: 1000px ;
+    }
+    .logoIm{
+        width: 30%;
+    }
+    
+    .column51{
+        padding-left: 11em;
+    }
+    .title5{
+        font-size: 600%;
+    }
+    .subtitle5{
+        font-size: 250%;
+        padding-top: 0.5em;
+    }
+    
+        }

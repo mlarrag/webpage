@@ -2,7 +2,7 @@
 
     display: flex;
     flex-flow: column wrap;
-    height: 900px;
+    height: 1149px;
 
 
 }
@@ -18,7 +18,8 @@
 
 .column22{
 
-    display: flex;    
+    display: flex;  
+    flex-direction: column;  
     width: 70%;
     height: 100%;
     
@@ -30,22 +31,37 @@
 
 .bigrow{
     border-bottom: 0.02px whitesmoke solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 7%;
+
+}
+.bigrow2{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 7%;
 
 }
 .roww{
 
     display: flex;
     flex-direction: row;
+    padding-top:1%;
+    width: 100%;
+    
     
 
 }      
 
 
 .columntitle{
-
-    font-size: 280%;
+    display: flex;
+    width: 100%;
+    font-size: 350%;
     font-family: Avenir;
-   
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -54,31 +70,32 @@
     color: #ffffff;
     margin: 40px;
     margin-top: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 0.7em;
     
 }        
 
 
-.ui.tiny.icon{
+.icon2{
 
     
     margin: 5px;
     margin-left: 30px;
+    width: 10%;
+    height: auto;
     
 
 }
 
 .itemrowtitle{
-
+    display: flex;
     background-color: #00adea;
     font-weight: 900;
-    vertical-align: center;
-    text-align: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     color: white;
-    font-size: 150%;
+    font-size: 220%;
     padding-top: 15px;
-    margin: 15px;
+    margin: 30px;
     margin-top: 30px;
    
 
@@ -86,15 +103,17 @@
 }
 
 .itemrow{
+
+    font-size: 130%;
+    
     background-color: #00adea;
     color: white;
-    font-size: 100%;
+    
     margin: 40px;
     margin-top: 20px;
     margin-bottom: 50px;
     font-weight: 500;
-    padding-right: 120px;
-    width: 85%;
+    width: 100%;
     font-family: Avenir;
     font-weight: 500;
     font-style: normal;
@@ -123,7 +142,7 @@ align-content: flex-end;
 .number{
 
 margin: 30px;
-margin-left: 60px;
+margin-left: 20%;
 font-size: 400%;
 font-weight: 900;
 font-style: normal;
@@ -137,8 +156,8 @@ color: #7dcfec;
 
     margin:40px;
     margin-top: 130px;
-    margin-left: 60px;
-    font-size: 190%;
+    margin-left: 20%;
+    font-size: 160%;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -152,9 +171,9 @@ color: #7dcfec;
 .text1{
 
     font-size: 160%;
-    padding-right: 35%;
+    
     margin:10px;
-    margin-left: 60px;
+    margin-left: 20%;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -177,33 +196,62 @@ color: #7dcfec;
 
 }
 
-@media (min-width: 1300px){
-.arrow{
+@media (max-width: 1300px){
 
-    text-align: right;
-    margin-right: 70px;
-    margin-top: 30px;
-    padding: 5px;
-    
-    
-    
-    }
+.title1{
+    font-size: 130%;
+
+}
+
+.itemrow{
+    font-size: 120%;
+}
+
+
 
 .columntitle{
-    font-size: 350%;
+    font-size: 330%;
+}
+
 
 }
 
-.itemrowtitle{
-    font-size: 220%;
+@media (min-width: 2500px){
+
+    .grid2{
+        height: 1550px;
+    }
+
+    .title1{
+        font-size: 280%;
     
-}
-.itemrow{
+    }
+    
+    .itemrow{
+        font-size: 220%;
+        margin-top: 0px;
+    }
+     .itemrowtitle{
+         font-size: 350%;
+         padding-bottom: 30px;
+     }
+    
+    
+    .columntitle{
+        font-size: 450%;
+    }
+     .number{
+         font-size: 700%;
+         padding-top: 0.5em;
+     }
+    
+     .text1{
+         font-size: 290%;
+     }
 
-    font-size: 130%;
-    padding-right: 16em;
-}
+     .icon2 > img{
+         width: 120%;
+         height: auto;
+     }
 
-}
-
-
+    }

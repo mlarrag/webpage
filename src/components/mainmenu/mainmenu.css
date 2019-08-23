@@ -31,7 +31,7 @@
   margin: 2em;
   margin-right: 3em;
   
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   
 }
@@ -54,6 +54,7 @@
 
   color:white;
   padding:0.5em;
+margin: 2em;
   font-family: Avenir;
   justify-content: right;
   font-size: 100%;
@@ -113,6 +114,10 @@ align-items: center;
   }
 
   @media (min-width: 1800px){
+
+    .menuu{
+      height: 120px;
+    }
     .logoMenu{
     
       width: 75%;

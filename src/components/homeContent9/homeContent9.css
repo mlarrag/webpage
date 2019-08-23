@@ -23,6 +23,7 @@
 }
 
 .subtitle9{
+    display: flex;
     font-family: Avenir;
     font-size: 130%;
     font-weight: 900;
@@ -35,6 +36,9 @@
 }
 
 i.linkedin.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #00adea;
 }
 
@@ -47,3 +51,22 @@ i.f.facebook.icon{
 i.instagram.icon{
     color: #00adea;
 }
+
+@media (min-width: 2000px){
+
+      
+    .grid9{
+        height: 450px;
+
+    }
+
+    .title9{
+        font-size: 600%
+    }
+.subtitle9{
+    font-size: 250%;
+    margin:1em;
+}
+
+
+       }

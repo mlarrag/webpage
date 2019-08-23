@@ -71,3 +71,34 @@
     margin-top: 1em;
 
 }
+
+@media (max-width: 1300px){
+
+ .title7{
+     font-size: 200%;
+ }
+ .subtitle7{
+     font-size: 150%;
+ }
+    }
+
+    @media (min-width: 2000px){
+
+
+        .grid7{
+            height: 1000px ;
+        }
+        .title7{
+            font-size: 430%;
+        }
+  .subtitle7{
+      font-size: 300%;
+  }
+  .button7{
+      margin-left: 45em;
+      width: 4%;
+  }
+
+  
+        
+            }

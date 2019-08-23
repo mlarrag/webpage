@@ -63,9 +63,18 @@
 
 }
 
-@media (min-width: 1300px){
+@media (max-width: 1300px){
 
-     
+    .griid1{
+        background-image: url('../assets/images/Content1/content11024.png');
+        height: 615px;
+    }
+     .title11{
+         font-size: 180%;
+     }
+     .subtitle1{
+         font-size: 130%;
+     }
     }
   
     @media (min-width: 1800px){

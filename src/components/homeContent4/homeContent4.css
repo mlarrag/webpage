@@ -27,8 +27,21 @@ background-repeat: no-repeat;
     display: flex;
     width: 35%;
     
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+}
+
+.column42 > div{
+    width: 60% !important; 
+}
+
+.column42> div >img 
+{
+    width: 100%;
+}
+.column42> div >canvas
+{
+    width: 100%;
 }
 
 .column43{
@@ -42,7 +55,7 @@ background-repeat: no-repeat;
 
 .title411{
     display: flex;
-    font-size: 250%;
+    font-size: 350%;
     font-family: Avenir;
     margin: 20px;
     margin-left: 60px;
@@ -61,7 +74,7 @@ background-repeat: no-repeat;
     margin: 20px;
     margin-left: 60px;
     margin-right: 90px;
-    font-size: 120%;
+    font-size: 175%;
     font-family: Avenir;
     font-weight: 500;
     font-style: normal;
@@ -117,19 +130,39 @@ background-repeat: no-repeat;
 
 }
 
-.image4{
-    height: 400px;
-}
 
 
-@media (min-width: 1300px){
+@media (max-width: 1300px){
+
+    .grid4{
+        background-image: url('../assets/images/Content4/fondo41024.png');
+        height: 545px;
+    }
 
 
 .title411{
-    font-size: 350%
+    
+    font-size: 250%;
 }
     .subtitle411{
-        font-size: 175%;
+        
+        font-size: 120%;
+    }
+.column42{
+    width: 35%;
+    margin:30px;
+}
+ 
+    }
 
-    }
-    }
+
+    @media (min-width: 2000px){
+
+      
+        .grid4{
+            height: 1000px;
+        }
+
+
+
+           }

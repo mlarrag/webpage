@@ -26,7 +26,7 @@ class HomeContent3 extends Component {
             
             <div className="column31">
             <div className="quote3">“”</div>      
-            <div className="title31">Desarrollamos Software de excelencia. Ayudamos a su negocio a transformarse, creando productos altamente escalables.</div> 
+            <div className="title31">Desarrollamos Software de excelencia.<br/> Ayudamos a su negocio a transformarse, <br/>creando productos altamente escalables.</div> 
             
 
              </div >
@@ -34,8 +34,8 @@ class HomeContent3 extends Component {
 
              
             <div className="column321">
-            <div className="title321"> Nuestros</div>
-            <div className="title321"> valores </div>
+            <div className="title321"> Nuestros <br/> valores</div>
+            
             </div>
 
             <div className="column322">

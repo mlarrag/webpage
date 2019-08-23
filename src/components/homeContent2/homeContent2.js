@@ -24,37 +24,37 @@ class HomeContent2 extends Component {
             
              <div className="column21">
                   
-            <div className="title1">Dentro de nuestra filosofía de trabajo estamos siempre comprometidos a entregar:</div> 
+            <div className="title1">Dentro de nuestra <br/> filosofía de trabajo<br/> estamos siempre <br/> comprometidos a <br/>entregar:</div> 
             
             <div>
             <div className="number"> 1 </div>
-            <div className="text1"> Innovación y tecnología. </div>
+            <div className="text1"> Innovación y <br/>tecnología. </div>
             <div className="number"> 2 </div>
-            <div className="text1"> Estándares de calidad. </div>
+            <div className="text1"> Estándares de <br/>calidad. </div>
             <div className="number"> 3 </div>
-            <div className="text1"> Aseguramiento del Retorno de Inversión. </div>
+            <div className="text1"> Aseguramiento del <br/>Retorno de <br/>Inversión. </div>
             </div>
              </div >
              <div className="column22">
 
-            <div >  
-             <div className="bigrow">            <div className="columntitle"> Nuestros Servicios </div>  
-            <div className="roww"><div><Image className="icon" size='tiny' src={Icono1}/></div><div className="itemrowtitle"> Asesoría TI</div></div>
-            <div className="roww"><div className="itemrow">Nuestros ingenieros expertos en tecnología se empapan de tu negocio para ayudarte a generar oportunidades y modernizar tu empresa. </div>
+             
+             <div className="bigrow"> <div className="columntitle"> Nuestros Servicios </div>  
+            <div className="roww"><div className="icon2"><img  src={Icono1}/></div><div className="itemrowtitle"> Asesoría TI</div></div>
+            <div className="roww"><div className="itemrow">Nuestros ingenieros expertos en tecnología se empapan de<br/> tu negocio para ayudarte a generar oportunidades y <br/>modernizar tu empresa. </div>
             <div className="arrow"><Image src={Arrow} /></div></div></div>
-             <div className="bigrow">            <div className="roww"><div><Image className="icon" size='tiny' src={Icono2}/></div><div className="itemrowtitle">  Experiencia de Usuario UX </div></div>
-            <div className="roww"><div className="itemrow"> Con nuestro excepcional equipo UX/UI, tenemos un proceso claro y efectivo que involucra al cliente en todo momento, asegura un producto tal como lo esperas y una entrega a tiempo. </div>
+             <div className="bigrow"><div className="roww"><div className="icon2"><img src={Icono2}/></div><div className="itemrowtitle">  Experiencia de Usuario UX </div></div>
+            <div className="roww"><div className="itemrow"> Con nuestro excepcional equipo UX/UI, tenemos un proceso<br/> claro y efectivo que involucra al cliente en todo momento, <br/>asegura un producto tal como lo esperas y una entrega a <br/>tiempo. </div>
             <div className="arrow"><Image src={Arrow} /></div></div></div>
-             <div >
+             <div className="bigrow2">
                
                
-            <div className="roww"><div><Image className="icon" size='tiny' src={Icono3}/></div><div className="itemrowtitle"> Desarrollo web y móvil</div></div>
-            <div className="roww"><div className="itemrow"> Estamos al día con las últimas tecnologías para entregarte aplicaciones web diseñadas para crecer. Nuestro equipo crea las mejores herramientas para trabajar desde cualquier lugar. </div>
+            <div className="roww"><div className="icon2"><img src={Icono3}/></div><div className="itemrowtitle"> Desarrollo web y móvil</div></div>
+            <div className="roww"><div className="itemrow"> Estamos al día con las últimas tecnologías para entregarte<br/> aplicaciones web diseñadas para crecer. Nuestro equipo crea <br/>las mejores herramientas para trabajar desde cualquier lugar. </div>
             <div className="arrow"><Image src={Arrow} /></div></div>
                </div> 
 
 
-            </div>
+            
              </div >
             </div>
                     

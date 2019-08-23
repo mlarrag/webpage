@@ -3,8 +3,8 @@
 
 
     align-items: center;
-    height: 750px;
-    background-image: url('../assets/images/home.png');
+    height: 486px;
+    background-image: url('../assets/images/home1024.png');
     background-size: cover;
     background-position:left center; 
     align-content: center;
@@ -58,6 +58,11 @@
 }
 
 @media (min-width: 1300px){
+
+    .grid0{
+        background-image: url('../assets/images/home.png');
+        height: 750px;
+    }
     .header01 {
 
         font-size: 400%;
@@ -74,6 +79,9 @@
     }
   
     @media (min-width: 1800px){
+        .grid0{
+            height: 900px;
+        }
         .header01 {
             margin-left: 4em;
             font-size: 550%;

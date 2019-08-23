@@ -156,3 +156,42 @@
     border-radius: 7px;
     background-color: #f8f8f8;
 }
+
+@media (max-width: 1300px){
+
+    .title81{
+        font-size: 300%;
+    }
+    .subtitle81{
+        font-size: 170%;
+    }
+
+    .title82{
+        font-size: 290%;
+    }
+       }
+
+       @media (min-width: 2000px){
+
+      
+        .grid8{
+            height: 800px;
+        }
+
+        .column82{
+            padding-top:8em;
+        }
+        .title81{
+            font-size: 550%;
+        }
+        .title82{
+            font-size: 460%;
+        }
+        .subtitle82{
+            font-size: 200%;
+        }
+        .subtitle81{
+            font-size: 280%;
+        }
+           }
+
