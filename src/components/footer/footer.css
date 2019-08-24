@@ -1,4 +1,7 @@
 .menuuu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     height: 73px;
     background-color: #000000;
     display: flex;
@@ -11,7 +14,8 @@
   .footerMenu{
     display: flex;
     width: 35%;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    margin: 3em;
     align-items: center;
     
   }
@@ -26,6 +30,8 @@
   
 .footerButton {
     color: #5c5c5c;
+    display: flex;
+    margin: 1.5em;
     font-family: Avenir;
     justify-content: right;
     font-size: 80%;
@@ -41,6 +47,9 @@
 
 
   .copyy{
+    display: flex;
+    align-items: center;
+
     width: 55%;
     margin-left: 2em;
     
@@ -49,6 +58,7 @@
   }
   
   .textt{
+    display: flex;
     font-family: Avenir;
     font-size: 80%;
     font-weight: 900;
@@ -90,3 +100,28 @@
     margin-right: 0.5em;
     color: #00adea;
   }
+
+  @media (min-width: 2000px){
+
+      
+    .menuuu{
+      height: 150px;
+    }
+.textt{
+  font-size: 150%;
+}
+.footerButton{
+  font-size: 150%;
+}
+
+.ui.dropdown.footerDrop{
+  font-size: 150%;
+
+}
+
+
+.ui.upward.dropdown{
+
+  font-size: 150%;
+}
+       }

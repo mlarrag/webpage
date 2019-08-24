@@ -15,7 +15,7 @@ class Footer extends Component {
       
   
       return (
-        <div>
+        
             
                 <div  className='menuuu'>
                     <div  className="copyy">
@@ -46,7 +46,7 @@ class Footer extends Component {
             
             
                 
-        </div>
+        
           
 
             

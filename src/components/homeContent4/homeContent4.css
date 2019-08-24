@@ -29,20 +29,14 @@ background-repeat: no-repeat;
     
     justify-content: flex-start;
     align-items: center;
+    border: 1px solid red;
 }
 
-.column42 > div{
+/* .column42 > div{
     width: 60% !important; 
-}
+} */
 
-.column42> div >img 
-{
-    width: 100%;
-}
-.column42> div >canvas
-{
-    width: 100%;
-}
+
 
 .column43{
     display: flex;
@@ -161,6 +155,11 @@ background-repeat: no-repeat;
       
         .grid4{
             height: 1000px;
+        }
+        .column42>div{
+            width: 700px !important;
+            height: 700px;
+            
         }
 
 

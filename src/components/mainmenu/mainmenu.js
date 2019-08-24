@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Dropdown, Icon} from 'semantic-ui-react';
+import { Dropdown} from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import MenuImage from '../assets/images/menu.png'
+import RightArrow from '../assets/images/Content1/rightArrow.png'
 import "./mainmenu.css";
 
 
@@ -17,7 +18,7 @@ class Mainmenu extends Component {
       
   
       return (
-        <div>
+        
             
                 <div className="menuu">
                   
@@ -35,9 +36,9 @@ class Mainmenu extends Component {
                     </Dropdown>
                     </div>
 
-                    <Link to="/"><div className="mibutton">Solicitar Consulta Gratuita <Icon fitted name='arrow right' /></div></Link>
+                    <div className="mibutton">Solicitar Consulta Gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div>
 
-                    <img src={MenuImage} alt="menu"/>
+                    <div className="burgerMenu"><img src={MenuImage} alt="menu"/></div>
 
                     </div>
     
@@ -51,7 +52,7 @@ class Mainmenu extends Component {
             
             
                 
-        </div>
+        
           
 
             
