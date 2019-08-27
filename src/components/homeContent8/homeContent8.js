@@ -42,17 +42,17 @@ class HomeContent8 extends Component {
                 
                 <div className="form6">
                   <div className="form6row">
-                      <div className="form6column"><Input inverted transparent placeholder='Nombre' /> </div>
+                      <div className="form6column1"><Input inverted transparent placeholder='Nombre' /> </div>
                      
                      <div className="form6column"><Input inverted transparent placeholder='Apellido' /></div>
                   </div>
                   <div className="form6row">
-                  <div className="form6column"><Input inverted transparent placeholder='Mail' />  </div>
+                  <div className="form6column1"><Input inverted transparent placeholder='Mail' />  </div>
                   <div className="form6column"> <Input inverted transparent placeholder='Teléfono' />  </div>
 
                    </div> 
                      <div className="form6row2"><Input inverted transparent placeholder='Motivo de contacto' /></div>
-                     <div className="form6button"><Button active>Enviar</Button></div>
+                     <div className="form6button"><Button className= "formButton" active>Enviar</Button></div>
                 </div>
                 
                 

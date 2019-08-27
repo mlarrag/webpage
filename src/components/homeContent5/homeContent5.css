@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     height: 600px;
-    padding-top:10px; 
+  
     
 
     
@@ -47,7 +47,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid gray;
+    border: 1px solid #cdcdcd;
     border-bottom: 0px;
     border-top: 0px;
     border-right: 0px;
@@ -62,7 +62,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid gray;
+    border: 1px solid #cdcdcd;
     border-bottom: 0px;
     border-right: 0px;
 
@@ -76,7 +76,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid gray;
+    border: 1px solid #cdcdcd;
     border-bottom: 0px;
     border-right: 0px;
 
@@ -91,7 +91,7 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    border-right: 1px solid gray;
+    border-right: 1px solid #cdcdcd;
     
 
 }
@@ -118,7 +118,7 @@ img.logoImg{
 .subtitle5{
    
     display: flex;
-    font-size: 130%;
+    font-size: 200%;
     font-family: Avenir;
     font-weight: 500;
     line-height: 1.2;
@@ -126,9 +126,7 @@ img.logoImg{
     margin: 5px;
 
 }
-.logoIm:hover{
-    background-color: red;
-}
+
 
 @media (min-width: 2000px){
 
@@ -137,9 +135,11 @@ img.logoImg{
         height: 1000px ;
     }
     .logoIm{
-        width: 30%;
+        width: 40%;
     }
-    
+    .logoImVolvo{
+        width: 20%;
+    }
     .column51{
         padding-left: 11em;
     }

@@ -36,7 +36,7 @@ class Mainmenu extends Component {
                     </Dropdown>
                     </div>
 
-                    <div className="mibutton">Solicitar Consulta Gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div>
+                    <div className="mibutton">Solicitar consulta gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div>
 
                     <div className="burgerMenu"><img src={MenuImage} alt="menu"/></div>
 

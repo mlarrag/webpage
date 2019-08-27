@@ -24,6 +24,7 @@
 
 .subtitle9{
     display: flex;
+    align-items: center;
     font-family: Avenir;
     font-size: 130%;
     font-weight: 900;
@@ -61,11 +62,12 @@ i.instagram.icon{
     }
 
     .title9{
-        font-size: 600%
+        font-size: 550%
     }
 .subtitle9{
     font-size: 250%;
-    margin:1em;
+    padding: 1em;
+  
 }
 
 

@@ -104,6 +104,9 @@ align-items: center;
   
 }
 
+.burgerMenu > img{
+  width: 80%;
+}
 
 @media (max-width: 1300px){
  
@@ -115,7 +118,7 @@ align-items: center;
   }
 
   .burgerMenu > img{
-    width: 70%;
+    width: 60%;
   }
   .arrowMenu{
     width: 20px;
@@ -153,10 +156,10 @@ align-items: center;
   
     }
 .burgerMenu{
-  margin-right: 8em;
+  margin-right: 5em;
 }
     .burgerMenu > img{
-      width: 140%;
+      width: 110%;
   
     }
     }

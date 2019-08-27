@@ -21,7 +21,7 @@ class App extends Component {
 
   render() {
       return (
-        <div >
+        <div style={{height: '100%'}}>
           <BrowserRouter>
             <Route exact path="/" render={() => <Home/>}/>
             <Route exact path="/aboutus" render={() => <AboutUs/>}/>

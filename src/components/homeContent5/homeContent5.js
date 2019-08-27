@@ -35,7 +35,7 @@ class HomeContent5 extends Component {
 
                 
                     <div className="row521">
-                    <div className = "clientLogo"><img className = "logoIm" src={VolvoLogo} alt="Volvo"/></div>
+                    <div className = "clientLogo"><img className = "logoImVolvo" src={VolvoLogo} alt="Volvo"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={AgroboltLogo} alt="AgroBolt"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={VendomaticaLogo} alt="Vendomatica"/></div>
                     </div>

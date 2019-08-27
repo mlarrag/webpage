@@ -27,7 +27,7 @@ class Home extends Component {
 
     
         return (
-            <div>
+            <div style={{height: '100%'}}>
                 
                 <MainMenu/>
 

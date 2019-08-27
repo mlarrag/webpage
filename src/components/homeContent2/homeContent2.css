@@ -93,7 +93,7 @@
     align-items: flex-end;
     justify-content: flex-end;
     color: white;
-    font-size: 220%;
+    font-size: 295%;
     padding-top: 15px;
     margin: 30px;
     margin-top: 30px;
@@ -104,13 +104,13 @@
 
 .itemrow{
 
-    font-size: 130%;
+    font-size: 170%;
     
     background-color: #00adea;
     color: white;
     
     margin: 40px;
-    margin-top: 20px;
+    margin-top: -5px;
     margin-bottom: 50px;
     font-weight: 500;
     width: 100%;
@@ -170,11 +170,11 @@ color: #7dcfec;
 
 .text1{
 
-    font-size: 160%;
+    font-size: 230%;
     
     margin:10px;
     margin-left: 20%;
-    font-weight: 900;
+    font-weight: bolder;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.2;
@@ -198,19 +198,27 @@ color: #7dcfec;
 
 @media (max-width: 1300px){
 
+    .grid2{
+        height: 1000px;
+    }
+
 .title1{
     font-size: 130%;
 
 }
 
 .itemrow{
-    font-size: 120%;
+    font-size: 100%;
+    margin-top: 0px;
 }
 
 
 
 .columntitle{
-    font-size: 330%;
+    font-size: 300%;
+}
+.itemrowtitle{
+    padding-bottom: 10px;
 }
 
 
