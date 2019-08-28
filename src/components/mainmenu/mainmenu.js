@@ -11,9 +11,25 @@ import "./mainmenu.css";
 
 class Mainmenu extends Component {
     
+  constructor(props) {
+    super(props);
+    this.state = {
+        
+        showBurgerMenu: false,
+    }
 
+    this.showMenu = this.showMenu.bind(this);
     
+}
+
+
   
+showMenu = () => (
+  
+  <div className="sideMenu">
+    HOOLLAAAAA
+  </div>
+)
     render() {
       
   
@@ -38,7 +54,11 @@ class Mainmenu extends Component {
 
                     <div className="mibutton">Solicitar consulta gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div>
 
-                    <div className="burgerMenu"><img src={MenuImage} alt="menu"/></div>
+                    <div className="burgerMenu"><img src={MenuImage} alt="menu" onClick={this.showMenu}/>
+                    
+                    
+                    
+                    </div>
 
                     </div>
     

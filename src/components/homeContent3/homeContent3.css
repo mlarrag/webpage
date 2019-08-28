@@ -150,8 +150,8 @@
 .title322{
     font-size: 300%;
 }
-.image3221{
-    width: 25%;
+.image3221 > img{
+    width: 100%;
 }
 
 .title31{

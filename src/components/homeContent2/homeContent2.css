@@ -206,9 +206,12 @@ color: #7dcfec;
     font-size: 130%;
 
 }
+.text1{
+    font-size: 180%;
+}
 
 .itemrow{
-    font-size: 100%;
+    font-size: 120%;
     margin-top: 0px;
 }
 
@@ -219,34 +222,35 @@ color: #7dcfec;
 }
 .itemrowtitle{
     padding-bottom: 10px;
+    font-size: 220%
 }
 
 
 }
 
-@media (min-width: 2500px){
+@media (min-width: 2000px){
 
     .grid2{
-        height: 1550px;
+        height: 1850px;
     }
 
     .title1{
-        font-size: 280%;
+        font-size: 320%;
     
     }
     
     .itemrow{
-        font-size: 220%;
+        font-size: 300%;
         margin-top: 0px;
     }
      .itemrowtitle{
-         font-size: 350%;
+         font-size: 390%;
          padding-bottom: 30px;
      }
     
     
     .columntitle{
-        font-size: 450%;
+        font-size: 550%;
     }
      .number{
          font-size: 700%;
@@ -254,7 +258,7 @@ color: #7dcfec;
      }
     
      .text1{
-         font-size: 290%;
+         font-size: 310%;
      }
 
      .icon2 > img{

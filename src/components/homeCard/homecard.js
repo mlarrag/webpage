@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Button} from 'semantic-ui-react';
 import VolvoCard from '../assets/images/Volvo/card.png';
 import VolvoCardLogo from '../assets/images/Volvo/cardlogo.png';
 import TricaoCard from '../assets/images/Tricao/tricaoCard.png';
@@ -59,7 +58,7 @@ handleOnNext(e){
       return (
         <div className="cardTotal">
 
-          <div className="buttonpre"><Button inverted onClick={this.handleOnPre}><img className="buttonBack" src={LeftArrow} alt="flecha" /></Button></div>
+          <div className="buttonpre"><button inverted onClick={this.handleOnPre}><img className="buttonBack" src={LeftArrow} alt="flecha" /></button></div>
           <div className="cardBack0">
             <div className="cardImage"><img className="clientImage" src={this.state.imageClient[0]} alt={this.state.id}></img></div>
             <div className="cardLogo"><img  className="clientLogoo" src={this.state.imageLogo[0]} alt={this.state.id}/></div>
@@ -68,7 +67,7 @@ handleOnNext(e){
 
           <div className="cardBack1">
             <div className="cardImage"><img className="clientImage" src= {this.state.imageClient[1]} alt={this.state.name}></img></div>
-            <div className="cardLogo"><img className="clientLogoo" src={this.state.imageLogo[1]} alt={this.state.name}/></div>
+            <div className="cardLogo"><img className="clientLogooVolvo" src={this.state.imageLogo[1]} alt={this.state.name}/></div>
             <div className="cardDesc">{this.state.description}</div>
           </div>
          
@@ -77,7 +76,7 @@ handleOnNext(e){
             <div className="cardLogo"><img  className="clientLogoo" src={this.state.imageLogo[2]} alt={this.state.name}/></div>
             <div className="cardDesc">{this.state.description}</div>
           </div>
-          <div className="buttonnext"> <Button inverted onClick={this.handleOnNext}><img className="buttonBack" src={RightArrow} alt="flecha" /></Button></div>
+          <div className="buttonnext"> <button inverted onClick={this.handleOnNext}><img className="buttonFwd" src={RightArrow} alt="flecha" /></button></div>
             
 
         </div>

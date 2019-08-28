@@ -109,6 +109,7 @@
     width: 13%;
     margin-bottom: 70px;
     align-self: flex-end;
+    justify-content: center;
 
     
     
@@ -120,9 +121,8 @@
     align-self: flex-end;
     margin-bottom: 70px;
     border-radius: 100px;
-    margin-left: 1em;
-    padding-left: 1em;
-    
+
+    justify-content: center;
     
 
 }
@@ -136,29 +136,31 @@ button{
 
 
 img.clientLogoo{
-display: flex;
+
 padding:1.5em;
 padding-right: 4em;
 padding-left: 4em;
 
     
 }
+img.clientLogooVolvo{
 
+    padding:1.5em;
+    padding-right: 4em;
+    padding-left: 4em;
+    
+        
+    }
+.ui.inverted.button{
+    border: none;
+}
 
 
 @media (min-width: 1800px){
 
   
 
-    img.clientLogoo{
-        display: flex;
-        padding:0.5em;
-        padding-right: 2em;
-        padding-left: 1.8em;
-        
-            
-        
-    }
+ 
 
     .cardDesc{
         font-size: 22px;
@@ -166,16 +168,72 @@ padding-left: 4em;
         padding-right: 2em;
         padding-left: 2em;
     }
-    
+    .cardImage{
+        margin:0px;
+    }
+    .cardLogo{
+        width: 60%;
+    }
     img.clientLogoo{
         
         padding:0em;
-        height:  37%;
-   
+        width: 100%
+    } 
+    img.clientLogooVolvo{
+
+   width: 70%;
+            
+                
+            }
         
             
-        }  
+         
+        img.clientImage{
 
+            width: 100%;
+            margin-top: 5em;
+        }
+         img.buttonBack{
+             width: 150%
+         }
+
+         img.buttonFwd{
+            width: 150%;
+            
+        }
+
+        .buttonnext > button{
+            width: 50%;
+        }
+        .buttonpre >button{
+            width: 50%;
+        }
 }
 
+@media (max-width: 1300px){
 
+    .cardTotal{
+        width: 100%;
+    }
+    img.clientImage{
+
+        width: 120%;
+       
+    }
+    img.clientLogoo{
+
+        width: 80%;
+        padding:1em;
+       
+    }
+    .cardDesc{
+        padding:1em;
+        font-size: 60%;
+    }
+    .buttonnext{
+        margin-bottom: 30px;
+    }
+ .buttonpre{
+     margin-bottom: 30px;
+ }
+    }

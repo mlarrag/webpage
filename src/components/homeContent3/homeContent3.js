@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Image} from 'semantic-ui-react';
+
 
 import Icono1 from '../assets/images/Content3/iconoval1.png';
 import Icono2 from '../assets/images/Content3/iconoval2.png';
@@ -40,18 +40,18 @@ class HomeContent3 extends Component {
 
             <div className="column322">
               <div className="column3221">
-                  <div className="image3221"><Image src={Icono1} /></div>
+                  <div className="image3221"><img src={Icono1} alt="fun" /></div>
                   <div className="title322">  Compromiso</div>
               </div>
 
               <div className="column3221">
-                  <div className="image3221"><Image src={Icono2} /></div>
+                  <div className="image3221"><img src={Icono2} alt="fun" /></div>
                   <div className="title322"> Transparencia</div>
               </div>
 
 
               <div className="column3221">
-                  <div className="image3221"><Image src={Icono3} /></div>
+                  <div className="image3221"><img src={Icono3} alt="fun" /></div>
                   <div className="title322"> Empatía</div>
               </div>
               
