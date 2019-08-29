@@ -23,3 +23,23 @@
     color: #fbfbfb;
 
 }
+
+@media (max-width: 1300px){
+
+    .gridHead{
+
+        height: 330px;
+        
+    }
+ 
+}
+  
+@media (min-width: 1800px){
+
+    .gridHead{
+
+        height: 570px;
+        
+    }
+
+}

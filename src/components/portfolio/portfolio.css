@@ -15,3 +15,175 @@
     text-align: center;
     color: #000000;
 }
+
+.gridPort1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 226px;
+    background-color: #f8f8f8;
+}
+
+.gridPort2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.gridPort3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    background-color: #2fa6f3;
+}
+
+.gridPort1Title{
+
+    display: flex;
+    font-family: Avenir;
+    font-size: 2.6vw;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.arrowPort>button>img{
+    width: 3vw;
+    height: auto;
+}
+
+.gridPort2Title{
+    display: flex;
+    font-family: Avenir;
+    font-size: 4vw;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.gridPort2Subtitle{
+    margin-top: 3em;
+    margin-bottom: 2em;
+    font-family: Avenir;
+    font-size: 2vw;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.formPort{
+    display: flex;
+    width: 50%;
+
+}
+.formPortB{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    
+
+}
+
+
+.inputPort{
+
+    margin-right: 5vw;
+    width: 20vw;
+    margin-bottom: 1.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid white;
+    font-family: Avenir;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #eaeaea;
+}
+
+.buttonPort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 3em;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    margin-right: 5vw;
+
+    font-size: 1vw;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.buttonPort >img{
+    margin-left: 1.5em;
+    width: 15%;
+    margin-right: -3em;
+}
+
+.formPortB > button{
+    padding: 0px;
+}
+
+
+@media (max-width: 1300px){
+
+    .subtitlePortfolio{
+        height: 190px;
+    }
+    .gridPort1{
+        height: 205px;
+    }
+
+    .gridPort2{
+        height: 348px;
+    }
+    .gridPort3{
+        height: 250px;
+    }
+}
+  
+@media (min-width: 1800px){
+    
+    
+    .subtitlePortfolio{
+        height: 380px;
+    }
+    .gridPort1{
+        height: 400px;
+    }
+
+    .gridPort2{
+        height: 900px;
+    }
+    .gridPort3{
+        height: 500px;
+    }
+       
+}
