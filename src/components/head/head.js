@@ -9,11 +9,6 @@ import './head.css';
 class Head extends Component {
     
     
-    constructor(props) {
-        super(props)
-
-      }
-
 
     render() {
 
