@@ -29,7 +29,7 @@ class Home extends Component {
         return (
             <div style={{height: '100%'}}>
                 
-                <MainMenu/>
+            <MainMenu/>
 
             <HomeContent0/>
             <HomeContent1/>
@@ -41,8 +41,8 @@ class Home extends Component {
             <HomeContent7/>
             <HomeContent8/>
             <HomeContent9/>
-
-                <Footer/>
+    
+            <Footer/>
             </div>
         )
     }

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import MainMenu from '../mainmenu/mainmenu';
 import Footer from '../footer/footer';
-import {Segment, Header} from 'semantic-ui-react';
+import Head from '../head/head';
 
-import HeaderImage from '../assets/images/Conocenos/header/bitmap.png';
+import './portfolio.css'
+
 
 
 class Portfolio extends Component {
@@ -12,18 +13,11 @@ class Portfolio extends Component {
 
       return (
         <div>
-           <MainMenu/>
-          <Segment style={{
-                    backgroundImage: `url(${HeaderImage})`,
-                    backgroundSize: 'cover',
-                    fontWeight: 'normal',
-                    marginBottom: 0,
-                }} 
-                className="landing">
-
-            <Header as='h1'>Portfolio :)</Header>
-
-          </Segment>
+          <MainMenu/>
+          <Head name="Portfolio"/>
+          <div className="subtitlePortfolio">
+            Conoce los proyectos que hemos desarrollado para empresas <br/> como la tuya que alcanzaron el éxito con Abstract.
+          </div>
           <Footer/>   
         </div>
 
