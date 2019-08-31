@@ -78,9 +78,9 @@ class PortfolioProject extends Component {
 
             <div className="gridResults" >
                 <div className="titleResult">Resultados </div>
-                <div className="textResult">Experiencia personalizada. </div>
-                <div className="textResult">Comunicación estandarizada y directa. </div>
-                <div className="textResult">Administrador de agenda y seguimiento de servicios. </div>
+                <div className="textResult"><span className="textBlueLight">•</span> Experiencia personalizada. </div>
+                <div className="textResult"><span className="textGrey">•</span>Comunicación estandarizada y directa. </div>
+                <div className="textResult"><span className="textBlueLight">•</span>Administrador de agenda y seguimiento de servicios. </div>
               </div>
 
 
