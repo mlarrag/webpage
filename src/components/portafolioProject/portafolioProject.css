@@ -214,6 +214,14 @@
     color: #ffffff;
 }
 
-.infoText::nth-child{
+.infoText >p::first-word{
     color: #2fa6f3;
+}
+
+.textBlue{
+    color: #2fa6f3;
+}
+button{
+    background: transparent;
+    border: none;
 }
