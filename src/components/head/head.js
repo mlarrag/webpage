@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BackgroundPort from '../assets/images/Portfolio/portfolio.jpg';
+
 //import OtroBack from '../assets/images/Volvo/card.png';
 
 
@@ -12,10 +12,10 @@ class Head extends Component {
 
     render() {
 
-  
+      var HeadBg = require(`../assets/images/Project/${this.props.back}Back.jpg`)
 
       return (
-        <div  className="gridHead" style={{backgroundImage: `url(${BackgroundPort})`}} >
+        <div  className="gridHead" style ={ { backgroundImage: "url("+HeadBg+")" } } >
             <div className="fontHead">
                 {this.props.name}
                 

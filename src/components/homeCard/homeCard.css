@@ -127,11 +127,7 @@
 
 }
 
-button{
-    display: flex;
-    align-self: flex-end;
-    
-}
+
 
 
 
@@ -236,4 +232,8 @@ img.clientLogooVolvo{
  .buttonpre{
      margin-bottom: 30px;
  }
+    }
+
+    .button{
+        background-color: transparent;
     }

@@ -13,6 +13,7 @@ import Volvo from '../volvo/volvo';
 import VendoWallet from '../vendowallet/vendowallet';
 import XtremeMining from '../xtrememining/xtrememining';
 import AgroBolt from '../agrobolt/agrobolt';
+import PortfolioProject from '../portafolioProject/portafolioProject';
 
 
 
@@ -31,6 +32,7 @@ class App extends Component {
             <Route exact path="/recursos" render={() => <Recursos/>}/>
             <Route exact path="/contact" render={() => <Contact/>}/>
             <Route exact path="/jobs" render={() => <Jobs/>}/>
+            <Route exact path="/project" render={() => <PortfolioProject/>}/>
             <Route exact path="/tricao" render={() => <Tricao/>}/>
             <Route exact path="/volvo" render={() => <Volvo/>}/>
             <Route exact path="/vendowallet" render={() => <VendoWallet/>}/>
