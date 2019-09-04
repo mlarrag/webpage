@@ -10,6 +10,14 @@
     margin-left: 10vw;
     height: 12%;
 
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    
+
 }
 .navBack >img {
     
@@ -152,7 +160,6 @@
     flex-direction: row;
     justify-content: flex-end;
     height: 270px;
-    
     width: 100%;
 }
 
@@ -237,4 +244,22 @@ button{
     margin-right: 1vw;
     opacity: 0.35;
     color: #2fa6f3;
+}
+
+@media (max-width: 1300px){
+
+
+}
+  
+@media (min-width: 1800px){
+    
+    
+.titleResult{
+    padding-top: 4vw;
+}
+
+.textResult{
+    padding-top: 4vw;
+    padding-right: 5vw;
+}
 }
