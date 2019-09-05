@@ -1,0 +1,15 @@
+.gridHerra{
+    
+    display: flex;
+    background-image: url('../assets/images/ContentTi/contentTiBack2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 590px;
+    padding-right: 16em;
+    padding-left: 16em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }

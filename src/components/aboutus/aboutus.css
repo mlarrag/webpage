@@ -35,3 +35,24 @@
   align-items: center;
 
 }
+
+.gridCultUs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 400px;
+}
+
+.gridCultTitle{
+  font-family: Avenir;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: #00adea;
+
+}

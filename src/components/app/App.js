@@ -14,6 +14,8 @@ import VendoWallet from '../vendowallet/vendowallet';
 import XtremeMining from '../xtrememining/xtrememining';
 import AgroBolt from '../agrobolt/agrobolt';
 import PortfolioProject from '../portafolioProject/portafolioProject';
+import ContentTi from '../contentTi/contentTi';
+import ContentWeb from '../contentWeb/contentWeb';
 
 
 
@@ -38,6 +40,8 @@ class App extends Component {
             <Route exact path="/vendowallet" render={() => <VendoWallet/>}/>
             <Route exact path="/xtrememining" render={() => <XtremeMining/>}/>
             <Route exact path="/agrobolt" render={() => <AgroBolt/>}/>
+            <Route exact path="/asesoriati" render={() => <ContentTi/>}/>
+            <Route exact path="/desarrolloweb" render={() => <ContentWeb/>}/>
           
           </BrowserRouter>
 

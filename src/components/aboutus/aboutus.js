@@ -48,8 +48,18 @@ class AboutUs extends Component {
             <div className="quote3">“”</div>      
             <div className="title31">Actualmente Abstract busca su expansión a nivel internacional, formando alianzas con colsultoras que permiten el complemento de conocimientos y nuevas culturas.</div> 
             
+            </div >
 
-             </div >
+            <div>Nuestro <br/> Equipo</div>
+
+            <div className="gridCultUs">
+
+                    <div className="gridCultTitle"><span className="firstblack">Cultura  #</span>FunFactstract</div> 
+                    
+  
+                </div> 
+
+
             <div className="gridPort2">
             <div className="gridPort2Title"> ¿Y tú, tienes en mente un <br/>proyecto? hablemos.</div>
             <div className="blueBorder"></div>
