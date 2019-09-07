@@ -9,7 +9,12 @@ import './portfolioCard.css'
 class PortfolioCard extends Component {
 
 
+  handleOnClickCard(){
     
+
+    this.setState({ })
+    
+  }
 
     render() {
 
@@ -45,7 +50,7 @@ class PortfolioCard extends Component {
                 Permite el agendamiento de horas <br/>para servicio y mantenimiento.
                 </div>
                 <div className="cardPButton">
-                <button><div className="buttonPCard">Ver Proyecto <img src={RightArrow} alt="arrow"/></div></button>
+                <button onClick={()=> this.handleOnClickCard()}><div className="buttonPCard">Ver Proyecto <img src={RightArrow} alt="arrow"/></div></button>
                 </div>
             
             </div>

@@ -16,7 +16,7 @@ class PortfolioProject extends Component {
     super(props);
     this.state = {
       photoGal: "Gal1",
-      x: 1,
+      x: 3,
   
     }
   }
@@ -34,8 +34,9 @@ class PortfolioProject extends Component {
 
 
     handleOnClickGal(){
-    
-      this.setState({photoGal: "Gal2"})
+      const gal =this.state.photoGal === 'Gal1'?  'Gal2': 'Gal1';
+
+      this.setState({ photoGal : gal})
       
     }
 
