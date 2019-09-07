@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import MainMenu from '../mainmenu/mainmenu';
-import Footer from '../footer/footer';
+import PortfolioProject from '../portafolioProject/portafolioProject';
+
 
 
 
@@ -16,12 +16,7 @@ class XtremeMining extends Component {
 
       return (
         <div>
-           <MainMenu/>
-
-           
-            
-          
-           <Footer/>   
+          <PortfolioProject x="4"/>
         </div>
           
 

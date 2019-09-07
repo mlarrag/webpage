@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import MainMenu from '../mainmenu/mainmenu';
-import Footer from '../footer/footer';
+import PortfolioProject from '../portafolioProject/portafolioProject';
+
 
 
 
@@ -15,12 +15,7 @@ class VendoWallet extends Component {
 
       return (
         <div>
-           <MainMenu/>
- 
-           
-            
-          
-           <Footer/>   
+          <PortfolioProject x="2"/>
         </div>
           
 

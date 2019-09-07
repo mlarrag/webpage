@@ -38,7 +38,7 @@ class App extends Component {
             <Route exact path="/tricao" render={() => <Tricao/>}/>
             <Route exact path="/volvo" render={() => <Volvo/>}/>
             <Route exact path="/vendowallet" render={() => <VendoWallet/>}/>
-            <Route exact path="/xtrememining" render={() => <XtremeMining/>}/>
+            <Route exact path="/xtreme" render={() => <XtremeMining/>}/>
             <Route exact path="/agrobolt" render={() => <AgroBolt/>}/>
             <Route exact path="/asesoriati" render={() => <ContentTi/>}/>
             <Route exact path="/desarrolloweb" render={() => <ContentWeb/>}/>

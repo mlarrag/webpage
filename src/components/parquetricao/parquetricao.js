@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import MainMenu from '../mainmenu/mainmenu';
-import Footer from '../footer/footer';
+import PortfolioProject from '../portafolioProject/portafolioProject';
+
 
 
 
@@ -10,9 +10,8 @@ class Tricao extends Component {
 
       return (
         <div>
-          <MainMenu/>
-
-          <Footer/>   
+          <PortfolioProject x="1"/>
+  
         </div>
 
       )

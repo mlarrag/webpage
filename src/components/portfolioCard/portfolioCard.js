@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
 
 import RightArrow from '../assets/images/Content1/rightArrow.png';
+import { Link } from 'react-router-dom';
 
 import './portfolioCard.css'
+
 
 
 
 class PortfolioCard extends Component {
 
 
-  handleOnClickCard(){
-    
 
-    this.setState({ })
-    
-  }
 
     render() {
 
@@ -50,7 +47,7 @@ class PortfolioCard extends Component {
                 Permite el agendamiento de horas <br/>para servicio y mantenimiento.
                 </div>
                 <div className="cardPButton">
-                <button onClick={()=> this.handleOnClickCard()}><div className="buttonPCard">Ver Proyecto <img src={RightArrow} alt="arrow"/></div></button>
+                <Link to={`/${this.props.back}`} ><div className="buttonPCard">Ver Proyecto <img src={RightArrow} alt="arrow"/></div></Link>
                 </div>
             
             </div>

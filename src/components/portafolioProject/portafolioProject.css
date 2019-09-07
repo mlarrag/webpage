@@ -16,9 +16,12 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+    color: #000000;
     
 
 }
+
+
 .navBack >img {
     
     width: 2%;
