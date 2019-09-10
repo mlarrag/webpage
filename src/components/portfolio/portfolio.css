@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 480px;
+    height: 440px;
     background-color: #ffffff;
 }
 
@@ -188,7 +188,7 @@
     }
 }
   
-@media (min-width: 1800px){
+@media (min-width: 2500px){
     
     
     .subtitlePortfolio{
@@ -199,7 +199,7 @@
     }
 
     .gridPort2{
-        height: 680px;
+        height: 580px;
     }
     .gridPort3{
         height: 500px;
