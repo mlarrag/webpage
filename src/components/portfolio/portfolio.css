@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 500px;
+    height: 480px;
     background-color: #ffffff;
 }
 
@@ -88,6 +88,9 @@
     letter-spacing: normal;
     text-align: center;
     color: #000000;
+
+    padding-right: 12vw;
+    padding-left: 12vw;  
 }
 
 .formPort{
@@ -196,7 +199,7 @@
     }
 
     .gridPort2{
-        height: 750px;
+        height: 680px;
     }
     .gridPort3{
         height: 500px;

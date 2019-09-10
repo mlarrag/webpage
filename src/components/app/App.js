@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
+import ScrollToTop from '../scrollUp/scrollUp'
 import Home from '../home/home';
 import AboutUs from '../aboutUs/aboutUs';
 import Services from '../services/services';
@@ -16,6 +17,7 @@ import AgroBolt from '../agrobolt/agrobolt';
 import PortfolioProject from '../portafolioProject/portafolioProject';
 import ContentTi from '../contentTi/contentTi';
 import ContentWeb from '../contentWeb/contentWeb';
+import ContentExp from '../contentExp/contentExp';
 
 
 
@@ -25,7 +27,8 @@ class App extends Component {
   render() {
       return (
         <div style={{height: '100%'}}>
-          <BrowserRouter>
+          <BrowserRouter >
+          <ScrollToTop>
             <Route exact path="/" render={() => <Home/>}/>
             <Route exact path="/aboutus" render={() => <AboutUs/>}/>
             <Route exact path="/services" render={() => <Services/>}/>
@@ -42,7 +45,8 @@ class App extends Component {
             <Route exact path="/agrobolt" render={() => <AgroBolt/>}/>
             <Route exact path="/asesoriati" render={() => <ContentTi/>}/>
             <Route exact path="/desarrolloweb" render={() => <ContentWeb/>}/>
-          
+            <Route exact path="/experiencia" render={() => <ContentExp/>}/>
+            </ScrollToTop> 
           </BrowserRouter>
 
         </div>

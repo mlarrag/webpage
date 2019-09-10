@@ -6,6 +6,8 @@ import MainMenu from '../mainmenu/mainmenu';
 import Head from '../head/head';
 import Footer from '../footer/footer';
 import { Link } from 'react-router-dom';
+import { Transition } from 'semantic-ui-react'
+
 
 import './portafolioProject.css'
 
@@ -36,6 +38,7 @@ class PortfolioProject extends Component {
 
     handleOnClickGal(){
       const gal =this.state.photoGal === 'Gal1'?  'Gal2': 'Gal1';
+
 
       this.setState({ photoGal : gal})
       
@@ -95,7 +98,9 @@ class PortfolioProject extends Component {
               
               </div>
 
-            <div className="girdGalery" style ={ { backgroundImage: "url("+ProjectGal1+")" } }>
+            
+                <div className="girdGalery" style ={ { backgroundImage: "url("+ProjectGal1+")" } }>
+
                 <div className="galeryButton1" onClick={()=> this.handleOnClickGal()}><img src={LeftArrow} alt="arrow"/> </div>
                 <div className="galeryButton2" onClick={()=> this.handleOnClickGal()}><img src={RightArrowWhite} alt="arrow"/> </div>
 

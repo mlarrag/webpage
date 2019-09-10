@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import RightArrow from '../assets/images/Content1/rightArrow.png'
-
+import { Link } from 'react-router-dom';
 import Gift6 from '../assets/images/Content6/landing_equipo.gif'
 
 
@@ -26,7 +26,7 @@ class HomeContent6 extends Component {
                 <div>
                     <div className="blacktitle">Nuestra <br/> Cultura</div> 
                     <div className="bluetitle"><span className="firstblack">#</span>FunFactstract</div>
-                    <div className="button6">Conoce el equipo <img className= "arrow6" src={RightArrow} alt="fun"/></div>
+                    <Link to="/aboutus"><div className="button6">Conoce el equipo <img className= "arrow6" src={RightArrow} alt="fun"/></div></Link>
                 
                 </div>
                 

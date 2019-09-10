@@ -70,9 +70,9 @@ class ContentTi extends Component {
             <div className="arrowPort"><button><img src={RightArrow} alt="arrow"/></button></div>
           </div>
           <div className="gridPort2">
-          <div className="gridPort2Title"> ¿Y tú, tienes en mente un <br/>proyecto? hablemos.</div>
+          <div className="gridPort2Title"> ¿Quieres te contemos más?</div>
           <div className="blueBorder"></div>
-          <div className="gridPort2Subtitle">Déjanos tus datos y nuestros ejecutivos te estarán contactando en la <br/>brevedad.</div>
+          <div className="gridPort2Subtitle"> Déjanos tus datos y te invitaremos a nuestras oficinas a tomarnos un café con nuestro equipo de diseño para hablar sobre nuestro próximo proyecto.</div>
           </div>
 
           <div className="gridPort3">

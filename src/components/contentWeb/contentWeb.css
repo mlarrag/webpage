@@ -16,7 +16,7 @@
 
   .textTec{
     font-family: Avenir;
-    font-size: 45px;
+    font-size: 3.15vw;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -37,7 +37,7 @@
 
   .subtitleWeb1{
     font-family: Avenir;
-    font-size: 60px;
+    font-size: 4.2vw;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -47,7 +47,7 @@
 
   }
   .textWeb1{
-    font-size: 30px;
+    font-size: 2.1vw;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -97,7 +97,7 @@
     align-items: center;
 
     font-family: Avenir;
-    font-size: 20px;
+    font-size: 1.4vw;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -112,7 +112,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     font-family: Avenir;
-    font-size: 35px;
+    font-size: 2.4vw;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -152,4 +152,26 @@
   letter-spacing: normal;
   text-align: center;
   color: #000000;
+}
+
+@media (max-width: 1300px){
+ 
+ 
+}
+  
+@media (min-width: 1800px){
+
+  .gridWeb1{
+
+    height: 650px;
+
+  }
+  .gridWeb2{
+    height: 600px;
+  }
+
+  .gridTec{
+    height: 800px;
+  }
+       
 }

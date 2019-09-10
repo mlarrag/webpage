@@ -25,7 +25,7 @@ class Footer extends Component {
 
                     <div className="footerMenu">
                     
-                         <Link to="/services"><div className="footerButton"><span className="footerBlue" >•</span>Servicios</div></Link>
+                         <Link to="/asesoriati"><div className="footerButton"><span className="footerBlue" >•</span>Servicios</div></Link>
                          <Link to="/blog"><div className="footerButton"><span className="footerBlue" >•</span>Blog</div></Link>
                          <Link to="/jobs"><div className="footerButton"><span className="footerBlue" >•</span>Empleos</div></Link>
                          <Link to="/jobs"><div className="footerButton" ><span className="footerBlue" >•</span>Cotiza en Línea</div></Link>

@@ -3,7 +3,8 @@ import MainMenu from '../mainmenu/mainmenu';
 import Head from '../head/head';
 import Footer from '../footer/footer';
 import RightArrow from '../assets/images/Content1/rightArrow.png';
-import ConocenosGift from '../assets/images/Conocenos/Conocenos.gif'
+import ConocenosGift from '../assets/images/Conocenos/Conocenos.gif';
+
 
 import "./aboutUs.css";
 
@@ -55,15 +56,16 @@ class AboutUs extends Component {
             <div className="gridCultUs">
 
                     <div className="gridCultTitle"><span className="firstblack">Cultura  #</span>FunFactstract</div> 
+                    <div className="instaGrid" ><iframe src="//lightwidget.com/widgets/41b85de4f34257299b8fae14aabc2b65.html" scrolling="no" allowtransparency="true"  style={{width:"100%", border:"none"}}></iframe>
+</div>
                     
   
                 </div> 
 
-
             <div className="gridPort2">
-            <div className="gridPort2Title"> ¿Y tú, tienes en mente un <br/>proyecto? hablemos.</div>
+            <div className="gridPort2Title"> ¿Quieres estar atento a nuestros <br/>contenidos?</div>
             <div className="blueBorder"></div>
-            <div className="gridPort2Subtitle">Déjanos tus datos y nuestros ejecutivos te estarán contactando en la <br/>brevedad.</div>
+            <div className="gridPort2Subtitle">Déjanos tus datos y te avisaremos cuando tengamos nuevos contenidos de tu interés en tu bandeja de entrada</div>
             </div>
 
             <div className="gridPort3">
