@@ -6,7 +6,7 @@ import MainMenu from '../mainmenu/mainmenu';
 import Head from '../head/head';
 import Footer from '../footer/footer';
 import { Link } from 'react-router-dom';
-import { Transition } from 'semantic-ui-react'
+
 
 
 import './portafolioProject.css'

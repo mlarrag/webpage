@@ -33,7 +33,7 @@ class Home extends Component {
 
             <HomeContent0/>
             <HomeContent1/>
-            <HomeContent2/>
+            <HomeContent2 id='servicios'/>
             <HomeContent3/>
             <HomeContent4/>
             <HomeContent5/>

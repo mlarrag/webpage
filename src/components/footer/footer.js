@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Dropdown, Icon } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import "./footer.css";
 
@@ -25,7 +25,7 @@ class Footer extends Component {
 
                     <div className="footerMenu">
                     
-                         <Link to="/asesoriati"><div className="footerButton"><span className="footerBlue" >•</span>Servicios</div></Link>
+                         <Link to="/#servicios"><div className="footerButton"><span className="footerBlue" >•</span>Servicios</div></Link>
                          <Link to="/blog"><div className="footerButton"><span className="footerBlue" >•</span>Blog</div></Link>
                          <Link to="/jobs"><div className="footerButton"><span className="footerBlue" >•</span>Empleos</div></Link>
                          <Link to="/jobs"><div className="footerButton" ><span className="footerBlue" >•</span>Cotiza en Línea</div></Link>

@@ -168,19 +168,18 @@ img.clientLogooVolvo{
         margin:0px;
     }
     .cardLogo{
-        width: 60%;
+        width: 70%;
     }
-    img.clientLogoo{
-        
-        padding:0em;
-        width: 100%
-    } 
+    
     img.clientLogooVolvo{
 
-   width: 70%;
+   width: 200px;
             
                 
             }
+     img.clientLogoo{
+         width: 200px;
+     }       
         
             
          
@@ -190,11 +189,11 @@ img.clientLogooVolvo{
             margin-top: 5em;
         }
          img.buttonBack{
-             width: 150%
+             width: 100%
          }
 
          img.buttonFwd{
-            width: 150%;
+            width: 100%;
             
         }
 

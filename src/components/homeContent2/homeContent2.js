@@ -6,6 +6,7 @@ import Icono3 from '../assets/images/Content2/icono3.png';
 import Arrow from '../assets/images/Content2/arrow.png';
 import { Link } from 'react-router-dom';
 
+
 import './homeContent2.css';
 
 
@@ -19,7 +20,7 @@ class HomeContent2 extends Component {
         
             
 
-            <div className="grid2">
+            <div id='servicios' className="grid2">
 
             
              <div className="column21">

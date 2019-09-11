@@ -5,8 +5,16 @@ import Footer from '../footer/footer';
 import RightArrow from '../assets/images/Content1/rightArrow.png';
 import ConocenosGift from '../assets/images/Conocenos/Conocenos.gif';
 
+import MLuna from '../assets/images/Conocenos/mLuna.png';
+import PDeCarcer from '../assets/images/Conocenos/pDecarcer.png';
+import LTapia from '../assets/images/Conocenos/lTapia.png';
+import OBallesteros from  '../assets/images/Conocenos/oBallesteros.jpg';
+
+
+
 
 import "./aboutUs.css";
+
 
 
 
@@ -51,12 +59,81 @@ class AboutUs extends Component {
             
             </div >
 
-            <div>Nuestro <br/> Equipo</div>
+            <div className="gridEquipo">
+              <div className="columnEquipo">
+                <div className="gridPort2Title" style={{textAlign:'left'}}>Nuestro <br/> Equipo</div>
+                
+              </div>
+              <div className="columnEquipoF">
+              <div className="cardEquipo">
+                      <img src={MLuna} alt="equipo"/> 
+                      <div className="cardEquipoText">Martín Luna</div> 
+                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> CEO</div> 
+
+                </div>
+                <div className="cardEquipo">
+                      <img src={LTapia} alt="equipo"/> 
+                      <div className="cardEquipoText">Luis Tapia</div> 
+                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> Desarollador</div> 
+
+                </div>
+                <div className="cardEquipo">
+                      <img src={MLuna} alt="equipo"/> 
+                      <div className="cardEquipoText">Martín Luna</div> 
+                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> CEO</div> 
+
+                </div>
+             
+                
+              </div>
+              <div className="columnEquipoF">
+                <div className="cardEquipo">
+                      <img src={PDeCarcer} alt="equipo"/> 
+                      <div className="cardEquipoText">Pablo De Carcer</div> 
+                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> CEO</div> 
+
+                </div>
+                <div className="cardEquipo">
+                      <img src={OBallesteros} alt="equipo"/> 
+                      <div className="cardEquipoText">Oscar Ballesteros</div> 
+                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> Desarollador</div> 
+
+                </div>
+
+                <div className="cardEquipo">
+                      <div className="cardEquipoText3">Únete al equipo <img src={RightArrow} alt="flecha" /></div>
+
+                </div>
+             
+                
+              </div>
+              <div className="columnEquipoF">
+              <div className="cardEquipo">
+                      <img src={PDeCarcer} alt="equipo"/> 
+                      <div className="cardEquipoText">Cristian </div> 
+                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> Desarollador</div> 
+
+                </div>
+                <div className="cardEquipo">
+                      <img src={MLuna} alt="equipo"/> 
+                      <div className="cardEquipoText">Cristián Valles</div> 
+                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> Desarrollador</div> 
+
+                </div>
+
+                <div className="cardEquipoGrey">
+                      
+
+                </div>
+             
+                
+              </div>
+            </div>
 
             <div className="gridCultUs">
 
                     <div className="gridCultTitle"><span className="firstblack">Cultura  #</span>FunFactstract</div> 
-                    <div className="instaGrid" ><iframe src="//lightwidget.com/widgets/41b85de4f34257299b8fae14aabc2b65.html" scrolling="no" allowtransparency="true"  style={{width:"100%", border:"none"}}></iframe>
+                    <div className="instaGrid" ><iframe title="myFrame" src="//lightwidget.com/widgets/41b85de4f34257299b8fae14aabc2b65.html" scrolling="no" allowtransparency="true"  style={{width:"100%", border:"none"}}></iframe>
 </div>
                     
   
