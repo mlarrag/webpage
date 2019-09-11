@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { Dropdown} from 'semantic-ui-react';
+import { Dropdown ,Modal} from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import MenuImage from '../assets/images/menu.png'
 import RightArrow from '../assets/images/Content1/rightArrow.png'
+
+import Sidebar from '../sideBar/sideBar'
 import "./mainmenu.css";
 
 
@@ -37,7 +39,10 @@ class Mainmenu extends Component {
             <div className="mibutton">Solicitar consulta gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div>
 
             <div className="burgerMenu">
-              <button onClick={this.handleShowClick}><img src={MenuImage} alt="menu" onClick={this.showMenu}/></button>
+              <Modal basic trigger={ <img src={MenuImage} alt="menu"/>} > 
+                <Sidebar/>
+              
+              </Modal> 
               
               </div>
 
