@@ -71,7 +71,7 @@ class PortfolioProject extends Component {
                 <div className="navBack"> 
 
                         <img src={LeftArrow} alt="Abstract"/> 
-                          Portafilio / <span className="textBlue">{this.Proyects[x].name}</span>
+                          Portafilio / <span className='textBlue'>{this.Proyects[x].name}</span>
 
                       </div></Link>
                       <div className="gridImgText">
