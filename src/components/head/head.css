@@ -19,6 +19,7 @@
     font-style: normal;
     font-stretch: normal;
     line-height: 1.12;
+    padding:20vw;
     letter-spacing: normal;
     text-align: center;
     color: #fbfbfb;
@@ -35,7 +36,7 @@
  
 }
   
-@media (min-width: 2500px){
+@media (min-width: 1800px){
 
     .gridHead{
 

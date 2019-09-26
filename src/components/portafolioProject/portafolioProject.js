@@ -65,13 +65,15 @@ class PortfolioProject extends Component {
             <MainMenu/>
             <div><Head name={this.Proyects[x].name} back={this.Proyects[x].back}/></div>
             
-              <Link to="/portfolio"><div className="gridIntro"> 
-                      <div className="navBack"> 
+              <div className="gridIntro"> 
+                      
+              <Link to="/portfolio">
+                <div className="navBack"> 
 
                         <img src={LeftArrow} alt="Abstract"/> 
                           Portafilio / <span className="textBlue">{this.Proyects[x].name}</span>
 
-                      </div>
+                      </div></Link>
                       <div className="gridImgText">
 
                             <div className="gridImg"><img src={ProjectImg} alt="fun"/> </div>
@@ -84,7 +86,7 @@ class PortfolioProject extends Component {
                       </div>
 
               </div>
-              </Link>
+              
             <div className="gridInfo">
 
               <div className="gridAbout">

@@ -20,7 +20,7 @@ class HomeContent2 extends Component {
         
             
 
-            <div id='servicios' className="grid2">
+            <div className="grid2" id="servicios" >
 
             
              <div className="column21">

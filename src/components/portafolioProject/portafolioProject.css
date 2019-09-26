@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     margin-left: 10vw;
+    margin-top: 2vw;
     height: 12%;
     font-family: Avenir;
     font-size: 1.26vw;
@@ -42,6 +43,7 @@
 .gridImg{
     display: flex;
     justify-content: center;
+    margin-top: 2vw;
     width: 50%;
     
     
@@ -256,12 +258,12 @@ button{
 
 }
   
-@media (min-width: 2500px){
+@media (min-width: 1800px){
     
     
 .gridIntro{
 
-    height: 820px;
+    height: 720px;
 }
 .titleResult{
     padding-top: 4vw;
@@ -273,21 +275,21 @@ button{
 }
 
 .gridImg > img{
-    width: 25%
+    width: 37%
 }
 
 .gridInfo{
-    height: 680px ;
+    height: 580px ;
 
 
 }
 
 .girdGalery{
-    height: 1200px;
+    height: 1000px;
 }
 
 .gridResults{
-    height: 410px;
+    height: 300px;
 }
 .gridPinfo{
     height: 650px;

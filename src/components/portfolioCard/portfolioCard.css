@@ -4,7 +4,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    border: 1px solid #f8f8f8;
+    
 }
 
 .columnP1{
@@ -135,10 +135,16 @@
     }
 }
   
-@media (min-width: 2500px){
+@media (min-width: 1800px){
 
     .gridPCard{
         height: 620px;
+    }
+
+    .cardPImg{
+
+     
+        margin-right: -11em;
     }
 
     .cardPImg > img{

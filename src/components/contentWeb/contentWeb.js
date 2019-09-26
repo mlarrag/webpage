@@ -29,7 +29,7 @@ class ContentWeb extends Component {
     
       return (
         <div>
-          <MainMenu/>
+          <MainMenu></MainMenu>
           <Head name="Desarrollo Web y móvil" back="contentWeb"/>
           <div className="gridWeb1">
               <div className="subtitleWeb1">¿Cómo lo hacemos?</div>
