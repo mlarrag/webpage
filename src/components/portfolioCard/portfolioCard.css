@@ -89,7 +89,7 @@
     align-items: center;
     
     width: 15.5vw;
-    height: 3vw;
+    height: 2.5vw;
     border-radius: 7px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     border: solid 2px #2fa6f3;
@@ -144,7 +144,7 @@
     .cardPImg{
 
      
-        margin-right: -11em;
+        margin-right: -10em;
     }
 
     .cardPImg > img{

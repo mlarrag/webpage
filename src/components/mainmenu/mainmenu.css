@@ -114,6 +114,21 @@ align-items: center;
   height: 100%;
 }
 
+.ui.page.modals.dimmer.transition.visible.active{
+  width: 100% !important;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.ui.basic.scrolling.modal.transition.visible.active{
+  margin:0;
+}
+.ui.basic.modal.transition.visible.active.quoteSize{
+  width: 70%;
+}
+
+
 @media (max-width: 1300px){
  
   .buttonsMenu{

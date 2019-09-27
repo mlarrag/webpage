@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import MenuImage from '../assets/images/menu.png'
 import RightArrow from '../assets/images/Content1/rightArrow.png'
-
-import Sidebar from '../sideBar/sideBar'
+import Quote from '../quote/quote';
+import Sidebar from '../sideBar/sideBar';
 import "./mainmenu.css";
+
 
 
 
@@ -36,10 +37,12 @@ class Mainmenu extends Component {
             </Dropdown>
             </div>
 
-            <div className="mibutton">Solicitar consulta gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div>
+            <Modal basic className="quoteSize" trigger={<div className="mibutton">Solicitar consulta gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div> }>
+                <Quote/>
+                 </Modal>
 
             <div className="burgerMenu">
-              <Modal basic trigger={ <img src={MenuImage} alt="menu"/>} > 
+              <Modal basic trigger={ <img src={MenuImage} alt="menu" />} > 
                 <Sidebar/>
               
               </Modal> 

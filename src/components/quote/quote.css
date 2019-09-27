@@ -1,0 +1,82 @@
+.gridQuote{
+    display: flex;
+    flex-direction: column;
+
+   
+
+}
+
+.quoteTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+
+    font-family: Avenir;
+    background-color: #00adea;
+    font-size: 2.8vw;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.quoteSubTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    font-family: Avenir;
+    font-size: 1.68vw;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+.quoteForm{
+    background-color: white;
+    padding-left: 3em;
+    padding-top: 3em;
+}
+
+.formGrid1{
+    display: flex;
+    flex-direction: row;
+}
+
+.formDateTime{
+    display: flex;
+    flex-direction: row;
+}
+
+.formTitle{
+    font-family: Avenir;
+    font-size: 1.4vw;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.formNumber{
+    font-family: Avenir;
+    font-size: 70px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.51;
+    letter-spacing: normal;
+    color: #7dcfec;
+}

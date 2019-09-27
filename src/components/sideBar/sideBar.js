@@ -16,8 +16,10 @@ class SideBar extends Component {
   
       return (
           <div className="gridSideMenu">
-              
-              <Link to="/#servicios"><div className="sideMenuButton">Servicio</div></Link>
+
+              <div className="closeButton"> X </div>  
+              <div className="sidebarButtons">
+              <Link to="/#servicios" ><div className="sideMenuButton">Servicio</div></Link>
               <Link to="/portfolio"><div className="sideMenuButton">Portafolio</div></Link>
               <Link to="/aboutus"><div className="sideMenuButton">Conócenos</div></Link>
               <Link to="/blog"><div className="sideMenuButton">Blog</div></Link>
@@ -31,6 +33,8 @@ class SideBar extends Component {
           
 
               </div>
+              </div>
+
               
               
               </div>
