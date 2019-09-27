@@ -8,7 +8,7 @@
 
 .quoteTitle{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
     height: 100px;
@@ -22,6 +22,13 @@
     line-height: 1.15;
     letter-spacing: normal;
     color: #000000;
+}
+
+.formClose{
+    display: flex;
+    margin-right: 1em;
+    margin-left: 4em;
+    color:white;
 }
 
 .quoteSubTitle{
@@ -44,15 +51,57 @@
 }
 
 .quoteForm{
+    display: flex;
     background-color: white;
     padding-left: 3em;
     padding-top: 3em;
 }
 
+.formButtonPos{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .formGrid1{
     display: flex;
     flex-direction: row;
+    padding-top: 3em;
+    
 }
+
+.formInfo{
+    padding-left: 3em;
+}
+
+.formButton{
+    display: flex;
+    width: 15vw;
+    padding:0.5em;
+    margin-top:1em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border: solid 2px #00adea;
+    background-color: #f8f8f8;
+
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  
+  
+}
+
+.formButton>img{
+    width: 15%;
+    margin-left: 1.5em;
+
+}
+
 
 .formDateTime{
     display: flex;

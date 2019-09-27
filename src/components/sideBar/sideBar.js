@@ -10,6 +10,8 @@ import "./sideBar.css";
 
 class SideBar extends Component {
     
+
+
     
     render() {
     
@@ -17,9 +19,9 @@ class SideBar extends Component {
       return (
           <div className="gridSideMenu">
 
-              <div className="closeButton"> X </div>  
+              <div onClick={()=> this.props.closeSideBar()} className="closeButton"> X </div>  
               <div className="sidebarButtons">
-              <Link to="/#servicios" ><div className="sideMenuButton">Servicio</div></Link>
+              <Link onClick={()=> this.props.closeSideBar()} to="/#servicios" ><div className="sideMenuButton">Servicio</div></Link>
               <Link to="/portfolio"><div className="sideMenuButton">Portafolio</div></Link>
               <Link to="/aboutus"><div className="sideMenuButton">Conócenos</div></Link>
               <Link to="/blog"><div className="sideMenuButton">Blog</div></Link>

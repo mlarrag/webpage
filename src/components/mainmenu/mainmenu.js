@@ -13,7 +13,25 @@ import "./mainmenu.css";
 
 class Mainmenu extends Component {
 
-  
+    constructor(props) {
+        super(props)
+          this.state={
+            open: false,
+            form: false,
+          }
+         this.closeSideBar=this.closeSideBar.bind(this) 
+         this.closeForm=this.closeForm.bind(this)
+        }
+    
+    
+        closeSideBar(){
+        this.setState({open: !this.state.open})
+        }
+
+            
+        closeForm(){
+            this.setState({form: !this.state.form})
+            }
 
     render() {
       
@@ -37,13 +55,14 @@ class Mainmenu extends Component {
             </Dropdown>
             </div>
 
-            <Modal basic className="quoteSize" trigger={<div className="mibutton">Solicitar consulta gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div> }>
-                <Quote/>
+            <Modal basic className="quoteSize" open={this.state.form} trigger={<div onClick={()=>this.closeForm()} className="mibutton">Solicitar consulta gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div> }>
+                <Quote closeForm={this.closeForm}/>
                  </Modal>
 
             <div className="burgerMenu">
-              <Modal basic trigger={ <img src={MenuImage} alt="menu" />} > 
-                <Sidebar/>
+              <Modal basic open={this.state.open} trigger={ <img onClick={()=>this.closeSideBar()} src={MenuImage} alt="menu" />} > 
+
+                <Sidebar closeSideBar={this.closeSideBar}/>
               
               </Modal> 
               

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Form, Select } from 'semantic-ui-react'
+import { Form, Select, Input } from 'semantic-ui-react';
+import RightArrow from '../assets/images/Content1/rightArrow.png';
 
 
 import "./quote.css";
@@ -19,12 +20,16 @@ class Quote extends Component {
   
       return (
           <div className="gridQuote">
-              <div className="quoteTitle">Solicitud de Consultoría Gratis</div>
+              <div className="quoteTitle">
+                  <div>Solicitud de Consultoría Gratis</div>
+                  <div onClick={()=> this.props.closeForm()} className="formClose"> X </div> 
+              </div>
               <div className="quoteSubTitle">Tenemos una cita para ti de 30 min gratis con nuestros expertos. Déjanos tus datos para agendar nuestra reunión</div>
               <div className="quoteForm">
               <Form>
           <div className="formGrid1"> 
           <div className="formNumber">1</div>
+          <div className="formInfo">
           <Form.Group grouped>
             <div className="formTitle">Selecciona las áreas de consultoría que quieres tratar:</div>
             <Form.Field
@@ -46,11 +51,12 @@ class Quote extends Component {
               name='htmlRadios'
             />
           </Form.Group>
-          
+          </div>
           </div>
 
           <div className="formGrid1"> 
           <div className="formNumber">2</div>
+          <div className="formInfo">
           <Form.Group grouped>
             <div className="formTitle">Cuéntanos de tu organización y presupuesto:</div>
             <Form.Field
@@ -82,9 +88,11 @@ class Quote extends Component {
             />
           </Form.Group>
           </div>
+          </div>
           
           <div className="formGrid1"> 
           <div className="formNumber">3</div>
+          <div className="formInfo">
           <Form.Group grouped>
             <div className="formTitle">Selecciona la fecha y hora disponible:</div>
            
@@ -111,11 +119,19 @@ class Quote extends Component {
  
           </Form.Group>
           </div>
+          </div>
 
           <div className="formGrid1"> 
           <div className="formNumber">4</div>
+
+          <div className="formInfo">
           <Form.Group grouped>
             <div className="formTitle">Déjanos tus datos de contacto:</div>
+
+            <Input transparent placeholder='Nombre' />
+            <Input transparent placeholder='Apellido' />
+            <Input transparent placeholder='Email' />
+            <Input transparent placeholder='Teléfono' />
             <Form.Field
               label='Enviarme recordatorio de texto a mi número'
               control='input'
@@ -125,6 +141,15 @@ class Quote extends Component {
      
     
           </Form.Group>
+          </div>
+          
+   
+          </div>
+
+          <div className="formButtonPos">
+            <div className="formButton">
+              Enviar Solicitud <img src={RightArrow} alt="arrow"/>
+            </div>
           </div>
 
   </Form>

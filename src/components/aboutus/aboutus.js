@@ -87,7 +87,7 @@ class AboutUs extends Component {
                 
               </div>
               <div className="columnEquipoF">
-                <div className="cardEquipo">
+                <div onMouseLeave="" className="cardEquipo">
                       <img src={PDeCarcer} alt="equipo"/> 
                       <div className="cardEquipoText">Pablo De Carcer</div> 
                       <div className="cardEquipoText2"><span className="firstBlueTi">•</span> CEO</div> 
