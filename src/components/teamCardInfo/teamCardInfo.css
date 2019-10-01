@@ -1,0 +1,49 @@
+.equipoDetail{
+    display: flex;
+    flex-direction:column;
+    opacity: 0.81;
+    background-color: #31a8f5;
+    height: 100%;
+    width: 100%;
+}
+
+.titleName{
+    display: flex;
+    margin-left: 3vw;
+    margin-top: 2vw;
+    font-size: 1.68vw;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.subTeam{
+    margin-left: 3vw;
+    margin-top: 1vw;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+
+}
+
+.cargoTeam{
+    margin-left: 3vw;
+    margin-top: 1vw;
+    font-family: Avenir;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+

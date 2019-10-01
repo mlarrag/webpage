@@ -18,11 +18,14 @@ class TeamCardInfo extends Component {
       
 
       return (
-        <div>
+        <div className="equipoDetail">
      
-             
-             <div className="cardEquipoText">{this.props.des}</div> 
-             <div className="cardEquipoText2"><span className="firstBlueTi">•</span> {this.props.Cargo}</div> 
+             <div className="titleName"> {this.props.Name}</div>
+             <div className="subTeam"> {this.props.Desc}</div>
+             <div className="cargoTeam"> {this.props.Cargo}</div>
+             <div>{this.props.Mail}</div>
+             <div>{this.props.LinkedIn}</div>
+             <div>{this.props.Git}</div>
 
                 
         </div>

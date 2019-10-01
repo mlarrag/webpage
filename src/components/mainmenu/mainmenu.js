@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Dropdown ,Modal} from 'semantic-ui-react';
+import { Dropdown ,Modal, Transition, TransitionablePortal} from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import MenuImage from '../assets/images/menu.png'
@@ -18,6 +18,8 @@ class Mainmenu extends Component {
           this.state={
             open: false,
             form: false,
+            animation:'scale',
+            duration: 700
           }
          this.closeSideBar=this.closeSideBar.bind(this) 
          this.closeForm=this.closeForm.bind(this)
@@ -35,7 +37,8 @@ class Mainmenu extends Component {
 
     render() {
       
-        
+        const { animation, duration} = this.state
+
         return (
         
             
@@ -54,21 +57,31 @@ class Mainmenu extends Component {
                 </Dropdown.Menu>
             </Dropdown>
             </div>
+            <div onClick={()=>this.closeForm()} className="mibutton">Solicitar consulta gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div>
+            
 
-            <Modal basic className="quoteSize" open={this.state.form} trigger={<div onClick={()=>this.closeForm()} className="mibutton">Solicitar consulta gratuita <img className="arrowMenu" src={RightArrow} alt="fun"/></div> }>
-                <Quote closeForm={this.closeForm}/>
-                 </Modal>
+            
 
             <div className="burgerMenu">
-              <Modal basic open={this.state.open} trigger={ <img onClick={()=>this.closeSideBar()} src={MenuImage} alt="menu" />} > 
-
-                <Sidebar closeSideBar={this.closeSideBar}/>
-              
-              </Modal> 
+            <img onClick={()=>this.closeSideBar()} src={MenuImage} alt="menu" />
+         
               
               </div>
 
             </div>
+            <TransitionablePortal open={this.state.form} transition={{ animation, duration }}>
+            <Modal basic className="quoteSize" open={true} >
+                <Quote closeForm={this.closeForm}/>
+                 </Modal>
+                 </TransitionablePortal>
+
+            <TransitionablePortal open={this.state.open} transition={{ animation, duration }}>
+            <Modal basic open={true}  > 
+
+            <Sidebar closeSideBar={this.closeSideBar}/>
+
+            </Modal> 
+            </TransitionablePortal>
         </div>
 
 )}

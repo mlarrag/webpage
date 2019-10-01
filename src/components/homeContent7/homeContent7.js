@@ -28,7 +28,7 @@ class HomeContent7 extends Component {
                 Estamos ubicados en Santiago de <br/>Chile, te invitamos a conocer nuestras<br/> oficinas y hablar sobre tu proyecto.
                 </div>
 
-                <div className="subtitle7"> <span className="firstblue" >•</span>    Aurelio González 3779 - Vitacura.</div>
+                <div className="subtitle7"> <span className="firstblue2" >•</span>    Aurelio González 3779 - Vitacura.</div>
                 <img className="button7" src={RightArrow} alt="flecha" />
             </div>
             
