@@ -72,3 +72,22 @@ i.instagram.icon{
 
 
        }
+
+       @media (max-width: 900px){
+    .grid9{
+        flex-direction: column;
+      
+        }
+    .title9{
+        font-size: 8vw;
+    }
+    .subtitle9{
+        font-size: 4vw;
+        
+    }
+    .ui.circular.button{
+        margin-right: 2em;
+        size: 'tiny';
+    
+    }
+       }

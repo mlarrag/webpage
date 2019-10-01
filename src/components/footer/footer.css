@@ -134,3 +134,21 @@
   margin: 0.5em;
 }
            }
+
+           @media (max-width: 900px){
+            .footerMenu{
+              display: none;
+            }
+            .footerLang{
+              display: none;
+            }
+            .copyy{
+              width: 100%;
+              margin-left: 0;
+            }
+            .textt{
+              margin-left: 2em;
+              font-size: 3vw;
+          
+            }
+           }

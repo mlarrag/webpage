@@ -94,3 +94,29 @@
                     }
        
       }
+
+      @media (max-width: 900px){
+       .grid0{
+        background-image: url('../assets/images/homeMovil.png');
+
+       } 
+       .header02{
+           display: none;
+       }
+      }
+
+
+      @media (max-width: 400px){
+        .grid0{
+         background-image: url('../assets/images/homeMovil.png');
+         height: 300px;
+ 
+        } 
+        .header01{
+            font-size: 7.5vw;
+            margin-right: 1em;
+        }
+        .header02{
+            display: none;
+        }
+       }

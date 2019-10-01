@@ -187,3 +187,15 @@ align-items: center;
     }
     }
   
+
+    @media (max-width: 900px){
+        .buttonLang{
+          display: none;
+        }
+        .mibutton{
+          display: none;
+        }
+        .logoMenu{
+          margin-left: 2em;
+        }
+      }

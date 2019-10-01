@@ -129,3 +129,13 @@
     letter-spacing: normal;
     color: #7dcfec;
 }
+
+.formClientInfo{
+    display: flex;
+   
+    margin-top: 2em;
+}
+.formClientInfo1{
+    border-bottom: 2px solid black;
+    margin-left: 3em;
+}

@@ -161,3 +161,10 @@
     font-size: 600%;
 }
     }
+
+
+@media (max-width: 900px){
+    .grid3{
+        display: none;
+    }
+       }

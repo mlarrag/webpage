@@ -208,3 +208,10 @@ background-repeat: no-repeat;
       }   
 
            }
+
+
+     @media (max-width: 900px){
+        .grid4{
+            background-image: url('../assets/images/Content4/fondoMovil.png');
+        }
+               }

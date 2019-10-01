@@ -11,16 +11,22 @@ import LTapia from '../assets/images/Conocenos/lTapia.png';
 import OBallesteros from  '../assets/images/Conocenos/oBallesteros.jpg';
 
 
-
-
 import "./aboutUs.css";
+import TeamCard from '../teamCard/teamCard';
+import TeamCardInfo from '../teamCardInfo/teamCardInfo';
 
 
 
 
 class AboutUs extends Component {
 
+  handleTeamClick = () => {
+    return
+      
+  }
   
+
+
     render() {
 
       
@@ -66,37 +72,27 @@ class AboutUs extends Component {
               </div>
               <div className="columnEquipoF">
               <div className="cardEquipo">
-                      <img src={MLuna} alt="equipo"/> 
-                      <div className="cardEquipoText">Martín Luna</div> 
-                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> CEO</div> 
+                    <TeamCard Name= "Martín Luna" Cargo="CEO" Picture={MLuna}/>
 
                 </div>
                 <div className="cardEquipo">
-                      <img src={LTapia} alt="equipo"/> 
-                      <div className="cardEquipoText">Luis Tapia</div> 
-                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> Desarollador</div> 
+                <TeamCard Name= "Luis Tapia" Cargo="Desarrollador" Picture={LTapia}/>
 
                 </div>
                 <div className="cardEquipo">
-                      <img src={MLuna} alt="equipo"/> 
-                      <div className="cardEquipoText">Martín Luna</div> 
-                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> CEO</div> 
+                <TeamCard Name= "Martín Luna" Cargo="CEO" Picture={MLuna}/>
 
                 </div>
              
                 
               </div>
               <div className="columnEquipoF">
-                <div onMouseLeave="" className="cardEquipo">
-                      <img src={PDeCarcer} alt="equipo"/> 
-                      <div className="cardEquipoText">Pablo De Carcer</div> 
-                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> CEO</div> 
+                <div  className="cardEquipo">
+                <TeamCard Name= "Pablo De Carcer" Cargo="CEO" Picture={PDeCarcer}/>
 
                 </div>
                 <div className="cardEquipo">
-                      <img src={OBallesteros} alt="equipo"/> 
-                      <div className="cardEquipoText">Oscar Ballesteros</div> 
-                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> Desarollador</div> 
+                <TeamCard Name= "Oscar Ballesteros" Cargo="Desarrolador" Picture={OBallesteros}/>
 
                 </div>
 
@@ -109,15 +105,11 @@ class AboutUs extends Component {
               </div>
               <div className="columnEquipoF">
               <div className="cardEquipo">
-                      <img src={PDeCarcer} alt="equipo"/> 
-                      <div className="cardEquipoText">Cristian </div> 
-                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> Desarollador</div> 
+              <TeamCard Name= "Cristián Valles" Cargo="Desarrollador" Picture={MLuna}/>
 
                 </div>
-                <div className="cardEquipo">
-                      <img src={MLuna} alt="equipo"/> 
-                      <div className="cardEquipoText">Cristián Valles</div> 
-                      <div className="cardEquipoText2"><span className="firstBlueTi">•</span> Desarrollador</div> 
+                <div className="cardEquipo" onClick={()=>this.handleTeamClick()}>
+                <TeamCard Name= "Cristián Valles" Cargo="Desarrollador" Picture={MLuna}/>
 
                 </div>
 

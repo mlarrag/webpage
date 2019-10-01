@@ -127,11 +127,16 @@ class Quote extends Component {
           <div className="formInfo">
           <Form.Group grouped>
             <div className="formTitle">Déjanos tus datos de contacto:</div>
+            <div className="formClientInfo">
+            <Input className="formClientInfo1" transparent placeholder='Nombre' />
+            <Input className="formClientInfo1" transparent placeholder='Apellido' />
+            </div>
 
-            <Input transparent placeholder='Nombre' />
-            <Input transparent placeholder='Apellido' />
-            <Input transparent placeholder='Email' />
-            <Input transparent placeholder='Teléfono' />
+            <div className="formClientInfo">  
+            <Input className="formClientInfo1" transparent placeholder='Email' />
+            <Input className="formClientInfo1" transparent placeholder='Teléfono' />
+            </div>
+          
             <Form.Field
               label='Enviarme recordatorio de texto a mi número'
               control='input'

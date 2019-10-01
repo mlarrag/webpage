@@ -97,3 +97,16 @@
             margin-left: 16em;
         }
       }
+
+      @media (max-width: 900px){
+        .grid1{
+            background-image: url('../assets/images/Content1/contentMovil.png');
+        }
+        .title11{
+            display: none;
+        }
+        .subtitle1{
+            display: none;
+
+        }
+               }
