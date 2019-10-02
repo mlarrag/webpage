@@ -29,7 +29,7 @@ class HomeContent7 extends Component {
                 </div>
 
                 <div className="subtitle7"> <span className="firstblue2" >•</span>    Aurelio González 3779 - Vitacura.</div>
-                <img className="button7" src={RightArrow} alt="flecha" />
+                <a href="https://www.google.cl/maps/place/Aurelio+Gonz%C3%A1lez+3779,+Vitacura,+Regi%C3%B3n+Metropolitana/@-33.4001326,-70.6010641,17z/data=!3m1!4b1!4m5!3m4!1s0x9662cf49f130645b:0x7c561d30fdf27bb8!8m2!3d-33.4001326!4d-70.5988701"><img className="button7" src={RightArrow} alt="flecha" /></a>
             </div>
             
 

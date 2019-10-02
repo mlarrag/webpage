@@ -3,17 +3,36 @@ import MainMenu from '../mainmenu/mainmenu';
 import Footer from '../footer/footer';
 import Head from '../head/head';
 import RightArrow from '../assets/images/Content1/rightArrow.png';
-
+import { Modal, TransitionablePortal} from 'semantic-ui-react';
+import Quote from '../quote/quote';
 import './portfolio.css'
 import PortfolioCard from '../portfolioCard/portfolioCard';
 
 
 
 class Portfolio extends Component {
+  constructor(props) {
+    super(props)
+      this.state={
+  
+        form: false,
+        animation:'scale',
+        duration: 700
+      }
+    
+     this.closeForm=this.closeForm.bind(this)
+    }
 
+        
+    closeForm(){
+        this.setState({form: !this.state.form})
+        }
 
     
     render() {
+
+      const { animation, duration} = this.state
+
       const Proyects=[ {id: 0, name: "Volvo", back: "volvo", type: "App Móvil", desc:"Canal de comunicación entre la indumotora y sus clientes.", ben: "Permite el agendamiento de horas <br/>para servicio y mantenimiento."},
                        {id: 1, name: "Parque Tricao", back: "tricao", type: "App Web", desc:"La magia de la naturaleza, lacultura y la vida al aire libre", ben: "Conexión digital con las reserva ecológica, permite organizar, comprar, reservar y vivir unaexperiencia completa de servicio."},
                        {id: 2, name: "Vendowallet", back: "vendowallet", type: "App Android / iOS", desc:"Servicio de beneficios en snacks y bebidas para colaboradores de empresass.", ben: "Pensado y desarrollado como una billetera digital, segura, flexible y confiable."},
@@ -41,12 +60,12 @@ class Portfolio extends Component {
           <div className="gridPort1">
 
             <div className="gridPort1Title"> Solicitar consultoría gratis.</div>
-            <div className="arrowPort"><button><img src={RightArrow} alt="arrow"/></button></div>
+            <div className="arrowPort"><button onClick={()=>this.closeForm()}><img src={RightArrow} alt="arrow"/></button></div>
           </div>
           <div className="gridPort2">
           <div className="gridPort2Title"> ¿Y tú, tienes en mente un <br/>proyecto? hablemos.</div>
           <div className="blueBorder"></div>
-          <div className="gridPort2Subtitle">Déjanos tus datos y nuestros ejecutivos te estarán contactando en la <br/>brevedad.</div>
+          <div  className="gridPort2Subtitle">Déjanos tus datos y nuestros ejecutivos te estarán contactando en la <br/>brevedad.</div>
           </div>
 
           <div className="gridPort3">
@@ -59,7 +78,12 @@ class Portfolio extends Component {
             </div>
 
           </div>
-          <Footer/>   
+          <Footer/>  
+          <TransitionablePortal open={this.state.form} transition={{ animation, duration }}>
+            <Modal basic className="quoteSize" open={true} >
+                <Quote closeForm={this.closeForm}/>
+                 </Modal>
+                 </TransitionablePortal> 
         </div>
 
       )

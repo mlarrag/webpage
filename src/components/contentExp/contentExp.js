@@ -3,7 +3,9 @@ import MainMenu from '../mainmenu/mainmenu';
 import Footer from '../footer/footer';
 import Head from '../head/head';
 import RightArrow from '../assets/images/Content1/rightArrow.png';
-
+import { Modal, TransitionablePortal} from 'semantic-ui-react';
+import Quote from '../quote/quote';
+import { Link } from 'react-router-dom';
 import SketchLogo from '../assets/images/ContentExp/sketch.png';
 import XdLogo from '../assets/images//ContentExp/xd.png';
 import AdobeLogo from '../assets/images/ContentExp/adobe.png';
@@ -19,12 +21,27 @@ import './contentExp.css'
 
 
 class ContentExp extends Component {
+  constructor(props) {
+    super(props)
+      this.state={
+  
+        form: false,
+        animation:'scale',
+        duration: 700
+      }
+    
+     this.closeForm=this.closeForm.bind(this)
+    }
 
+        
+    closeForm(){
+        this.setState({form: !this.state.form})
+        }
 
     
     render() {
     
-    
+      const { animation, duration} = this.state
       return (
         <div>
           <MainMenu/>
@@ -89,11 +106,11 @@ class ContentExp extends Component {
           <div className="gridPort1">
             <div className="greyBorder">
             <div className="gridPort1Title"> Solicitar consultoría <br/> gratis.</div>
-            <div className="arrowPort"><button><img src={RightArrow} alt="arrow"/></button></div>
+            <div className="arrowPort"><button onClick={()=>this.closeForm()}><img src={RightArrow} alt="arrow"/></button></div>
             </div>
             <div className="greyBorder">
             <div className="gridPort1Title"> Ver casos de <br/> éxito</div>
-            <div className="arrowPort"><button><img src={RightArrow} alt="arrow"/></button></div>
+            <div className="arrowPort"><Link to="/portfolio"><img src={RightArrow} alt="arrow"/></Link></div>
             </div>
           </div>
           <div className="gridPort2">
@@ -112,7 +129,12 @@ class ContentExp extends Component {
             </div>
 
           </div>
-          <Footer/>   
+          <Footer/>  
+          <TransitionablePortal open={this.state.form} transition={{ animation, duration }}>
+            <Modal basic className="quoteSize" open={true} >
+                <Quote closeForm={this.closeForm}/>
+                 </Modal>
+                 </TransitionablePortal>  
         </div>
 
       )

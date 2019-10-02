@@ -3,6 +3,8 @@ import MainMenu from '../mainmenu/mainmenu';
 import Footer from '../footer/footer';
 import Head from '../head/head';
 import RightArrow from '../assets/images/Content1/rightArrow.png';
+import { Modal, TransitionablePortal} from 'semantic-ui-react';
+import Quote from '../quote/quote';
 
 import './contentTi.css'
 
@@ -10,11 +12,26 @@ import './contentTi.css'
 
 
 class ContentTi extends Component {
+  constructor(props) {
+    super(props)
+      this.state={
+  
+        form: false,
+        animation:'scale',
+        duration: 700
+      }
+    
+     this.closeForm=this.closeForm.bind(this)
+    }
 
+        
+    closeForm(){
+        this.setState({form: !this.state.form})
+        }
 
     
     render() {
-    
+      const { animation, duration} = this.state
     
       return (
         <div>
@@ -67,7 +84,7 @@ class ContentTi extends Component {
           <div className="gridPort1">
 
             <div className="gridPort1Title"> Solicitar consultoría gratis.</div>
-            <div className="arrowPort"><button><img src={RightArrow} alt="arrow"/></button></div>
+            <div className="arrowPort"><button onClick={()=>this.closeForm()}><img src={RightArrow} alt="arrow"/></button></div>
           </div>
           <div className="gridPort2">
           <div className="gridPort2Title"> ¿Quieres te contemos más?</div>
@@ -85,7 +102,12 @@ class ContentTi extends Component {
             </div>
 
           </div>
-          <Footer/>   
+          <Footer/>  
+          <TransitionablePortal open={this.state.form} transition={{ animation, duration }}>
+            <Modal basic className="quoteSize" open={true} >
+                <Quote closeForm={this.closeForm}/>
+                 </Modal>
+                 </TransitionablePortal> 
         </div>
 
       )
