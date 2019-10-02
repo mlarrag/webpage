@@ -109,3 +109,10 @@
     margin:0.5em;
 
 }
+
+@media (min-width: 1800px){
+    
+    .gridBCard{
+        height: 750px;
+    }
+  }

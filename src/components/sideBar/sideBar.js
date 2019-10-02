@@ -24,7 +24,7 @@ class SideBar extends Component {
               <Link onClick={()=> this.props.closeSideBar()} to="/#servicios" smooth={true} duration={700}><div className="sideMenuButton">Servicio</div></Link>
               <Link to="/portfolio" smooth={true} duration={700}><div className="sideMenuButton">Portafolio</div></Link>
               <Link to="/aboutus" smooth={true} duration={700}><div className="sideMenuButton">Conócenos</div></Link>
-              <Link to="/blog" smooth={true} duration={700}><div className="sideMenuButton">Blog</div></Link>
+              
              
               
 

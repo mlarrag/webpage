@@ -84,6 +84,11 @@ class AboutUs extends Component {
                 <div className="hoverInfo"><TeamCardInfo Name="Agustín Luna" Desc="Ingeniero" Cargo="Desarrollador"/></div>
 
                 </div>
+                <div className="cardEquipo">
+                <TeamCard className="changeTo" Name= "Noelle Thomas" Cargo="Sicóloga" Picture="nThomas.jpg"/>
+                <div className="hoverInfo"><TeamCardInfo Name="Noelle Thomas" Desc="Sicóloga" Cargo="Recursos Humanos"/></div>
+
+                </div>
              
                 
               </div>
@@ -98,15 +103,19 @@ class AboutUs extends Component {
                 </div>
 
                 <div className="cardEquipo">
-                <TeamCard Name= "Matías Larraguibel" Cargo="Desarrolador" Picture="miLarraguibel.jpg"/>
+                <TeamCard Name= "Matías Larraguibel" Cargo="Desarrolador" Picture="mLarraguibel.jpg"/>
                 <div className="hoverInfo"><TeamCardInfo Name="Matías Larraguibel" Desc="Ingeniero" Cargo="Desarrollador"/></div>
+                </div>
+                <div className="cardEquipo">
+                <TeamCard  Picture="blank.jpg"/>
+                <div className="hoverInfo"><TeamCardInfo /></div>
                 </div>
              
                 
               </div>
               <div className="columnEquipoF">
               <div className="cardEquipo">
-              <TeamCard Name= "LUCAS" Cargo="CEO" Picture="miLarraguibel.jpg"/>
+              <TeamCard Name= "Lukas Burns" Cargo="CEO" Picture="lBurns.jpg"/>
               <div className="hoverInfo"><TeamCardInfo Name="Lucas" Desc="Ingeniero" Cargo="CEO"/></div>
                 </div>
                 <div className="cardEquipo" onClick={()=>this.handleTeamClick()}>
@@ -116,6 +125,10 @@ class AboutUs extends Component {
                 <div className="cardEquipo" onClick={()=>this.handleTeamClick()}>
                 <TeamCard Name= "Maria Ignacia Larraguibel" Cargo="Junior" Picture='miLarraguibel.jpg'/>
                 <div className="hoverInfo"><TeamCardInfo Name="María Ignacia Larraguibel" Desc="Ingeniero" Cargo=""/></div>
+                </div>
+                <div className="cardEquipo" onClick={()=>this.handleTeamClick()}>
+                <TeamCard  Picture='blank.jpg'/>
+                <div className="hoverInfo"><TeamCardInfo /></div>
                 </div>
     
              

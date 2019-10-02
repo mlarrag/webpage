@@ -11,7 +11,7 @@ import Xtreme from '../assets/images/Content1/xtremeImg.png';
 import XtremeLogo from '../assets/images/Content5/XtremeLogo.png';
 import RightArrow from '../assets/images/Content1/rightArrow.png';
 import LeftArrow from '../assets/images/Content1/leftArrow.png';
-
+import { Link } from 'react-router-dom';
 
 import './homeCard.css';
 
@@ -75,7 +75,7 @@ handleOnNext(e){
 
           <div className="cardBack1">
             <div className="cardImage"><img className="clientImage" src= {this.state.imageClient[this.state.id2]} alt={this.state.name}></img></div>
-            <div className="cardLogo"><img className="clientLogooVolvo" src={this.state.imageLogo[this.state.id2]} alt={this.state.name}/></div>
+            <div className="cardLogo"><Link to="/portfolio"><img className="clientLogooVolvo" src={this.state.imageLogo[this.state.id2]} alt={this.state.name}/></Link></div>
             <div className="cardDesc">{this.state.description}</div>
           </div>
          
