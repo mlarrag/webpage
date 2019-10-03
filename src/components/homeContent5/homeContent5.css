@@ -152,3 +152,46 @@ img.logoImg{
     }
     
         }
+
+        @media (max-width: 900px){
+
+            .grid5{
+                flex-direction: column;
+            }
+            .column51{
+                padding: 0;
+                align-items: center;
+                width: 100%;
+                height: 40%;
+            }
+
+            .column52{
+                width: 100%;
+                height: 60%;
+            }
+            .title5{
+                font-size: 8vw;
+            }
+            .subtitle5{
+                font-size: 6vw;
+                padding: 0;
+                width: 80%;
+                text-align: center;
+            }
+
+            .row523{
+                display: none;
+           }
+            .row522{
+                display: none;
+            }
+
+            
+            .logoIm{
+                width: 30%;
+            }
+            .logoImVolvo{
+                width: 20%;
+            }
+                    
+                }

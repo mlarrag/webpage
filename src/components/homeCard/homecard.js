@@ -30,6 +30,7 @@ class HomeCard extends Component {
         id3:2,
         imageClient: [TricaoCard, VolvoCard, VendoWalletCard, Agrobolt, Xtreme ],
         imageLogo: [TricaoCardLogo, VolvoCardLogo, VendoWalletCardLogo, AgroboltLogo, XtremeLogo],
+        page:["/tricao", "/volvo", "/vendowallet", "/agrobolt", "/xtreme"],
         description: ' "Abstract nos brinda un desarrollo oportuno y completo, abarcando '
     }
 
@@ -75,7 +76,7 @@ handleOnNext(e){
 
           <div className="cardBack1">
             <div className="cardImage"><img className="clientImage" src= {this.state.imageClient[this.state.id2]} alt={this.state.name}></img></div>
-            <div className="cardLogo"><Link to="/portfolio"><img className="clientLogooVolvo" src={this.state.imageLogo[this.state.id2]} alt={this.state.name}/></Link></div>
+            <div className="cardLogo"><Link to={this.state.page[this.state.id2]}><img className="clientLogooVolvo" src={this.state.imageLogo[this.state.id2]} alt={this.state.name}/></Link></div>
             <div className="cardDesc">{this.state.description}</div>
           </div>
          

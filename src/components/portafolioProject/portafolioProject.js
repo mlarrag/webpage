@@ -6,7 +6,7 @@ import MainMenu from '../mainmenu/mainmenu';
 import Head from '../head/head';
 import Footer from '../footer/footer';
 import { Link } from 'react-router-dom';
-
+import { TransitionablePortal} from 'semantic-ui-react';
 
 
 import './portafolioProject.css'
@@ -20,6 +20,8 @@ class PortfolioProject extends Component {
     this.state = {
       photoGal: "Gal1",
       x: props.x,
+      animation:'scale',
+      duration: 700,
   
     }
   }
@@ -55,7 +57,7 @@ class PortfolioProject extends Component {
       var ProjectBg2 = require(`../assets/images/Project/${this.Proyects[x].back}Back2.jpg`)
       var ProjectGal1 = require(`../assets/images/Project/${this.Proyects[x].back}${this.state.photoGal}.jpg`)
       
-      
+      const { animation, duration} = this.state
     
 
       
@@ -100,14 +102,14 @@ class PortfolioProject extends Component {
               
               </div>
 
-            
+              
                 <div className="girdGalery" style ={ { backgroundImage: "url("+ProjectGal1+")" } }>
-
+       
                 <div className="galeryButton1" onClick={()=> this.handleOnClickGal()}><img src={LeftArrow} alt="arrow"/> </div>
                 <div className="galeryButton2" onClick={()=> this.handleOnClickGal()}><img src={RightArrowWhite} alt="arrow"/> </div>
-
+                
             </div>
-
+            
             <div className="gridResults" >
                 <div className="titleResult">Resultados </div>
                 <div className="textResult"><span className="textBlueLight">•</span> Experiencia personalizada. </div>

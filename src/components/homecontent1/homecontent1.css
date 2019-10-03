@@ -99,8 +99,15 @@
       }
 
       @media (max-width: 900px){
-        .grid1{
+        .griid1{
             background-image: url('../assets/images/Content1/contentMovil.png');
+            height: 433px;
+        }
+        .cards{
+            margin:0;
+            margin-top: 10vw;
+            height: 70%;
+            width: 100%
         }
         .title11{
             display: none;

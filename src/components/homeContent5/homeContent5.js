@@ -27,7 +27,7 @@ class HomeContent5 extends Component {
              
              <div className="column51">
                 <div className="title5">Clientes</div> 
-                <div className="subtitle5"> conoce algunos <br/> quienes han confiado <br/> en nosotros.</div>
+                <div className="subtitle5"> conoce algunos quienes han confiado en nosotros.</div>
          
             </div>     
              
