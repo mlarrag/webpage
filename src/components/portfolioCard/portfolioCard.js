@@ -30,7 +30,7 @@ class PortfolioCard extends Component {
                 <div className="cardPInfo">             
                     <div className="cardPTitle">{this.props.name}</div>
                     <div className="cardPType">{this.props.type}</div>
-                    <Link to={`/${this.props.back}`} ><div className="whiteArrow"><img src={whiteArrow}/></div></Link>
+                    <Link to={`/${this.props.back}`} ><div className="whiteArrow"><img src={whiteArrow} alt="arrow"/></div></Link>
                 </div>
 
                 <div className="cardPImg"><img src={cardImg} alt="arrow"/></div>

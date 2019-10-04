@@ -6,8 +6,8 @@ import MainMenu from '../mainmenu/mainmenu';
 import Head from '../head/head';
 import Footer from '../footer/footer';
 import { Link } from 'react-router-dom';
-import { TransitionablePortal} from 'semantic-ui-react';
-
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 import './portafolioProject.css'
 
@@ -37,17 +37,6 @@ class PortfolioProject extends Component {
 
   
 
-
-    handleOnClickGal(){
-      const gal =this.state.photoGal === 'Gal1'?  'Gal2': 'Gal1';
-
-
-      this.setState({ photoGal : gal})
-      
-    }
-
-  
-
     render() {
  
 
@@ -55,11 +44,11 @@ class PortfolioProject extends Component {
 
       var ProjectImg = require(`../assets/images/Project/${this.Proyects[x].back}Img.png`)
       var ProjectBg2 = require(`../assets/images/Project/${this.Proyects[x].back}Back2.jpg`)
-      var ProjectGal1 = require(`../assets/images/Project/${this.Proyects[x].back}${this.state.photoGal}.jpg`)
+      var ProjectGal1 = require(`../assets/images/Project/${this.Proyects[x].back}Gal1.jpg`)
+      var ProjectGal2 = require(`../assets/images/Project/${this.Proyects[x].back}Gal2.jpg`)
       
-      const { animation, duration} = this.state
-    
-
+      
+  
       
 
       return (
@@ -101,14 +90,22 @@ class PortfolioProject extends Component {
                 </div> 
               
               </div>
-
+              <CarouselProvider
+                    naturalSlideWidth={100}
+                    naturalSlideHeight={40}
+                    totalSlides={2}
+                    className="carousel"
+                  >
+        <Slider >
+          <Slide  index={0}><Image src={ProjectGal1}/></Slide>
+          <Slide  index={1}><Image src={ProjectGal2}/></Slide>
+  
+        </Slider>
+        <ButtonBack className="galeryButton1"><img  src={LeftArrow} alt="arrow"/></ButtonBack>
+        <ButtonNext className="galeryButton2"><div ><img src={RightArrowWhite} alt="arrow"/> </div></ButtonNext>
+      </CarouselProvider>
               
-                <div className="girdGalery" style ={ { backgroundImage: "url("+ProjectGal1+")" } }>
-       
-                <div className="galeryButton1" onClick={()=> this.handleOnClickGal()}><img src={LeftArrow} alt="arrow"/> </div>
-                <div className="galeryButton2" onClick={()=> this.handleOnClickGal()}><img src={RightArrowWhite} alt="arrow"/> </div>
-                
-            </div>
+
             
             <div className="gridResults" >
                 <div className="titleResult">Resultados </div>

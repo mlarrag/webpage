@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "image-map": "^1.1.6",
+    "pure-react-carousel": "^1.22.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-image-mapper": "0.0.14",
