@@ -135,3 +135,26 @@ color: #000000;
         }
             
                 }
+                
+@media (max-width: 900px){
+    .grid6{
+        flex-direction: column;
+        height: 400px;
+    }
+    .column61{
+        width: 100%;
+    }
+    .column62{
+        width: 100%;
+        margin-top: 8vw;
+    }
+    .blacktitle{
+        font-size: 8vw;
+        text-align: center;
+
+    }
+    .bluetitle{
+        font-size: 7vw;
+        text-align: center;
+    }
+}

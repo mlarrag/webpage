@@ -37,7 +37,7 @@ class HomeContent5 extends Component {
                     <div className="row521">
                     <div className = "clientLogo"><img className = "logoImVolvo" src={VolvoLogo} alt="Volvo"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={AgroboltLogo} alt="AgroBolt"/></div>
-                    <div className = "clientLogo"><img className = "logoIm" src={VendomaticaLogo} alt="Vendomatica"/></div>
+                    <div className = "clientLogo3"><img className = "logoIm" src={VendomaticaLogo} alt="Vendomatica"/></div>
                     </div>
                     
                     <div className="row522">
@@ -46,7 +46,7 @@ class HomeContent5 extends Component {
                     <div className = "clientLogo"><img className = "logoIm" src={ClaLogo} alt="Cla"/></div>
                     </div>
                     
-                    <div className="row523">
+                    <div className="row524">
                     <div className = "clientLogo"><img className = "logoIm" src={ClimoLogo} alt="Climo"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={StreetripLogo} alt="Streetip"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={DitecLogo} alt="Ditec"/></div>

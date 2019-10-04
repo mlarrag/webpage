@@ -65,7 +65,7 @@ class PortfolioProject extends Component {
       return (
           <div>
             <MainMenu/>
-            <div><Head name={this.Proyects[x].name} back={this.Proyects[x].back}/></div>
+            <div><Head name={this.Proyects[x].name} back={this.Proyects[x].back} /></div>
             
               <div className="gridIntro"> 
                       

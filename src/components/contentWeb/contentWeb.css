@@ -175,3 +175,16 @@
   }
        
 }
+
+@media (max-width: 900px){
+    .gridWeb1{
+      height: 150px;
+      justify-content: flex-start;
+    }
+    .subtitleWeb1{
+      font-size: 6vw;
+      margin-top: 6vw;
+
+    }
+    
+}

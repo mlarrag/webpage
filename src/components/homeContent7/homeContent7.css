@@ -103,11 +103,15 @@
 
 @media (max-width: 900px){
 
+    .grid7{
+        height: 340px;
+    }
     .column71{
         display: none;
     }
     .column72{
         width: 100%;
+       
         background-image: url('../assets/images/Content7/fondoMovil.png');
         background-size: cover;
         background-repeat: no-repeat;

@@ -24,7 +24,7 @@ class HomeContent6 extends Component {
             <div className="grid6">  
             <div className="column61">
                 <div>
-                    <div className="blacktitle">Nuestra <br/> Cultura</div> 
+                    <div className="blacktitle">Nuestra Cultura</div> 
                     <div className="bluetitle"><span className="firstblack">#</span>FunFactstract</div>
                     <Link to="/aboutus"><div className="button6">Conoce el equipo <img className= "arrow6" src={RightArrow} alt="fun"/></div></Link>
                 

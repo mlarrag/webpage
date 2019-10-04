@@ -243,10 +243,13 @@ img.clientLogooVolvo{
         .cardBack0{
             width: 100%;
             margin: 0;
-           
+            margin-right: 10vw;
         }
+        
         .cardBack2{
-            display: none;
+            width: 100%;
+            margin: 0;
+            margin-left: 10vw;
         }
         .buttonnext{
             display: none;

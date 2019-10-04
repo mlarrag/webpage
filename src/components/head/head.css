@@ -25,7 +25,9 @@
     color: #fbfbfb;
 
 }
-
+.gridHeadMovil{
+    display: none;
+}
 @media (max-width: 1300px){
 
     .gridHead{
@@ -44,4 +46,26 @@
         
     }
 
+}
+
+@media (max-width: 900px){
+    .gridHead{
+        display: none;
+
+
+    }
+    .gridHeadMovil{
+        display: flex;
+        height: 120px;
+        justify-content: center;
+        align-items: center;      
+        background-size: cover;
+
+        
+        background-repeat: no-repeat;
+    }
+    .fontHead{
+        width: 70%;
+        font-size: 9vw;
+    }
 }

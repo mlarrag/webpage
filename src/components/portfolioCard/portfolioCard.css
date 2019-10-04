@@ -122,7 +122,9 @@
 }
 
     
-
+.whiteArrow{
+    display: none;
+}
 
 @media (max-width: 1300px){
     .gridPCard{
@@ -153,4 +155,58 @@
     }
 
        
+}
+
+@media (max-width: 900px){
+    .gridPCard{
+        height: 122px;
+    }
+    .columnP2{
+        display: none;
+    }
+    .columnP1{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+    .cardPImg{
+        margin:0;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50%;
+    }
+    .cardPInfo{
+        order:1;
+        width: 50%;
+
+    }
+    .cardPImg > img {
+        width: 100px;
+    }
+    .cardPTitle{
+        font-family: Avenir;
+        font-size: 24px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.12;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .cardPType{
+        font-family: Avenir;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.65;
+        letter-spacing: normal;
+        color: #2fa6f3;
+    }
+    .whiteArrow{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5vw;
+    }
+   
 }

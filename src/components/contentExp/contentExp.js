@@ -45,7 +45,7 @@ class ContentExp extends Component {
       return (
         <div>
           <MainMenu/>
-          <Head name="Experiencia de Usuario UX" back="contentExp"/>
+          <Head name="Experiencia de Usuario UX" back="contentExp" backMob="ContentExp/backMobile.png"/>
           <div className="gridWeb1">
               <div className="subtitleWeb1">¿Cómo lo hacemos?</div>
               <div className="blueBorder"></div>

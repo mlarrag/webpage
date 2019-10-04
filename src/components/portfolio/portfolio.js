@@ -43,7 +43,7 @@ class Portfolio extends Component {
       return (
         <div>
           <MainMenu/>
-          <Head name="Portfolio" back="portfolio"/>
+          <Head name="Portfolio" back="portfolio" backMob="Project/portfolioBack.jpg"/>
           <div className="subtitlePortfolio">
             Conoce los proyectos que hemos desarrollado para empresas <br/> como la tuya que alcanzaron el éxito con Abstract.
           </div>
@@ -65,7 +65,7 @@ class Portfolio extends Component {
           <div className="gridPort2">
           <div className="gridPort2Title"> ¿Y tú, tienes en mente un <br/>proyecto? hablemos.</div>
           <div className="blueBorder"></div>
-          <div  className="gridPort2Subtitle">Déjanos tus datos y nuestros ejecutivos te estarán contactando en la <br/>brevedad.</div>
+          <div  className="gridPort2Subtitle">Déjanos tus datos y nuestros ejecutivos te estarán contactando en la brevedad.</div>
           </div>
 
           <div className="gridPort3">

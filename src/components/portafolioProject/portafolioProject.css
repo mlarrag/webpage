@@ -296,3 +296,38 @@ button{
     height: 650px;
 }
 }
+
+@media (max-width: 900px){
+    .gridIntro{
+        height: 200px;
+        
+    }
+    .gridIntro >a {
+        order:1;
+    }
+    .navBack{
+        margin-top: 5vw;
+        font-size: 12px;
+    }
+
+    .gridText{
+        margin-top: 15vw;
+        font-size: 15px;
+    }
+    .gridImg>img{
+        width: 70%;
+        margin-top: -10vw;
+
+    }
+
+    .gridInfo{
+        flex-direction: column;
+    }
+    .gridAbout{
+        width: 100%;
+    }
+
+    .gridCha{
+        width: 100%
+    }
+}

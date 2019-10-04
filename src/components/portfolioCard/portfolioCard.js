@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import RightArrow from '../assets/images/Content1/rightArrow.png';
 import { Link } from 'react-router-dom';
-
+import whiteArrow from '../assets/images/Portfolio/whiteArrow.png';
 import './portfolioCard.css'
 
 
@@ -27,9 +27,10 @@ class PortfolioCard extends Component {
         
             <div className="columnP1" style ={ { backgroundImage: "url("+cardBg+")" } }>
                 
-                <div>             
+                <div className="cardPInfo">             
                     <div className="cardPTitle">{this.props.name}</div>
                     <div className="cardPType">{this.props.type}</div>
+                    <Link to={`/${this.props.back}`} ><div className="whiteArrow"><img src={whiteArrow}/></div></Link>
                 </div>
 
                 <div className="cardPImg"><img src={cardImg} alt="arrow"/></div>

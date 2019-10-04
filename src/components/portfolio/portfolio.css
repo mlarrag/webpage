@@ -208,3 +208,85 @@
     }
        
 }
+
+@media (max-width: 900px){
+    .subtitlePortfolio{
+        height: 120px;
+
+        font-size: 4vw;
+        margin: 2em;
+    }
+    .gridPort3{
+        flex-direction: column;
+        height: 291px;
+    }
+    .formPort{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+        width: 80%;
+        margin-top: 15vw;
+    }
+    .formPortB{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+
+    }
+    .inputPort{
+        width: 100%;
+        font-size: 4vw;
+    }
+    .buttonPort{
+        font-size: 4vw;
+        width: 200px;
+        height: 45px;
+        margin:0;
+        margin-bottom: 10vw;
+    }
+    .gridPort1{
+        height: 128px;
+        flex-direction: column;
+    }
+    .gridPort1Title{
+        font-size: 6vw;
+        width: 55%;
+        text-align: center;
+    }
+    .gridPort2{
+        height: 180px;
+        justify-content: center;
+    }
+    .arrowPort{
+        display: flex;
+        width: 60%;
+        margin-top: 10px;
+        justify-content: flex-end;
+    }
+    .arrowPort>button>img{
+        width: 70%;
+    }
+    .blueBorder{
+        height: 10px;
+        margin-top: 10px;
+    }
+    .gridPort2Title{
+        font-size: 5vw;
+    }
+    .gridPort2Subtitle{
+        font-size: 4vw;
+        padding-right: 6vw;
+        padding-left: 6vw;
+        margin-bottom: 1em;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+    }
+    .cardSpace{
+        height: 70px;
+    }
+}
