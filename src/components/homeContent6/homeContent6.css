@@ -143,11 +143,12 @@ color: #000000;
     }
     .column61{
         width: 100%;
+        height: 40%;
     }
     .column62{
         display: flex;
         width: 100%;
-        height: 100%;
+        height: 60%;
         justify-content: center;
     }
     .blacktitle{

@@ -174,3 +174,54 @@
   
   }
 }
+@media (max-width: 900px){
+  .gridGif{
+    height: 200px;
+    padding:0.5em;
+    
+   
+
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .gridGif>img{
+    width: 95%;
+    margin: 0.5em;
+    margin-top: 1em;
+  }
+  
+  
+  .gridActual{
+    padding: 0;
+    height: 375px;
+    padding:0.5em;
+  }
+  .gridActual > div:first-child{
+    display: none;
+  }
+
+  .gridCultUs{
+    height: 200px;
+    padding:0.5em;
+  }
+  .gridCultTitle{
+    font-family: Avenir;
+    font-size: 38px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .instaGrid{
+    padding:1em;
+  }
+  
+}

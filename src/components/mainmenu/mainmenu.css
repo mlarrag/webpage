@@ -198,4 +198,7 @@ align-items: center;
         .logoMenu{
           margin-left: 2em;
         }
+        .menuu{
+          height: 55px;
+        }
       }
