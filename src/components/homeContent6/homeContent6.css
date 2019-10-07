@@ -139,14 +139,16 @@ color: #000000;
 @media (max-width: 900px){
     .grid6{
         flex-direction: column;
-        height: 400px;
+        height: 420px;
     }
     .column61{
         width: 100%;
     }
     .column62{
+        display: flex;
         width: 100%;
-        margin-top: 8vw;
+        height: 100%;
+        justify-content: center;
     }
     .blacktitle{
         font-size: 8vw;
