@@ -46,8 +46,11 @@ class ContentTi extends Component {
         <div className="gridWeb2">
             <div className="columnWebBlue">
                 <div className="titleWeb2"> <span className="fistBlacWeb">•</span> Diagnóstico</div>
+                <div className="rowWebMob">En esta fase nos enfocamos a identificar los problemas o necesidades que afronta el cliente, Examinar de forma detallada las causas y preparar toda la información necesaria para orientar las decisiones de solución.</div>
                 <div className="titleWeb2"><span className="fistBlacWeb">•</span> Plan de acción</div>
+                <div className="rowWebMob">Evaluamos las opciones y ajustamos a la medida de la necesidades, una amplia gama de técnicas dentro de un mismo plan de ejecución. </div>
                 <div className="titleWeb2"><span className="fistBlacWeb">•</span> Ejecución</div>
+                <div className="rowWebMob">Monitoreamos, medimos, y evaluamos los resultados en base a los KPI u objetivos definidos.</div>
             </div>
             <div className="columnWebWhite">
                 <div className="rowWeb2">En esta fase nos enfocamos a identificar los problemas o necesidades que afronta el cliente, Examinar de forma detallada las causas y preparar toda la información necesaria para orientar las decisiones de solución.</div>
@@ -58,7 +61,7 @@ class ContentTi extends Component {
         </div>
           <div className="gridHerra">
             {/* <div className="quote3">“”</div>       */}
-            <div className="title31">Disponemos de una amplia variedad de <br/>herramientas ideadas para ayudar en el uso y<br/> mejora de las aplicaciones, y sistemas <br/>informáticos en las empresas. </div> 
+            <div className="title31Ti">Disponemos de una amplia variedad de <br/>herramientas ideadas para ayudar en el uso y<br/> mejora de las aplicaciones, y sistemas <br/>informáticos en las empresas. </div> 
             
             </div >
 

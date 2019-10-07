@@ -51,6 +51,12 @@ class HomeContent4 extends Component {
 
       }
 
+      if (window.innerWidth<900){
+        factorScreen = 200/433;
+        factorR= 1;
+
+      }
+
     
       if (window.innerWidth>2000){
         factorScreen = (700/433);

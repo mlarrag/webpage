@@ -58,8 +58,11 @@ class ContentWeb extends Component {
         <div className="gridWeb2">
             <div className="columnWebBlue">
                 <div className="titleWeb2"> <span className="fistBlacWeb">•</span> Diseño centrado en el usuario</div>
+                <div className="rowWebMob">Creemos en la filosofía de diseño que tiene por objeto la creación de productos que resuelvan necesidades concretas de sus usuarios finales. </div>
                 <div className="titleWeb2"><span className="fistBlacWeb">•</span> Metodologías Ágiles</div>
+                <div className="rowWebMob">El desarrollo ágil de software envuelve un enfoque para la toma de decisiones en los proyectos de software, lo que nos permite siempre tener una visión de trabajo iterativo e incremental.</div>
                 <div className="titleWeb2"><span className="fistBlacWeb">•</span> Customer support</div>
+                <div className="rowWebMob">El soporte al cliente o la asistencia al cliente es nuestro valor de servicio Ayudar a nuestros clientes y sus usuarios nos permite validar que creamos productos rentables y altamente utilizables. </div>
             </div>
             <div className="columnWebWhite">
                 <div className="rowWeb2">Creemos en la filosofía de diseño que tiene por objeto la creación de productos que resuelvan necesidades concretas de sus usuarios finales. </div>
@@ -77,30 +80,30 @@ class ContentWeb extends Component {
             </div >
 
 
-            <div className="grid5">
+            <div className="grid5Web">
              
-             <div className="column51">
+             <div className="column51Web">
                 
                 <div className="subtitle5"> La selección depende de los requerimientos y necesidades de nuestros clientes y sus usuarios.  </div>
          
             </div>     
              
-            <div className="column52">
+            <div className="column52Web">
 
                 
-                    <div className="row521">
+                    <div className="row521Web">
                     <div className = "clientLogo"><img className = "logoImVolvo" src={ReactLogo} alt="Volvo"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={PostLogo} alt="AgroBolt"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={KotlinLogo} alt="Vendomatica"/></div>
                     </div>
                     
-                    <div className="row522">
+                    <div className="row522Web">
                     <div className = "clientLogo"><img className = "logoIm" src={RailsLogo} alt="Xtreme"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={SwiftLogo} alt="Tricao"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={AmazonLogo} alt="Cla"/></div>
                     </div>
                     
-                    <div className="row523">
+                    <div className="row523Web">
                     <div className = "clientLogo"><img className = "logoIm" src={ZeplinLogo} alt="Climo"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={JiraLogo} alt="Streetip"/></div>
                     <div className = "clientLogo"><img className = "logoIm" src={SlackLogo} alt="Ditec"/></div>
@@ -112,13 +115,13 @@ class ContentWeb extends Component {
    
             </div >
 
-          <div className="gridPort1">
-            <div className="greyBorder">
-            <div className="gridPort1Title"> Solicitar consultoría <br/> gratis.</div>
-            <div className="arrowPort"><button onClick={()=>this.closeForm()}><img src={RightArrow} alt="arrow"/></button></div>
+          <div className="gridPort1Web">
+            <div className="greyBorderWeb">
+            <div className="gridPort1TitleWeb"> Solicitar consultoría gratis.</div>
+            <div className="arrowPort"><div onClick={()=>this.closeForm()}><img src={RightArrow} alt="arrow"/></div></div>
             </div>
-            <div className="greyBorder">
-            <div className="gridPort1Title"> Ver casos de <br/> éxito</div>
+            <div className="greyBorderWeb">
+            <div className="gridPort1TitleWeb"> Ver casos de éxito</div>
             <div className="arrowPort"><Link to="/portfolio"><img src={RightArrow} alt="arrow"/></Link></div>
             </div>
           </div>

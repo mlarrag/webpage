@@ -47,20 +47,19 @@
 
 }
 
-.row523{
-    display:flex;
-    height: 34%;
-    border: 1px solid grey;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    border: 1px solid #cdcdcd;
-    border-bottom: 0px;
-    border-right: 0px;
-
-
-}
 
 @media (max-width: 900px){
-    
+    .gridExp{
+        height: 282px;
+        padding:0;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .row522Exp{
+
+        display: none;
+    }
+    .row521Exp{
+        height: 100%;
+    }
 }

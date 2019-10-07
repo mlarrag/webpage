@@ -55,8 +55,11 @@ class ContentExp extends Component {
         <div className="gridWeb2">
             <div className="columnWebBlue">
                 <div className="titleWeb2"> <span className="fistBlacWeb">•</span> Investigación Research</div>
+                <div className="rowWebMob">La investigación tiene como principales objetivos la generación de conocimiento e insigths para la solución de problemas. Partimos todos nuestros proyectos de este principio. </div>
                 <div className="titleWeb2"><span className="fistBlacWeb">•</span> Co-creación</div>
+                <div className="rowWebMob">La co-creación es una iniciativa de gestión, implementada o una forma de estrategia económica, que nos permite reunir a diferentes partes interesadas para producir conjuntamente un producto mutuamente valorado.</div>
                 <div className="titleWeb2"><span className="fistBlacWeb">•</span> Testeo</div>
+                <div className="rowWebMob">Testear nos permite obtener información antes del lanzamiento al mercado y corregir en rápido y económico aquellos aspectos que no satisfagan las necesidades y expectativas que nos hayamos marcado.</div>
             </div>
             <div className="columnWebWhite">
                 <div className="rowWeb2">La investigación tiene como principales objetivos la generación de conocimiento e insigths para la solución de problemas. Partimos todos nuestros proyectos de este principio. </div>
@@ -103,13 +106,13 @@ class ContentExp extends Component {
    
             </div >
 
-          <div className="gridPort1">
-            <div className="greyBorder">
-            <div className="gridPort1Title"> Solicitar consultoría <br/> gratis.</div>
-            <div className="arrowPort"><button onClick={()=>this.closeForm()}><img src={RightArrow} alt="arrow"/></button></div>
+          <div className="gridPort1Web">
+            <div className="greyBorderWeb">
+            <div className="gridPort1TitleWeb"> Solicitar consultoría <br/> gratis.</div>
+            <div className="arrowPort"><div onClick={()=>this.closeForm()}><img src={RightArrow} alt="arrow"/></div></div>
             </div>
-            <div className="greyBorder">
-            <div className="gridPort1Title"> Ver casos de <br/> éxito</div>
+            <div className="greyBorderWeb">
+            <div className="gridPort1TitleWeb"> Ver casos de <br/> éxito</div>
             <div className="arrowPort"><Link to="/portfolio"><img src={RightArrow} alt="arrow"/></Link></div>
             </div>
           </div>

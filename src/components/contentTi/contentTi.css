@@ -105,6 +105,18 @@
     margin-right: 1em;
 }
 
+.title31Ti {
+    display: flex;
+    font-family: Avenir;
+    font-size: 200%;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
 @media (max-width: 1300px){
  
  
@@ -122,4 +134,83 @@
           
 
        
+}
+
+@media (max-width: 900px){
+.textTi1{      
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+}
+.gridHerra{
+    height: 282px;
+    padding:0;
+
+  
+}
+.title31Ti{
+    font-family: Avenir;
+    font-size: 23px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.gridTi1{
+    flex-direction: column;
+}
+.titleTi1{
+    width: 100%;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+
+    padding:0;
+    padding:1.5em;
+    height: 30%;
+}
+.gridTextTi{
+    width: 100%;
+    flex-direction: row;
+}
+.textTi2{
+    
+    padding:0;
+    width: 100%;
+    padding-left: 1em;
+    justify-content: center;
+    align-items: center;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #000000;
+}
+.rowTi1{
+    flex-direction: column;
+}
+.firstBlueTi{
+    margin-right: 0.5em;
+}
+.textTi1{
+    padding-left: 1em;
+    padding-right: 1em;
+}
 }
