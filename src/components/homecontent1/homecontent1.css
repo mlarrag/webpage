@@ -109,12 +109,14 @@
         .griid1{
             background-image: url('../assets/images/Content1/contentMovil.png');
             height: 433px;
+            overflow: hidden;
         }
         .cards{
             margin:0;
             margin-top: 5vw;
             height: 60%;
-            width: 100%
+            width: 500px;
+            overflow: hidden;
         }
         .title11{
             display: none;

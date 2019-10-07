@@ -14,8 +14,10 @@
 .sideSocial{
     display: flex;
     justify-content: flex-end;
+    align-content: center;
 
     padding-top: 3em;
+    margin-bottom: 1em;
     font-family: Avenir;
     font-size: 20px;
     font-weight: 900;
@@ -25,9 +27,15 @@
     letter-spacing: normal;
     color: #00adea;
 }
+.socialLetter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .sideSocialText{
     display: flex;
+    justify-content: center;
     margin-right: 50px;
 }
 
@@ -40,7 +48,7 @@
 }
 .sidebarButtons{
     margin-right: 10em;
-    margin-top: 
+    
 
 }
 .sideMenuButton{
@@ -104,10 +112,10 @@
     }
     .sideSocial{
         width: 100%;
-        padding-top:3vw;
+        padding-top:15vw;
         justify-content: center;
     }
-.sideSocial >a > div>text{
+.socialLetter{
     display: none;
 }
 }

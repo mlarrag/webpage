@@ -380,4 +380,79 @@ button{
     .navBack>img{
         width: 8%;
     }
-}
+    .galeryButton1{
+        display: none;
+        
+    }
+    .galeryButton2{
+        display: none;
+    }
+    .gridResults{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 340px;
+        
+    }
+    .titleResult{
+        width: 100%;
+        font-family: Avenir;
+        font-size: 15px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        color: #000000;
+
+        justify-content: flex-start;
+        padding-left: 5em;
+        padding-right: 3em;
+    }
+    .textResult{
+        
+        width: 100%;
+        padding:0;
+        margin-top: 4em;
+        padding-left: 3em;
+        padding-right: 3em;
+        border: none;
+        justify-content: flex-start;
+        align-content: center;
+        font-family: Avenir;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.93;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    .gridPinfo{
+        height: 303px;
+    }
+    .infoText{
+        object-fit: contain;
+        font-family: Avenir;
+        font-size: 15px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .textBlueLight {
+        margin-right: 5vw;
+        font-size: 10vw;
+   
+    }
+    .textGrey{
+        margin-right: 5vw;
+        font-size: 10vw;
+    }
+}   

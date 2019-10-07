@@ -92,7 +92,7 @@ class PortfolioProject extends Component {
               </div>
               <CarouselProvider
                     naturalSlideWidth={100}
-                    naturalSlideHeight={40}
+                    naturalSlideHeight={60}
                     totalSlides={2}
                     className="carousel"
                   >
