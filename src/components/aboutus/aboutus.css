@@ -96,7 +96,7 @@
   position: relative;
   height: 25%;
   width: 100%;
-  position: relative;
+  
   
 
 }
@@ -145,6 +145,11 @@
   opacity: 1;
 }
 
+
+
+.teamMob{
+  display: none;
+}
 
 
 @media (max-width: 1300px){
@@ -207,8 +212,9 @@
   }
 
   .gridCultUs{
-    height: 200px;
+    height: 320px;
     padding:0.5em;
+    overflow: hidden;
   }
   .gridCultTitle{
     font-family: Avenir;
@@ -221,7 +227,45 @@
     text-align: center;
   }
   .instaGrid{
-    padding:1em;
+    width: 680px;
+    margin-right: 7em;
   }
-  
+  .gridEquipo{
+    flex-direction: column;
+  }
+  .columnEquipo{
+    width: 100%;
+    height: 10%;
+  }
+  .columnEquipoF{
+    display: none;
+  }
+
+  .teamMob{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    flex-direction: row;
+    
+    
+  }
+  .cardEquipo{
+    position: absolute;
+    width: 50%;
+    height: 40%;
+  }
+
+  .gridEquipo{
+    height: 900px;
+  }
+  .colummWeb{
+    width: 100%;
+    height: 20%;
+    
+   
+  }
+  .hoverInfo{
+    position: relative;
+  }
+
 }

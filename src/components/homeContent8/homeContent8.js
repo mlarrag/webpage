@@ -42,7 +42,7 @@ class HomeContent8 extends Component {
                 
                 <div className="form6">
                   <div className="form6row">
-                      <div className="form6column1"><Input inverted transparent placeholder='Nombre' /> </div>
+                      <div className="form6column1"><Input className= "uiInput" inverted transparent placeholder='Nombre' /> </div>
                      
                      <div className="form6column"><Input inverted transparent placeholder='Apellido' /></div>
                   </div>

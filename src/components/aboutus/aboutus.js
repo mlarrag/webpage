@@ -69,24 +69,48 @@ class AboutUs extends Component {
                 <div className="gridPort2Title" style={{textAlign:'left'}}>Nuestro <br/> Equipo</div>
                 
               </div>
+
+              <div className="teamMob"> 
+
+                <div className="colummWeb">
+                <TeamCard Name= "Martín Luna" Cargo="CEO" Picture="mLuna.jpg" Desc="Experto en armaas nuúcleares"/>
+                <TeamCard Name= "Pablo De Carcer" Cargo="CEO" Picture="pDecarcer.png"/>
+                <TeamCard Name= "Cristián Valles" Cargo="Desarrollador" Picture="cValles.jpg"/>
+                <TeamCard Name= "Maria Ignacia Larraguibel" Cargo="Junior" Picture='miLarraguibel.jpg'/>
+               <TeamCard className="changeTo" Name= "Noelle Thomas" Cargo="Sicóloga" Picture="nThomas.jpg"/>
+                </div>
+                
+
+                <div className="colummWeb">
+                <TeamCard Name= "Lukas Burns" Cargo="CEO" Picture="lBurns.jpg"/>
+                <TeamCard Name= "Luis Tapia" Cargo="Desarrollador" Picture="lTapia.jpg"/>
+                <TeamCard className="changeTo" Name= "Agustín Luna" Cargo="Desarrolador" Picture="aLuna.jpg"/>
+                <TeamCard Name= "Matías Larraguibel" Cargo="DesarrolLador" Picture="mLarraguibel.jpg"/>
+                </div>
+
+
+              </div>
+              
+
+
               <div className="columnEquipoF">
               <div className="cardEquipo">
                 <TeamCard Name= "Martín Luna" Cargo="CEO" Picture="mLuna.jpg"/>
-                <div className="hoverInfo"><TeamCardInfo Name="Martín Luna" Desc="Ingeniero" Cargo="CEO"/></div>
+                
 
                 </div>
                 <div className="cardEquipo">
                 <TeamCard Name= "Luis Tapia" Cargo="Desarrollador" Picture="lTapia.jpg"/>
-                <div className="hoverInfo"><TeamCardInfo Name="Luis Tapia" Desc="Ingeniero" Cargo="Desarrollador"/></div>
+               
                 </div>
                 <div className="cardEquipo">
                 <TeamCard className="changeTo" Name= "Agustín Luna" Cargo="Desarrolador" Picture="aLuna.jpg"/>
-                <div className="hoverInfo"><TeamCardInfo Name="Agustín Luna" Desc="Ingeniero" Cargo="Desarrollador"/></div>
+                
 
                 </div>
                 <div className="cardEquipo">
                 <TeamCard className="changeTo" Name= "Noelle Thomas" Cargo="Sicóloga" Picture="nThomas.jpg"/>
-                <div className="hoverInfo"><TeamCardInfo Name="Noelle Thomas" Desc="Sicóloga" Cargo="Recursos Humanos"/></div>
+                
 
                 </div>
              
@@ -95,20 +119,20 @@ class AboutUs extends Component {
               <div className="columnEquipoF">
                 <div  className="cardEquipo">
                 <TeamCard Name= "Pablo De Carcer" Cargo="CEO" Picture="pDecarcer.png"/>
-                <div className="hoverInfo"><TeamCardInfo Name="Pablo De Carcer" Desc="Ingeniero" Cargo="CEO"/></div>
+                
                 </div>
                 <div className="cardEquipo">
                 <TeamCard Name= "Oscar Ballesteros" Cargo="Desarrolador" Picture="oBallesteros.jpg"/>
-                <div className="hoverInfo"><TeamCardInfo Name="Oscar Ballesteros" Desc="Ingeniero" Cargo="Desarrollador"/></div>
+               
                 </div>
 
                 <div className="cardEquipo">
-                <TeamCard Name= "Matías Larraguibel" Cargo="Desarrolador" Picture="mLarraguibel.jpg"/>
-                <div className="hoverInfo"><TeamCardInfo Name="Matías Larraguibel" Desc="Ingeniero" Cargo="Desarrollador"/></div>
+                <TeamCard Name= "Matías Larraguibel" Cargo="Desarrollador" Picture="mLarraguibel.jpg"/>
+                
                 </div>
                 <div className="cardEquipo">
                 <TeamCard  Picture="blank.jpg"/>
-                <div className="hoverInfo"><TeamCardInfo /></div>
+                
                 </div>
              
                 
@@ -116,19 +140,20 @@ class AboutUs extends Component {
               <div className="columnEquipoF">
               <div className="cardEquipo">
               <TeamCard Name= "Lukas Burns" Cargo="CEO" Picture="lBurns.jpg"/>
-              <div className="hoverInfo"><TeamCardInfo Name="Lucas" Desc="Ingeniero" Cargo="CEO"/></div>
+              
                 </div>
                 <div className="cardEquipo" onClick={()=>this.handleTeamClick()}>
                 <TeamCard Name= "Cristián Valles" Cargo="Desarrollador" Picture="cValles.jpg"/>
-                <div className="hoverInfo"><TeamCardInfo Name="Cristián Valles" Desc="Ingeniero" Cargo="Desarrollador"/></div>
+               
                 </div>
                 <div className="cardEquipo" onClick={()=>this.handleTeamClick()}>
                 <TeamCard Name= "Maria Ignacia Larraguibel" Cargo="Junior" Picture='miLarraguibel.jpg'/>
-                <div className="hoverInfo"><TeamCardInfo Name="María Ignacia Larraguibel" Desc="Ingeniero" Cargo=""/></div>
+               
                 </div>
                 <div className="cardEquipo" onClick={()=>this.handleTeamClick()}>
                 <TeamCard  Picture='blank.jpg'/>
-                <div className="hoverInfo"><TeamCardInfo /></div>
+                
+              
                 </div>
     
              

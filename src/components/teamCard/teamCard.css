@@ -42,3 +42,13 @@
     color: #ffffff;
   
   }
+
+  @media (max-width: 900px){
+    .cardEquipoText{
+  display: none;  
+      
+    }
+    .cardEquipoText2{
+      display: none;
+    }
+  }
