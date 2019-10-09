@@ -268,7 +268,7 @@ color: #7dcfec;
 
     }
 
-    @media (min-width: 400px){
+    @media (max-width: 900px){
         .column21{
             display: none;
         }

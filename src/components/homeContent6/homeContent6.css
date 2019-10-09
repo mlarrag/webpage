@@ -136,7 +136,7 @@ color: #000000;
             
                 }
                 
-@media (min-width: 400px){
+@media (max-width: 900px){
     .grid6{
         flex-direction: column;
         height: 620px;
