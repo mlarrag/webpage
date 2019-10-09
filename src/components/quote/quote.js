@@ -151,17 +151,19 @@ class Quote extends Component {
    
           </div>
 
-          <div className="formButtonPos">
+
+
+  </Form>
+
+
+
+              </div>
+              
+              <div className="formButtonPos">
             <div className="formButton">
               Enviar Solicitud <img src={RightArrow} alt="arrow"/>
             </div>
           </div>
-
-  </Form>
-
-              </div>
-              
-             
              
           
 

@@ -5,17 +5,8 @@ import Footer from '../footer/footer';
 import RightArrow from '../assets/images/Content1/rightArrow.png';
 import ConocenosGift from '../assets/images/Conocenos/Conocenos.gif';
 
-
-
-
-
-
 import "./aboutUs.css";
 import TeamCard from '../teamCard/teamCard';
-import TeamCardInfo from '../teamCardInfo/teamCardInfo';
-
-
-
 
 class AboutUs extends Component {
 

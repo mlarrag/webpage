@@ -144,7 +144,9 @@
 .hoverInfo:hover{
   opacity: 1;
 }
-
+.hoverInfo:active{
+  opacity: 1;
+}
 
 
 .teamMob{

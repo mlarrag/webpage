@@ -201,4 +201,7 @@ align-items: center;
         .menuu{
           height: 55px;
         }
+        .ui.basic.modal.transition.visible.active.quoteSize{
+          width: 100%;
+        }
       }
