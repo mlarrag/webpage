@@ -181,7 +181,11 @@
 
     }
     .cardPImg > img {
-        width: 100px;
+        width: auto;
+        height: auto;
+        max-width: 120px;
+        max-height: 150px;
+        margin-top: -60px;
     }
     .cardPTitle{
         font-family: Avenir;

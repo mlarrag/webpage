@@ -108,7 +108,7 @@
       @media (max-width: 900px){
         .griid1{
             background-image: url('../assets/images/Content1/contentMovil.png');
-            height: 600px;
+            height: 500px;
             overflow: hidden;
         }
         .cards{
@@ -130,7 +130,7 @@
             display: flex;
             padding-top: 5vw;
             font-family: Avenir;
-            font-size: 3vw;
+            font-size: 4vw;
             font-weight: 500;
             font-style: normal;
             font-stretch: normal;
