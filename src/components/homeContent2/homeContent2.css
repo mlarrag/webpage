@@ -303,7 +303,10 @@ color: #7dcfec;
         }
         .arrow{
             padding: 0;
+            display: flex;
             margin-right: 1em;
+            align-items: flex-end;
+            padding-bottom: 2em;
         }
 
         #servicios.grid2{
@@ -358,7 +361,7 @@ color: #7dcfec;
         }
 
         #servicios.grid2{
-            height: 720px;
+            height: 760px;
         }
         
 

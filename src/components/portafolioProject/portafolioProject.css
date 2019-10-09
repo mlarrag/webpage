@@ -315,7 +315,7 @@ button{
 
 @media (max-width: 900px){
     .gridIntro{
-        height: 240px;
+        height: 230px;
         
     }
     .gridIntro >a {
@@ -331,8 +331,11 @@ button{
         font-size: 15px;
     }
     .gridImg>img{
-        width: 70%;
-        margin-top: -10vw;
+        max-height: 150px;
+        max-width: 150px;
+        width: auto;
+        height: auto;
+        margin-top: -20vw;
 
     }
 

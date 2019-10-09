@@ -116,3 +116,25 @@
         height: 750px;
     }
   }
+
+  @media (max-width: 900px){
+    .gridBCard{
+        flex-direction: column;
+        height: 400px;
+    }
+    .columnBC1{
+        width: 100%;
+        height: 30%;
+        order: 2;
+    }
+    .columnBC2{
+        width: 100%;
+        height: 70%;
+    }
+    .blogCTitle{
+        height: 10%;
+    }
+    .blogCSubtitle{
+        height: 20%;
+    }
+  }
