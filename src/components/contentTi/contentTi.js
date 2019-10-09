@@ -61,7 +61,7 @@ class ContentTi extends Component {
         </div>
           <div className="gridHerra">
             {/* <div className="quote3">“”</div>       */}
-            <div className="title31Ti">Disponemos de una amplia variedad de herramientas ideadas para ayudar en el uso y mejora de las aplicaciones, y sistemas informáticos en las empresas. </div> 
+            <div className="textTec">Disponemos de una amplia variedad de herramientas ideadas para ayudar en el uso y mejora de las aplicaciones, y sistemas informáticos en las empresas. </div> 
             
             </div >
 

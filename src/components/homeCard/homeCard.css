@@ -213,6 +213,7 @@ img.clientLogooVolvo{
     img.clientImage{
 
         width: 120%;
+        max-width: 80px;
        
     }
     img.clientLogoo{
@@ -221,6 +222,12 @@ img.clientLogooVolvo{
         padding:1em;
        
     }
+    img.clientLogooVolvo{
+
+        max-width: 200px;
+                 
+                     
+                 }
     .cardDesc{
         padding:1em;
         font-size: 60%;

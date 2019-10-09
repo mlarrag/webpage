@@ -292,7 +292,8 @@ button{
 }
 
 .gridImg > img{
-    width: 37%
+    width: 37%;
+    max-height: 500px;
 }
 
 .gridInfo{
