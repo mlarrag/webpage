@@ -243,6 +243,41 @@ img.clientLogooVolvo{
         .cardBack0{
             width: 100%;
             margin: 0;
+            margin-right: 8vw;
+        }
+        
+        .cardBack2{
+            width: 100%;
+            margin: 0;
+            margin-left: 8vw;
+        }
+        .buttonnext{
+            display: none;
+        }
+
+        .buttonpre{
+            display: none;
+
+        }
+        .cardDesc{
+            display: none;
+        }
+        .cardImage{
+            margin:0;
+        }
+
+        .cardBack1{
+            width: 100%;
+            margin: 0;
+        }
+       }
+
+       @media (max-width: 400px){
+
+      
+        .cardBack0{
+            width: 100%;
+            margin: 0;
             margin-right: 10vw;
         }
         

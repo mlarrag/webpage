@@ -145,6 +145,24 @@
             .copyy{
               width: 100%;
               margin-left: 0;
+              justify-content: center;
+            }
+            .textt{
+              margin-left: 2em;
+              font-size: 2vw;
+          
+            }
+           }
+           @media (max-width: 400px){
+            .footerMenu{
+              display: none;
+            }
+            .footerLang{
+              display: none;
+            }
+            .copyy{
+              width: 100%;
+              margin-left: 0;
             }
             .textt{
               margin-left: 2em;

@@ -104,6 +104,51 @@
 @media (max-width: 900px){
 
     .grid7{
+        height: 540px;
+    }
+    .column71{
+        display: none;
+    }
+    .column72{
+        width: 100%;
+       
+        background-image: url('../assets/images/Content7/fondoMovil.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .title7{
+        font-size: 6vw;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+    .subtitle7{
+        font-size: 5vw;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.97;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+    .firstblue2{
+        display: none;
+    
+    }
+    .button7{
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+
+    .grid7{
         height: 340px;
     }
     .column71{

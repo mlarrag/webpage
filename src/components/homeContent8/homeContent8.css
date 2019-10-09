@@ -213,7 +213,7 @@
            @media (max-width: 900px){
             .grid8{
                 flex-direction: column;
-                height: 1030px;
+                height: 100%;
             }
             .row811{
                 margin-bottom: 2em;
@@ -227,13 +227,77 @@
                 width: 100%;
 
                 padding:0;
-                padding-top: 40px
+                padding-top: 30px
             }
             .title81{
-                font-size: 9vw;
+                font-size: 27px;
             }
             .subtitle81{
-                font-size: 8vw;
+                font-size: 13px;
+            }
+            .title82{
+                font-size: 7vw;
+                margin-top: 0;
+                color:white;
+            }
+            .subtitle82{
+                font-size: 4vw;
+                padding: 0;
+                margin-top:0;
+            }
+            .form6{
+                flex-direction: column;
+                margin-bottom: 15px;
+
+            }
+            .form6column {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 20px;
+               
+            
+                
+            }
+            .form6column1 {
+                flex-direction: column;
+                width: 100%;
+                padding-bottom: 25px;
+               
+            }
+            .form6row{
+                flex-direction: column;
+            }
+            .ui.ui.active.button.formButton {
+                width: 100%;
+                height: 40px;
+            }
+       
+           }
+
+           @media (max-width: 400px){
+            .grid8{
+                flex-direction: column;
+                height: 100%;
+            }
+            .row811{
+                margin-bottom: 2em;
+                margin-top: 1em;
+            }
+            .column81{
+                width: 100%;
+
+            }
+            .column82{
+                width: 100%;
+
+                padding:0;
+                padding-top: 22px
+            }
+            .title81{
+                font-size: 27px;
+            }
+            .subtitle81{
+                font-size: 13px;
             }
             .title82{
                 font-size: 9vw;
