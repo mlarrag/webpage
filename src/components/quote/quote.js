@@ -160,7 +160,7 @@ class Quote extends Component {
               </div>
               
               <div className="formButtonPos">
-            <div className="formButton">
+            <div onClick={()=> this.props.sendForm()} className="formButton">
               Enviar Solicitud <img src={RightArrow} alt="arrow"/>
             </div>
           </div>

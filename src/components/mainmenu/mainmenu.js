@@ -7,6 +7,7 @@ import RightArrow from '../assets/images/Content1/rightArrow.png'
 import Quote from '../quote/quote';
 import Sidebar from '../sideBar/sideBar';
 import "./mainmenu.css";
+import FormSend from '../formSend/formSend';
 
 
 
@@ -18,11 +19,13 @@ class Mainmenu extends Component {
           this.state={
             open: false,
             form: false,
+            send: false,
             animation:'scale',
             duration: 700
           }
          this.closeSideBar=this.closeSideBar.bind(this) 
          this.closeForm=this.closeForm.bind(this)
+         this.sendForm=this.sendForm.bind(this)
         }
     
     
@@ -32,7 +35,13 @@ class Mainmenu extends Component {
 
             
         closeForm(){
-            this.setState({form: !this.state.form})
+            this.setState({form: !this.state.form, send: false})
+            }
+
+        sendForm(){
+            this.setState({send: !this.state.send, form: true})
+            
+    
             }
 
     render() {
@@ -69,10 +78,21 @@ class Mainmenu extends Component {
               </div>
 
             </div>
+
             <TransitionablePortal open={this.state.form} transition={{ animation, duration }}>
             <Modal basic className="quoteSize" open={true} >
-                <Quote closeForm={this.closeForm}/>
+                <Quote closeForm={this.closeForm} sendForm={this.sendForm}/>
+                
                  </Modal>
+
+                 </TransitionablePortal>
+                 
+                 <TransitionablePortal open={this.state.send} transition={{ animation, duration }}>
+                    <Modal basic className="quoteSize" open={true} >
+                        <FormSend closeForm={this.closeForm}/>
+                
+                 </Modal>
+
                  </TransitionablePortal>
 
             <TransitionablePortal open={this.state.open} transition={{ animation, duration }}>
