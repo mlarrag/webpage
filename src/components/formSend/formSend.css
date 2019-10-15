@@ -1,0 +1,41 @@
+.sendTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 36.4px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00adea;
+    margin-bottom: 2em;
+}
+.sendForm{    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: white;
+
+    padding-bottom: 3em;
+}
+
+.sendCal{
+    font-family: Avenir-Roman;
+    margin-top:10vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
