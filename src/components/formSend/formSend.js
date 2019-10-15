@@ -22,7 +22,7 @@ class FormSend extends Component {
                 <div className="sendForm">
 
                     <div className="sendTitle">¡Hemos agendado nuestra reunión!!</div>
-                    <div><img src={Plane} /></div>
+                    <div><img src={Plane} alt="plane"/></div>
 
                     <div className="sendCal">Enviaremos una invitación de calendario a su dirección de correo electrónico con más detalles.</div>
             
