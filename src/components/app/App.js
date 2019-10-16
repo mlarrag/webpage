@@ -18,12 +18,20 @@ import PortfolioProject from '../portafolioProject/portafolioProject';
 import ContentTi from '../contentTi/contentTi';
 import ContentWeb from '../contentWeb/contentWeb';
 import ContentExp from '../contentExp/contentExp';
+import axios from 'axios';
 
 
 
 
 class App extends Component {
 
+  componentDidMount(){
+    axios.get('https://www.getpostman.com/collections/64adf845f64927ce5f19')
+    .then(res => {
+      console.log(res)
+
+    })
+  }
   render() {
       return (
         <div style={{height: '100%'}}>

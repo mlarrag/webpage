@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Input ,Button} from 'semantic-ui-react';
+import axios from 'axios';
 
 
 import './homeContent8.css';
@@ -8,9 +9,74 @@ import './homeContent8.css';
 
 class HomeContent8 extends Component {
   
+    constructor(props){
+      super(props)
+      this.state={
+        name: "",
+        lastName:"",
+        email: "",
+        phone: 0,
+        message: "",
+
+      }
+    }
+
+    valid(item, type){
+
+      
+      let itemValue = item.target.value;
+
+      switch(type){
+        case "name":
+          {
+            this.setState({name:itemValue})
+            break
+          
+        }
+        case "lastName":{
+          this.setState({lastName:itemValue})
+          break
+        }
+        case "email":{
+          this.setState({email:itemValue})
+          break
+        }
+        case "phone":{
+          this.setState({phone:itemValue})
+          break
+        }
+        case "message":{
+          this.setState({message:itemValue})
+          break
+        }
+        default: 
+        return null
+      }
+      
+      
+    }
+
+    submitHandler(){
+      let obj = {};
+      obj.name = this.state.name;
+      obj.lasName = this.state.lastName;
+      obj.email = this.state.email;
+      obj.phone = this.state.phone;
+      obj.message = this.state.message;
+      console.log("submitdata", obj)
+      axios.post('https://www.getpostman.com/collections/64adf845f64927ce5f19',obj)
+        .then(response => {
+          console.log(response)
+        })
+        .catch(error=>{
+          console.log(error)
+
+        })
+    }
+    
     render() {
         
-  
+      
       return (
         
             
@@ -42,17 +108,17 @@ class HomeContent8 extends Component {
                 
                 <div className="form6">
                   <div className="form6row">
-                      <div className="form6column1"><Input className= "uiInput" inverted transparent placeholder='Nombre' /> </div>
+                      <div className="form6column1"><Input  onChange={(item) => this.valid(item, "name")} className= "uiInput" inverted transparent placeholder='Nombre' /> </div>
                      
-                     <div className="form6column"><Input inverted transparent placeholder='Apellido' /></div>
+                     <div className="form6column"><Input  onChange={(item) => this.valid(item, "lastName")} inverted transparent placeholder='Apellido' /></div>
                   </div>
                   <div className="form6row">
-                  <div className="form6column1"><Input inverted transparent placeholder='Mail' />  </div>
-                  <div className="form6column"> <Input inverted transparent placeholder='Teléfono' />  </div>
+                  <div className="form6column1"><Input onChange={(item) => this.valid(item, "email")} inverted transparent placeholder='Mail' />  </div>
+                  <div className="form6column"> <Input  onChange={(item) => this.valid(item, "phone")} inverted transparent placeholder='Teléfono' />  </div>
 
                    </div> 
-                     <div className="form6row2"><Input inverted transparent placeholder='Motivo de contacto' /></div>
-                     <div className="form6button"><Button className= "formButton" active>Enviar</Button></div>
+                     <div className="form6row2"><Input  onChange={(item) => this.valid(item, "message")} inverted transparent placeholder='Motivo de contacto' /></div>
+                     <div className="form6button"><Button onClick={()=> this.submitHandler()} className= "formButton" active>Enviar</Button></div>
                 </div>
                 
                 
