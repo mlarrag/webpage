@@ -52,8 +52,7 @@ class HomeContent8 extends Component {
         default: 
         return null
       }
-      
-      
+    
     }
 
     submitHandler(){

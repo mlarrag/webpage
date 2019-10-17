@@ -74,6 +74,8 @@
 
 .formInfo{
     padding-left: 3em;
+    display: flex;
+    flex-direction: column;
 }
 
 .formButton{
@@ -141,6 +143,16 @@
 .formClientInfo1{
     border-bottom: 2px solid black;
     margin-left: 3em;
+}
+
+.ui.radio.checkbox.checkForm{
+    margin:1em;
+}
+
+.ui.checkbox.checkRemember{
+
+    margin:1em;
+    margin-top: 2em;
 }
 @media (max-width: 900px){
 
