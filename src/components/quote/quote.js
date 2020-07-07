@@ -4,6 +4,7 @@ import RightArrow from '../assets/images/Content1/rightArrow.png';
 import axios from 'axios';
 import { DateInput, TimeInput } from 'semantic-ui-calendar-react';
 
+
 import "./quote.css";
 
 const presupuestoOptions = [
@@ -43,9 +44,10 @@ class Quote extends Component {
   handlerememberClient = (e, { value }) => this.setState({rememberClient: !value})
   handleDate = (event, {name, value}) => {
     
-    
+    if (this.state.hasOwnProperty(name)) {
       this.setState({ [name]: value });
-      console.log(value)
+    }
+  
     
   }
 
@@ -218,6 +220,9 @@ class Quote extends Component {
            <div className="formDateTime">
            <DateInput
           name="date"
+          closable={true}
+          autoComplete="off"
+          
           placeholder="Date"
           value={this.state.date}
           

@@ -15,11 +15,6 @@ import HomeContent9 from '../homeContent9/homeContent9';
 import './home.css';
 
 
-
-
-
-
-
 class Home extends Component {
 
 

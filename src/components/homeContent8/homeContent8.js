@@ -62,7 +62,7 @@ class HomeContent8 extends Component {
       obj.email = this.state.email;
       obj.phone = this.state.phone;
       obj.message = this.state.message;
-      console.log("submitdata", obj)
+      
       axios.post('https://www.getpostman.com/collections/64adf845f64927ce5f19',obj)
         .then(response => {
           console.log(response)

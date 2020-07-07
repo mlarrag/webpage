@@ -40,7 +40,7 @@ class Mainmenu extends Component {
 
         sendForm(){
             this.setState({send: !this.state.send, form: true})
-            console.log(this.state)
+            
     
             }
 
